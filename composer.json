@@ -1,0 +1,28 @@
+{
+    "name"        : "breakmedia/demelectric",
+    "description" : "Demelectric PIM test project",
+    "type"        : "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "https://wpackagist.org"
+        }
+    ],
+    "config"      : {
+        "vendor-dir": "wp-content/vendor",
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "composer/installers": true
+        }
+    },
+    "require"     : {
+        "johnpbloch/wordpress"            : ">=4.9",
+        "wpackagist-theme/storefront": "^4.1",
+        "wpackagist-plugin/woocommerce": "^6.8",
+        "wpackagist-plugin/woocommerce-payments": "^4.6",
+        "wpackagist-plugin/jetpack": "^11.2"
+    },
+    "extra"       : {
+        "wordpress-install-dir": "wp"
+    }
+}
