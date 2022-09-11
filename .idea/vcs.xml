@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mS3Commerce-dataTransfer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/breakmedia/ms3-connector" vcs="Git" />
   </component>
 </project>
