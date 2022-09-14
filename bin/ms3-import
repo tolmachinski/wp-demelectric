@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+use Demelectric\Application;
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Loader\PhpFileLoader;
+
+include __DIR__ . '/../vendor/autoload.php';
+
+$application = new Symfony\Component\Console\Application;
+$containerBuilder = new ContainerBuilder();
+$loader           = new PhpFileLoader($containerBuilder, new FileLocator(__DIR__));
+$loader->load(__DIR__ . '/../config/ms3-config.php');
+
+$containerBuilder->compile();
+exit($containerBuilder->get(Application::class)->run());

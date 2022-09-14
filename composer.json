@@ -12,6 +12,9 @@
       "url": "https://satis.molbak.at"
     }
   ],
+  "autoload": {
+    "psr-4": { "Demelectric\\": "src/" }
+  },
   "require": {
     "php": ">=7.4",
     "composer/installers": "^2.2",
@@ -28,7 +31,8 @@
     "wpackagist-plugin/woocommerce-payments": "^4.6",
     "wpackagist-plugin/jetpack": "^11.2",
     "ms3commerce/datatransfer": "~1.0.1",
-    "breakmedia/ms3-connector": "~1.0.1"
+    "breakmedia/ms3-connector": "~1.0.4",
+    "doctrine/annotations": "^1.13"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
@@ -36,7 +40,11 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist",
+    "preferred-install": {
+      "breakmedia/*": "source",
+      "ms3commerce/*": "source",
+      "*": "dist"
+    },
     "allow-plugins": {
       "composer/installers": true,
       "roots/wordpress-core-installer": true
