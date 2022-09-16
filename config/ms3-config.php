@@ -2,41 +2,24 @@
 
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
-use Breakmedia\Ms3Connector\Service\Import\ImporterAbstract;
-use Demelectric\Application;
+use Breakmedia\Ms3Connector\Factory\EntityManagerFactory;
+use Dotenv\Dotenv;
 
-//ToDo: Move all configurations to bundle
-//ToDo: Make config files generated on package install
+$dotenv = Dotenv::createUnsafeImmutable(__DIR__ . '/../');
+$dotenv->safeLoad();
+
 return function (ContainerConfigurator $configurator) {
-    $services = $configurator->services()
-        ->defaults()
-        ->autowire()
-        ->autoconfigure()
-    ;
+    $services = $configurator->services();
 
-    $services->load('Demelectric\\', '../src/*')
-        ->exclude('../src/{DependencyInjection,Entity,Tests,Kernel.php}');
-
-    $services->load('Breakmedia\Ms3Connector\\', '../vendor/breakmedia/ms3-connector/src/*')
-        ->exclude('../vendor/breakmedia/ms3-connector/src/{DependencyInjection,Entity,Tests,Kernel.php}');
-
-    $services
-        ->instanceof(\Symfony\Component\Console\Command\Command::class)
-        ->tag('command');
-
-    $services->set(Application::class)
-        ->public()
-        ->args([tagged_iterator('command')]);
-
-    $services->set(\Breakmedia\Ms3Connector\Command\Import::class)
-        ->public();
-
-    $services
-        ->instanceof(ImporterAbstract::class)
-        ->tag('break.ms3.importer');
-
-
-    $services->set(\Breakmedia\Ms3Connector\Service\ImportManager::class)
-        ->public()
-        ->args([tagged_iterator('break.ms3.importer')]);
+    $services->set(\Doctrine\ORM\EntityManager::class)
+        ->factory([EntityManagerFactory::class, 'createEntityManager'])
+        ->args([
+            array(
+                'driver'   => 'pdo_mysql',
+                'user'     => getenv('MS3_DB_USER'),
+                'password' => getenv('MS3_DB_PASSWORD'),
+                'dbname'   => getenv('MS3_DB_NAME'),
+                'host'     => getenv('MS3_DB_HOST')
+            )
+        ]);
 };
