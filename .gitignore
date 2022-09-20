@@ -33,3 +33,7 @@ wp-cli.local.yml
 .vscode
 .idea
 .idea/*
+
+#mS3
+web/import/mS3/*
+!web/import/mS3/.gitkeep
