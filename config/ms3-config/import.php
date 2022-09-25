@@ -6,7 +6,7 @@ use Breakmedia\Ms3Connector\Service\Config\ImportConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 $config = [
-    ImportConfig::DEFAULT_LANGUAGE => 2,
+    ImportConfig::DEFAULT_LANGUAGE => 1,
 
     ImportConfig::CATEGORY_ADD_ID_TO_NAME => false,
     ImportConfig::CATEGORY_TOP_LEVEL => 1,
