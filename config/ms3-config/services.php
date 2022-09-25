@@ -5,7 +5,7 @@ namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 use Breakmedia\Ms3Connector\Factory\EntityManagerFactory;
 use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createUnsafeImmutable(__DIR__ . '/../');
+$dotenv = Dotenv::createUnsafeImmutable(__DIR__ . '/../../');
 $dotenv->safeLoad();
 
 return function (ContainerConfigurator $configurator) {
