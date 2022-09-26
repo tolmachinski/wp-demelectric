@@ -2,13 +2,16 @@
 
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
+use Breakmedia\Ms3Connector\Service\Config\MapperConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 $defaults = [
     'category' => [
-        'display_type' => 'both' // 'products', 'subcategories', 'both'
+        MapperConfig::DISPLAY_TYPE => 'both' // 'products', 'subcategories', 'both'
     ],
-    'product' => []
+    'product' => [
+        MapperConfig::PRODUCT_NAME => 'Product'
+    ]
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($defaults) {

@@ -2,11 +2,16 @@
 
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
+use Breakmedia\Ms3Connector\Service\Config\MapperConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 $mapping = [
     'category' => [],
-    'product' => []
+    'product' => [
+        'standardAttributes' => [
+            MapperConfig::PRODUCT_NAME => 'article_Ausfhrung_EF000010'
+        ]
+    ]
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($mapping) {
