@@ -9,7 +9,11 @@ $mapping = [
     'category' => [],
     'product' => [
         'standardAttributes' => [
-            MapperConfig::PRODUCT_NAME => 'description_1'
+            MapperConfig::PRODUCT_NAME => 'description_1',
+            MapperConfig::DESCRIPTION => 'description_2',
+            MapperConfig::HEIGHT => 'article_Hhe_EF000040',
+            MapperConfig::WEIGHT => 'dem_weight',
+            MapperConfig::WIDTH => 'article_Breite_EF000008',
         ]
     ]
 ];
