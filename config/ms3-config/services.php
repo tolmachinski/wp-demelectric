@@ -19,7 +19,8 @@ return function (ContainerConfigurator $configurator) {
                 'user'     => getenv('MS3_DB_USER'),
                 'password' => getenv('MS3_DB_PASSWORD'),
                 'dbname'   => getenv('MS3_DB_NAME'),
-                'host'     => getenv('MS3_DB_HOST')
+                'host'     => getenv('MS3_DB_HOST'),
+                'charset'  => 'utf8'
             )
         ]);
 };
