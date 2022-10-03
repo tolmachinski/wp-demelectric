@@ -7,7 +7,7 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
-
+web/Graphics
 # WordPress
 web/wp
 web/.htaccess

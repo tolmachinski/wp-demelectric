@@ -3,6 +3,7 @@
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
 use Breakmedia\Ms3Connector\Factory\EntityManagerFactory;
+use Breakmedia\Ms3Connector\Service\Config\ImportConfig;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__ . '/../../');
@@ -20,7 +21,7 @@ return function (ContainerConfigurator $configurator) {
                 'password' => getenv('MS3_DB_PASSWORD'),
                 'dbname'   => getenv('MS3_DB_NAME'),
                 'host'     => getenv('MS3_DB_HOST'),
-                'charset'  => 'utf8'
+                'charset'  => 'utf8',
             )
         ]);
 };
