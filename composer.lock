@@ -4,8 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf1dfae1726bfa1c5866bd3a760dcd9b",
+    "content-hash": "42b67a31391a5edb8e1059bb1dc75924",
     "packages": [
+        {
+            "name": "breakmedia/formidable-bootstrap",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-bootstrap.git",
+                "reference": "f11b2ed296a1c5a542e387cd775184bd803d0563"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-bootstrap/breakmedia-formidable-bootstrap-1.0.3-326be5.tar",
+                "reference": "f11b2ed296a1c5a542e387cd775184bd803d0563",
+                "shasum": "20021f2b8b8fd900fafda6ffb97d7c31fa64c257"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T10:24:10+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-pro",
+            "version": "5.5.2",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-pro.git",
+                "reference": "55711347c24367bd1753f7a5087fa631a6b7bd3a"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-pro/breakmedia-formidable-pro-5.5.2-3b3e40.tar",
+                "reference": "55711347c24367bd1753f7a5087fa631a6b7bd3a",
+                "shasum": "f0b985f226f2748a9f03a11664aa58500c4ba9d7"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T10:22:56+00:00"
+        },
         {
             "name": "breakmedia/ms3-connector",
             "version": "1.0.18",
@@ -66,6 +100,40 @@
             "time": "2022-10-17T09:50:31+00:00"
         },
         {
+            "name": "breakmedia/wordpress-seo-premium",
+            "version": "19.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/wordpress-seo-premium.git",
+                "reference": "5cd14975a758d0257b9140bea67388c450f2d60c"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/wordpress-seo-premium/breakmedia-wordpress-seo-premium-19.3-47fccc.tar",
+                "reference": "5cd14975a758d0257b9140bea67388c450f2d60c",
+                "shasum": "95284c702115b221e0c1805b44b35d3b68d57f92"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T10:21:43+00:00"
+        },
+        {
+            "name": "breakmedia/wp-seo-multilingual",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/wp-seo-multilingual.git",
+                "reference": "51b7f32d7fd8be38462b9e91cad751fd6c272c8c"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/wp-seo-multilingual/breakmedia-wp-seo-multilingual-2.1.0-c4facf.tar",
+                "reference": "51b7f32d7fd8be38462b9e91cad751fd6c272c8c",
+                "shasum": "b430411588a6e0d403c0b4a7765f5dea5f1c3617"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T10:19:57+00:00"
+        },
+        {
             "name": "breakmedia/wpml-string-translation",
             "version": "3.2.2",
             "source": {
@@ -81,6 +149,23 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T09:54:09+00:00"
+        },
+        {
+            "name": "breakmedia/wpseo-woocommerce",
+            "version": "15.2",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/wpseo-woocommerce.git",
+                "reference": "fdf114996454f0610ebf00ef2a4d3da6816e7737"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/wpseo-woocommerce/breakmedia-wpseo-woocommerce-15.2-4d4781.tar",
+                "reference": "fdf114996454f0610ebf00ef2a4d3da6816e7737",
+                "shasum": "be8bc0edbb9ab1ff03e63f69be6fef6970caee7c"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T10:18:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -3755,6 +3840,24 @@
                 }
             ],
             "time": "2021-12-12T23:22:04+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/ajax-login-and-registration-modal-popup",
+            "version": "2.22",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ajax-login-and-registration-modal-popup/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ajax-login-and-registration-modal-popup.zip?timestamp=1653392735"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
         },
         {
             "name": "wpackagist-plugin/jetpack",

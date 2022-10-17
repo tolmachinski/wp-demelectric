@@ -36,7 +36,13 @@
     "wpackagist-plugin/the-events-calendar": "6.0.1.1",
     "wpackagist-plugin/simple-job-board": "^2.10",
     "breakmedia/wpml-string-translation": "^3.2",
-    "breakmedia/sitepress-multilingual-cms": "^4.5"
+    "breakmedia/sitepress-multilingual-cms": "^4.5",
+    "wpackagist-plugin/ajax-login-and-registration-modal-popup": "^2.22",
+    "breakmedia/formidable-bootstrap": "^1.0",
+    "breakmedia/formidable-pro": "^5.5",
+    "breakmedia/wordpress-seo-premium": "^19.3",
+    "breakmedia/wp-seo-multilingual": "^2.1",
+    "breakmedia/wpseo-woocommerce": "^15.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
