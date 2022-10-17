@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0272e50a745a4859b352a353154f9bb1",
+    "content-hash": "cf1dfae1726bfa1c5866bd3a760dcd9b",
     "packages": [
         {
             "name": "breakmedia/ms3-connector",
@@ -47,6 +47,40 @@
             ],
             "description": "mS3 Connector for woocommerce",
             "time": "2022-10-03T17:22:21+00:00"
+        },
+        {
+            "name": "breakmedia/sitepress-multilingual-cms",
+            "version": "4.5.11",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/sitepress-multilingual-cms.git",
+                "reference": "ad0f84c4362504fa52a38569f99ddd0cd1fec7ad"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/sitepress-multilingual-cms/breakmedia-sitepress-multilingual-cms-4.5.11-394f52.tar",
+                "reference": "ad0f84c4362504fa52a38569f99ddd0cd1fec7ad",
+                "shasum": "96aababd59ba866713edc0771fb734e6924e2be8"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T09:50:31+00:00"
+        },
+        {
+            "name": "breakmedia/wpml-string-translation",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/wpml-string-translation.git",
+                "reference": "13b419e95437bacf032dda988b2ff5f02e920c23"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/wpml-string-translation/breakmedia-wpml-string-translation-3.2.2-cd69bc.tar",
+                "reference": "13b419e95437bacf032dda988b2ff5f02e920c23",
+                "shasum": "fc1abe5608b09869672b1bbec6b62ba45de96b78"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T09:54:09+00:00"
         },
         {
             "name": "composer/installers",
