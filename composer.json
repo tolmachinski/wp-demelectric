@@ -42,7 +42,8 @@
     "breakmedia/formidable-pro": "^5.5",
     "breakmedia/wordpress-seo-premium": "^19.3",
     "breakmedia/wp-seo-multilingual": "^2.1",
-    "breakmedia/wpseo-woocommerce": "^15.2"
+    "breakmedia/wpseo-woocommerce": "^15.2",
+    "breakmedia/basel": "^5.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

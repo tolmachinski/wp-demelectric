@@ -4,8 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42b67a31391a5edb8e1059bb1dc75924",
+    "content-hash": "c9b89aeef5ea459617aa5ef1bc549f15",
     "packages": [
+        {
+            "name": "breakmedia/basel",
+            "version": "5.6.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/basel.git",
+                "reference": "e27f7f0810a134d64e68944aadd987a862b9deee"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.1-0379e9.tar",
+                "reference": "e27f7f0810a134d64e68944aadd987a862b9deee",
+                "shasum": "43bfbdd21fa26bea1282df9fa55f7e9e903a7e43"
+            },
+            "type": "wordpress-theme",
+            "time": "2022-10-17T10:43:52+00:00"
+        },
         {
             "name": "breakmedia/formidable-bootstrap",
             "version": "1.0.3",
