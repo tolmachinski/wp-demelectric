@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9b89aeef5ea459617aa5ef1bc549f15",
+    "content-hash": "db87a4a5e23a8785c3907bbc7d47354e",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -24,6 +24,40 @@
             "time": "2022-10-17T10:43:52+00:00"
         },
         {
+            "name": "breakmedia/basel-post-types",
+            "version": "5.6.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/basel-post-types.git",
+                "reference": "0c493480768139f7ff5fa902cd462af6a6d681d9"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-post-types/breakmedia-basel-post-types-5.6.1-3617bd.tar",
+                "reference": "0c493480768139f7ff5fa902cd462af6a6d681d9",
+                "shasum": "ccdab966d45a00f605b67049e9f27712661ed567"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:10:19+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-api",
+            "version": "1.12",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-api.git",
+                "reference": "b8ff7c20eb68d5243583cc60bf68d31988793720"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-api/breakmedia-formidable-api-1.12-7fdc99.tar",
+                "reference": "b8ff7c20eb68d5243583cc60bf68d31988793720",
+                "shasum": "e62bede558918560d54ff2ed3bc2d0ecdfc0b45c"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:49:11+00:00"
+        },
+        {
             "name": "breakmedia/formidable-bootstrap",
             "version": "1.0.3",
             "source": {
@@ -41,6 +75,74 @@
             "time": "2022-10-17T10:24:10+00:00"
         },
         {
+            "name": "breakmedia/formidable-logs",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-logs.git",
+                "reference": "2c7bde1f61fa151d5015db3b3e86c14ebe8360f8"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-logs/breakmedia-formidable-logs-1.0.1-5f3f51.tar",
+                "reference": "2c7bde1f61fa151d5015db3b3e86c14ebe8360f8",
+                "shasum": "7a495e575bbc0e356979d3bf35bf78d670837def"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:41:46+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-mailchimp",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-mailchimp.git",
+                "reference": "82320ebfe37532b21c112b763fd5795c6e00c202"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-mailchimp/breakmedia-formidable-mailchimp-2.0.6-ee7878.tar",
+                "reference": "82320ebfe37532b21c112b763fd5795c6e00c202",
+                "shasum": "a962205c6d262e76db4a81d570f97b998abc8286"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:42:52+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-modal",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-modal.git",
+                "reference": "4c5da9fdcd191a22655725f962b1e13f3a65095a"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-modal/breakmedia-formidable-modal-2.0.0-97b5d6.tar",
+                "reference": "4c5da9fdcd191a22655725f962b1e13f3a65095a",
+                "shasum": "49af320313158c620796ff096c65fb2daf02062b"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:44:22+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-pdfs",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-pdfs.git",
+                "reference": "b16fae1b10491faa77743ac4552a1c2a47edbdc3"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-pdfs/breakmedia-formidable-pdfs-1.0.3-698bd2.tar",
+                "reference": "b16fae1b10491faa77743ac4552a1c2a47edbdc3",
+                "shasum": "93ddcf63458e0fe3eb18b3b4c5aed82e98f21803"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:46:06+00:00"
+        },
+        {
             "name": "breakmedia/formidable-pro",
             "version": "5.5.2",
             "source": {
@@ -56,6 +158,57 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T10:22:56+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-registration",
+            "version": "2.09",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-registration.git",
+                "reference": "da6893f821ac446141c1ddc777b4c0eadfb104ef"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-registration/breakmedia-formidable-registration-2.09-f6c344.tar",
+                "reference": "da6893f821ac446141c1ddc777b4c0eadfb104ef",
+                "shasum": "179398fb29fa9d1871daad254e2611a74f09d472"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:48:10+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-wpml",
+            "version": "1.12",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-wpml.git",
+                "reference": "d4ed7d3e7e2ae89f87f6ad78fc8f1e8830e91c00"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-wpml/breakmedia-formidable-wpml-1.12-d46cf1.tar",
+                "reference": "d4ed7d3e7e2ae89f87f6ad78fc8f1e8830e91c00",
+                "shasum": "c9584b75da27eb1de275fed70eab4b04b98ea13d"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:47:11+00:00"
+        },
+        {
+            "name": "breakmedia/js_composer",
+            "version": "6.10.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/js_composer.git",
+                "reference": "d50c88f96759e042dba0207443bbf080c28df611"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/js_composer/breakmedia-js_composer-6.10.0-e7fa9d.tar",
+                "reference": "d50c88f96759e042dba0207443bbf080c28df611",
+                "shasum": "1a6812999e81006d1955b6aa881c9394247af2ef"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:09:02+00:00"
         },
         {
             "name": "breakmedia/ms3-connector",
@@ -98,6 +251,40 @@
             ],
             "description": "mS3 Connector for woocommerce",
             "time": "2022-10-13T12:48:40+00:00"
+        },
+        {
+            "name": "breakmedia/prdctfltr",
+            "version": "8.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/prdctfltr.git",
+                "reference": "5ad1033d1a5d5f7f05f72178068fa20dbb82cefb"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/prdctfltr/breakmedia-prdctfltr-8.3.0-512b15.tar",
+                "reference": "5ad1033d1a5d5f7f05f72178068fa20dbb82cefb",
+                "shasum": "bd0e572a11612e701c402049f9816f55e15673ec"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:39:22+00:00"
+        },
+        {
+            "name": "breakmedia/revslider",
+            "version": "6.6.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/revslider.git",
+                "reference": "00e4c7a411eb782055b27d1af4d3895e28dab2f1"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/revslider/breakmedia-revslider-6.6.3-e8f383.tar",
+                "reference": "00e4c7a411eb782055b27d1af4d3895e28dab2f1",
+                "shasum": "e5b00a3408a844cdfeff18e5b29e727b65f8de7c"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-17T16:07:18+00:00"
         },
         {
             "name": "breakmedia/sitepress-multilingual-cms",
@@ -3898,6 +4085,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "4.8.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/4.8.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.8.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/safe-svg",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/safe-svg/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/safe-svg/"
         },
         {
             "name": "wpackagist-plugin/simple-job-board",
