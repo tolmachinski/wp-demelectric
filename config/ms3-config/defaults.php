@@ -10,11 +10,10 @@ $defaults = [
         MapperConfig::DISPLAY_TYPE => 'both' // 'products', 'subcategories', 'both'
     ],
     'product' => [
-        MapperConfig::PRODUCT_NAME => 'Product',
-        MapperConfig::DESCRIPTION => '',
         MapperConfig::HEIGHT => '',
         MapperConfig::WEIGHT => '',
         MapperConfig::WIDTH => '',
+        MapperConfig::CATALOG_VISIBILITY => 'visible',
     ]
 ];
 
