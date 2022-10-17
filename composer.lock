@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db87a4a5e23a8785c3907bbc7d47354e",
+    "content-hash": "3790a43a00fc05ac7799db1a3834c77c",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -56,23 +56,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T16:49:11+00:00"
-        },
-        {
-            "name": "breakmedia/formidable-bootstrap",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:breakmedia/formidable-bootstrap.git",
-                "reference": "f11b2ed296a1c5a542e387cd775184bd803d0563"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/formidable-bootstrap/breakmedia-formidable-bootstrap-1.0.3-326be5.tar",
-                "reference": "f11b2ed296a1c5a542e387cd775184bd803d0563",
-                "shasum": "20021f2b8b8fd900fafda6ffb97d7c31fa64c257"
-            },
-            "type": "wordpress-plugin",
-            "time": "2022-10-17T10:24:10+00:00"
         },
         {
             "name": "breakmedia/formidable-logs",
