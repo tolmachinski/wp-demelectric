@@ -93,20 +93,20 @@
         },
         {
             "name": "breakmedia/formidable-modal",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/formidable-modal.git",
-                "reference": "4c5da9fdcd191a22655725f962b1e13f3a65095a"
+                "reference": "13d4582ab88958170027aecfef54b9903ce99c65"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/formidable-modal/breakmedia-formidable-modal-2.0.0-97b5d6.tar",
-                "reference": "4c5da9fdcd191a22655725f962b1e13f3a65095a",
-                "shasum": "49af320313158c620796ff096c65fb2daf02062b"
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-modal/breakmedia-formidable-modal-2.0.1-93394f.tar",
+                "reference": "13d4582ab88958170027aecfef54b9903ce99c65",
+                "shasum": "1a21163c2e74b70772e1b044859bb5249f3f2555"
             },
             "type": "wordpress-plugin",
-            "time": "2022-10-17T16:44:22+00:00"
+            "time": "2022-10-17T18:59:45+00:00"
         },
         {
             "name": "breakmedia/formidable-pdfs",
