@@ -15,8 +15,14 @@ $config = [
     ImportConfig::CATEGORY_TOP_LEVEL => 1,
     ImportConfig::PATH_TO_IMAGES => getenv('MS3_PATH_TO_IMAGES'),
     ImportConfig::IMAGES_DIR_IN_NAME => "Graphics",
-    ImportConfig::IMAGES_DIR_NAME => "Images"
-
+    ImportConfig::IMAGES_DIR_NAME => "Images",
+    ImportConfig::LANGUAGES_HASHMAP => [
+        1 => "de",
+        2 => "fr",
+    ],
+    ImportConfig::SKIP_ATTRIBUTES => [
+        'Test'
+    ],
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($config) {
