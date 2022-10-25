@@ -212,17 +212,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.26",
+            "version": "1.0.27",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "6be55670c89824cabb70861ee5c167ff9e868754"
+                "reference": "fd04da6515fb8b2f4f03a0059ca6c44cbb262939"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.26-d1053f.tar",
-                "reference": "6be55670c89824cabb70861ee5c167ff9e868754",
-                "shasum": "4f49004f54fd3bc600f6ce5381e9efd09d8387a1"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.27-a37d02.tar",
+                "reference": "fd04da6515fb8b2f4f03a0059ca6c44cbb262939",
+                "shasum": "dc5168db73bf5a8ce1922f7421aef7605332e01d"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -250,7 +250,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-10-24T06:58:01+00:00"
+            "time": "2022-10-25T08:25:41+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -845,16 +845,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "b66f55c7037402d9f522f19d86841e71c09f0195"
+                "reference": "f38ee8aaca2d58ee88653cb34a6a3880c23f38a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/b66f55c7037402d9f522f19d86841e71c09f0195",
-                "reference": "b66f55c7037402d9f522f19d86841e71c09f0195",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/f38ee8aaca2d58ee88653cb34a6a3880c23f38a5",
+                "reference": "f38ee8aaca2d58ee88653cb34a6a3880c23f38a5",
                 "shasum": ""
             },
             "require": {
@@ -936,7 +936,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.5.0"
+                "source": "https://github.com/doctrine/dbal/tree/3.5.1"
             },
             "funding": [
                 {
@@ -952,7 +952,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-22T14:33:42+00:00"
+            "time": "2022-10-24T07:26:18+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -4124,15 +4124,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-job-board",
-            "version": "2.10.2",
+            "version": "2.10.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-job-board/",
-                "reference": "tags/2.10.2"
+                "reference": "tags/2.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-job-board.2.10.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/simple-job-board.2.10.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4299,12 +4299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "4ed057f00e70bf1a45434fbc6fe14790684ff3c5"
+                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4ed057f00e70bf1a45434fbc6fe14790684ff3c5",
-                "reference": "4ed057f00e70bf1a45434fbc6fe14790684ff3c5",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/599b9d6746e56b67b187afed175dd02fb1a288fa",
+                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa",
                 "shasum": ""
             },
             "conflict": {
@@ -4550,7 +4550,7 @@
                 "october/cms": "= 1.1.1|= 1.0.471|= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466|>=2.1,<2.1.12",
                 "october/rain": "<1.0.472|>=1.1,<1.1.2",
-                "october/system": "<2.2.34|>=3,<3.0.66",
+                "october/system": "<1.0.476|>=1.1,<1.1.12|>=2,<2.2.34|>=3,<3.0.66",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "open-web-analytics/open-web-analytics": "<1.7.4",
@@ -4821,7 +4821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-19T23:05:04+00:00"
+            "time": "2022-10-24T19:11:20+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
