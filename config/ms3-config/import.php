@@ -27,6 +27,16 @@ $config = [
         "upsells" => 1,
         "cross-sells" => 2,
     ],
+    ImportConfig::ATTRIBUTES_VALUES_MAPPER => [
+        'StockStatus' => [
+            1 => 'red',
+            2 => 'orange',
+            3 => 'green',
+            4 => 'green',
+            5 => 'orange',
+            7 => 'yellow',
+        ]
+    ]
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($config) {
