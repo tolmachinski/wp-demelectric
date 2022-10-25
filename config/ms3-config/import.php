@@ -23,6 +23,10 @@ $config = [
     ImportConfig::SKIP_ATTRIBUTES => [
         'Test'
     ],
+    ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
+        "upsells" => 1,
+        "cross-sells" => 2,
+    ],
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($config) {

@@ -212,17 +212,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.27",
+            "version": "1.0.28",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "fd04da6515fb8b2f4f03a0059ca6c44cbb262939"
+                "reference": "1200323ce3e4d68c2aa51ae8909f3a93fd2f506c"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.27-a37d02.tar",
-                "reference": "fd04da6515fb8b2f4f03a0059ca6c44cbb262939",
-                "shasum": "dc5168db73bf5a8ce1922f7421aef7605332e01d"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.28-48d5ab.tar",
+                "reference": "1200323ce3e4d68c2aa51ae8909f3a93fd2f506c",
+                "shasum": "7b72a0e7ec4804655c99c4ddf0d6bbab833c3915"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -250,7 +250,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-10-25T08:25:41+00:00"
+            "time": "2022-10-25T09:30:44+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
