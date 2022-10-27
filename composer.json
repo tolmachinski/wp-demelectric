@@ -56,7 +56,8 @@
     "breakmedia/formidable-pdfs": "^1.0",
     "breakmedia/formidable-wpml": "^1.12",
     "breakmedia/formidable-registration": "^2.09",
-    "breakmedia/formidable-api": "^1.12"
+    "breakmedia/formidable-api": "^1.12",
+    "wpackagist-plugin/formidable": "^5.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

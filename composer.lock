@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d4362c1cab4687014a9ee3a13894c54",
+    "content-hash": "67bb5ae6154bfb6567f1ad6139556e63",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -212,17 +212,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.29",
+            "version": "1.0.30",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "0645b2d55dd85b418bedfb28a7a28d4647edd6cd"
+                "reference": "e9b380a9944ff5bc3bf4ca9f3dbb69ad2298f81a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.29-d70126.tar",
-                "reference": "0645b2d55dd85b418bedfb28a7a28d4647edd6cd",
-                "shasum": "bfc4de5f1b71974bd136e568659490d1fab965d5"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.30-31a25a.tar",
+                "reference": "e9b380a9944ff5bc3bf4ca9f3dbb69ad2298f81a",
+                "shasum": "7d435d207b86cdabbf8b3a82870462e03044741f"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -250,7 +250,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-10-25T14:02:26+00:00"
+            "time": "2022-10-26T09:10:42+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -4069,6 +4069,24 @@
             "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
         },
         {
+            "name": "wpackagist-plugin/formidable",
+            "version": "5.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/formidable/",
+                "reference": "tags/5.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/formidable.5.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/formidable/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "11.4",
             "source": {
@@ -4299,12 +4317,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa"
+                "reference": "d55c618dc2c5141caa00a416ca21bb6f06cf00e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/599b9d6746e56b67b187afed175dd02fb1a288fa",
-                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d55c618dc2c5141caa00a416ca21bb6f06cf00e0",
+                "reference": "d55c618dc2c5141caa00a416ca21bb6f06cf00e0",
                 "shasum": ""
             },
             "conflict": {
@@ -4327,6 +4345,7 @@
                 "asymmetricrypt/asymmetricrypt": ">=0,<9.9.99",
                 "awesome-support/awesome-support": "<=6.0.7",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
+                "badaso/core": "<2.6.1",
                 "bagisto/bagisto": "<0.1.5",
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
@@ -4482,6 +4501,7 @@
                 "joomla/filter": "<1.4.4|>=2,<2.0.1",
                 "joomla/input": ">=2,<2.0.2",
                 "joomla/session": "<1.3.1",
+                "joyqi/hyper-down": "<=2.4.27",
                 "jsdecena/laracom": "<2.0.9",
                 "jsmitty12/phpwhois": "<5.1",
                 "kazist/phpwhois": "<=4.2.6",
@@ -4821,7 +4841,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-24T19:11:20+00:00"
+            "time": "2022-10-27T00:18:37+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
