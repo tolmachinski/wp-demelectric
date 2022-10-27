@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "19cf31aaeec631e67aa73bc7466bf659cf326b5b"
+                "reference": "f6af1dcfd7dc5ae36032bf1ba396138fc4e4006c"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.1-a86321.tar",
-                "reference": "19cf31aaeec631e67aa73bc7466bf659cf326b5b",
-                "shasum": "d92041d5c56980ff76cc858e4fcbe166a837bae1"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.2-7726ec.tar",
+                "reference": "f6af1dcfd7dc5ae36032bf1ba396138fc4e4006c",
+                "shasum": "8455d9a51e0f6889a5c78fe7df95470673358909"
             },
             "type": "wordpress-plugin",
-            "time": "2022-10-27T13:34:29+00:00"
+            "time": "2022-10-27T13:55:35+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -229,17 +229,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.30",
+            "version": "1.0.31",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "e9b380a9944ff5bc3bf4ca9f3dbb69ad2298f81a"
+                "reference": "6e755e21834be01daf5ca7a13ee3ccc963fdc654"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.30-31a25a.tar",
-                "reference": "e9b380a9944ff5bc3bf4ca9f3dbb69ad2298f81a",
-                "shasum": "7d435d207b86cdabbf8b3a82870462e03044741f"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.31-20a193.tar",
+                "reference": "6e755e21834be01daf5ca7a13ee3ccc963fdc654",
+                "shasum": "a209392b38b5655079852b3439f6957717b9b975"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -267,7 +267,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-10-26T09:10:42+00:00"
+            "time": "2022-10-27T13:00:22+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
