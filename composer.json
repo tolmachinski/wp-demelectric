@@ -57,6 +57,7 @@
     "breakmedia/formidable-wpml": "^1.12",
     "breakmedia/formidable-registration": "^2.09",
     "breakmedia/formidable-api": "^1.12",
+    "breakmedia/breakmedia-frm": "^1.0",
     "wpackagist-plugin/formidable": "^5.5"
   },
   "require-dev": {

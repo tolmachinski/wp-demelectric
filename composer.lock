@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67bb5ae6154bfb6567f1ad6139556e63",
+    "content-hash": "6a915d1bbe3b79ae99b92116dfb56cd0",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -39,6 +39,23 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T16:10:19+00:00"
+        },
+        {
+            "name": "breakmedia/breakmedia-frm",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
+                "reference": "19cf31aaeec631e67aa73bc7466bf659cf326b5b"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.1-a86321.tar",
+                "reference": "19cf31aaeec631e67aa73bc7466bf659cf326b5b",
+                "shasum": "d92041d5c56980ff76cc858e4fcbe166a837bae1"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-10-27T13:34:29+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
