@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.1",
+            "version": "5.6.2",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "e27f7f0810a134d64e68944aadd987a862b9deee"
+                "reference": "2e5b0038e8e0f1ddadf72a3181b665e31c20637a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.1-0379e9.tar",
-                "reference": "e27f7f0810a134d64e68944aadd987a862b9deee",
-                "shasum": "43bfbdd21fa26bea1282df9fa55f7e9e903a7e43"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.2-b0e8f6.tar",
+                "reference": "2e5b0038e8e0f1ddadf72a3181b665e31c20637a",
+                "shasum": "61e279b219467b2b3256dc9caf368cd15f5e5621"
             },
             "type": "wordpress-theme",
-            "time": "2022-10-17T10:43:52+00:00"
+            "time": "2022-10-28T11:14:43+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -229,17 +229,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.31",
+            "version": "1.0.32",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "6e755e21834be01daf5ca7a13ee3ccc963fdc654"
+                "reference": "4f8518053f7aa7536998a185c4ba48353a13f402"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.31-20a193.tar",
-                "reference": "6e755e21834be01daf5ca7a13ee3ccc963fdc654",
-                "shasum": "a209392b38b5655079852b3439f6957717b9b975"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.32-84657c.tar",
+                "reference": "4f8518053f7aa7536998a185c4ba48353a13f402",
+                "shasum": "ed92c9905cac22a31f936684bef8f1225c6038d7"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -267,7 +267,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-10-27T13:00:22+00:00"
+            "time": "2022-10-28T09:52:17+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -4334,12 +4334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "d55c618dc2c5141caa00a416ca21bb6f06cf00e0"
+                "reference": "4ca1da7f180e80b639f8f41d0da8be7f50715d47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d55c618dc2c5141caa00a416ca21bb6f06cf00e0",
-                "reference": "d55c618dc2c5141caa00a416ca21bb6f06cf00e0",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4ca1da7f180e80b639f8f41d0da8be7f50715d47",
+                "reference": "4ca1da7f180e80b639f8f41d0da8be7f50715d47",
                 "shasum": ""
             },
             "conflict": {
@@ -4777,7 +4777,7 @@
                 "webcoast/deferred-image-processing": "<1.0.2",
                 "wikimedia/parsoid": "<0.12.2",
                 "willdurand/js-translation-bundle": "<2.1.1",
-                "wintercms/winter": "<1.0.475|>=1.1,<1.1.9",
+                "wintercms/winter": "<1.0.475|>=1.1,<1.1.10|>=1.2,<1.2.1",
                 "woocommerce/woocommerce": "<6.6",
                 "wp-cli/wp-cli": "<2.5",
                 "wp-graphql/wp-graphql": "<0.3.5",
@@ -4858,7 +4858,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T00:18:37+00:00"
+            "time": "2022-10-27T19:05:37+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
