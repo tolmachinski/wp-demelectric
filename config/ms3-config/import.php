@@ -24,7 +24,7 @@ $config = [
         'Test'
     ],
     ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
-        "upsells" => 1,
+        "upsells" => 3,
         "cross-sells" => 2,
     ],
     ImportConfig::ATTRIBUTES_VALUES_MAPPER => [
