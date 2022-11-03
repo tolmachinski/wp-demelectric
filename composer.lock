@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "f6af1dcfd7dc5ae36032bf1ba396138fc4e4006c"
+                "reference": "6c3bdcb9d9aa9e2d903a698e6c37f45b801dceb4"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.2-7726ec.tar",
-                "reference": "f6af1dcfd7dc5ae36032bf1ba396138fc4e4006c",
-                "shasum": "8455d9a51e0f6889a5c78fe7df95470673358909"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.3-c75ddc.tar",
+                "reference": "6c3bdcb9d9aa9e2d903a698e6c37f45b801dceb4",
+                "shasum": "c8a54643d2350e67cfe4c41d1331ca0423b32f84"
             },
             "type": "wordpress-plugin",
-            "time": "2022-10-27T13:55:35+00:00"
+            "time": "2022-11-02T17:38:22+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
