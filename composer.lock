@@ -59,17 +59,17 @@
         },
         {
             "name": "breakmedia/breakmedia-pdf",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-pdf.git",
-                "reference": "48cdb05a0c2932496fa4e1c4c1455195dc9b2df9"
+                "reference": "10206d2a238ce0ecdec67c9e2540abdf192cfe80"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-pdf/breakmedia-breakmedia-pdf-1.0.8-5042cd.tar",
-                "reference": "48cdb05a0c2932496fa4e1c4c1455195dc9b2df9",
-                "shasum": "86aa12ca26b47d9ecd5de3d08aa4550b375c466b"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-pdf/breakmedia-breakmedia-pdf-1.0.9-431f96.tar",
+                "reference": "10206d2a238ce0ecdec67c9e2540abdf192cfe80",
+                "shasum": "af99db429725669b93f0b94a36fabe9649317ad4"
             },
             "require": {
                 "micropackage/requirements": "^1.0",
@@ -83,7 +83,7 @@
                 }
             },
             "description": "BreakMedia PDF",
-            "time": "2022-11-02T20:19:17+00:00"
+            "time": "2022-11-03T07:10:44+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
