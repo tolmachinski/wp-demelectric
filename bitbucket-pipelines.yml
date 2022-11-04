@@ -1,0 +1,21 @@
+image:
+  name: zfmaster/deployment:7.0.2
+  username: $DOCKER_USERNAME
+  password: $DOCKER_PASSWORD
+  email: $DOCKER_EMAIL
+
+pipelines:
+  tags:
+    '*':
+      - parallel:
+          steps:
+            - step:
+                script:
+                  - deploy demelectric.molbak.at -o target=$BITBUCKET_TAG
+            - step:
+                script:
+                  - deploy stage.demelectric.ch -o target=$BITBUCKET_TAG -o bin/php=/opt/plesk/php/7.4/bin/php
+
+
+
+
