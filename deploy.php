@@ -29,9 +29,9 @@ host('stage.demelectric.ch', 'web45.servicehoster.ch')
     ->set('remote_user', 'h175360')
     ->set('deploy_path', '~/stage.demelectric.ch');
 
-host('dev.demelectric.ch', 'web45.servicehoster.ch')
-    ->set('remote_user', 'h175360')
-    ->set('deploy_path', '~/dev.demelectric.ch');
+//host('dev.demelectric.ch', 'web45.servicehoster.ch')
+//    ->set('remote_user', 'h175360')
+//    ->set('deploy_path', '~/dev.demelectric.ch');
 
 host('demelectric.molbak.at', '167.235.73.12')
     ->set('remote_user', 'deployer')

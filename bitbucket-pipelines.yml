@@ -7,9 +7,14 @@ image:
 pipelines:
   tags:
     '*':
-      - step:
-          script:
-            - dep deploy demelectric.molbak.at -o target=$BITBUCKET_TAG
+      - parallel:
+          steps:
+            - step:
+                script:
+                  - dep deploy demelectric.molbak.at -o target=$BITBUCKET_TAG
+            - step:
+                script:
+                  - dep deploy stage.demelectric.ch -o target=$BITBUCKET_TAG -o bin/php=/opt/plesk/php/7.4/bin/php
 
 
 
