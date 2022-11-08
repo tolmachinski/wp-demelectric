@@ -36,6 +36,11 @@ $config = [
             5 => 'stock_st_orange',
             7 => 'stock_st_yellow',
         ]
+    ],
+    ImportConfig::CATEGORY_DISPLAY_TYPE_HASHMAP => [
+        1 => "both",
+        2 => "subcategories",
+        3 => "subcategories"
     ]
 ];
 
