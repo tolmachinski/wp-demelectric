@@ -22,7 +22,7 @@ add('shared_dirs', [
     'logs',
     'web/dataTransfer/ext',
     'web/dataTransfer/diff',
-    'web/dataTransfer/upload',
+    'web/dataTransfer/uploads',
     'web/dataTransfer/log',
 ]);
 
