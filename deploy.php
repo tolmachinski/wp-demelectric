@@ -29,8 +29,9 @@ add('shared_dirs', [
 set('http_user', 'www-data');
 set('http_group', 'www-data');
 set('writable_mode', 'chgrp');
+set('writable_recursive', true);
 add('writable_dirs', [
-    'web/dataTransfer'
+    'web/dataTransfer',
 ]);
 
 // Hosts
