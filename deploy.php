@@ -20,8 +20,17 @@ add('shared_dirs', [
     'web/app/uploads',
     'web/Graphics',
     'logs',
+    'web/dataTransfer/ext',
+    'web/dataTransfer/diff',
+    'web/dataTransfer/upload',
+    'web/dataTransfer/log',
 ]);
-add('writable_dirs', []);
+
+set('http_user', 'www-data');
+set('http_group', 'www-data');
+add('writable_dirs', [
+    'web/dataTransfer'
+]);
 
 // Hosts
 
