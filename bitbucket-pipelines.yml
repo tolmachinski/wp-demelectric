@@ -11,7 +11,7 @@ pipelines:
           steps:
             - step:
                 script:
-                  - dep deploy demelectric.molbak.at -o target=$BITBUCKET_TAG -o writable_dirs=null
+                  - dep deploy demelectric.molbak.at -o target=$BITBUCKET_TAG -o skip_writable=true
             - step:
                 script:
                   - dep deploy dev.demelectric.ch -o target=$BITBUCKET_TAG -o bin/php=/opt/plesk/php/7.4/bin/php -o http_group=psacln
