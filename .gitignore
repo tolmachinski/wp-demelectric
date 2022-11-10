@@ -38,3 +38,7 @@ wp-cli.local.yml
 #mS3
 web/import/mS3/*
 !web/import/mS3/.gitkeep
+
+@mysql/*
+@mysqlms3/*
+@logs/*

@@ -1,0 +1,79 @@
+version: '3.7'
+
+services:
+  workspace:
+    image: debian:jessie
+    volumes:
+      - ./.workspace/setuphosts.sh:/usr/local/bin/setuphosts.sh
+      - /etc/:/usr/etc/host
+    entrypoint: /bin/sh
+    command: -c "chmod +x /usr/local/bin/setuphosts.sh; /usr/local/bin/setuphosts.sh ${HOST_NAME} php \"mysql mysqlms3 phpmyadmin maildev\";"
+    depends_on:
+      - php
+      - mysql
+      - mysqlms3
+      - phpmyadmin
+      - maildev
+  mysql:
+    restart: always
+    image: mariadb:10.7
+    expose:
+      - 3306
+    volumes:
+      - ./@mysql:/var/lib/mysql
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_PASSWORD}
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+  mysqlms3:
+    restart: always
+    image: mariadb:10.7
+    expose:
+      - 3306
+    volumes:
+      - ./@mysqlms3:/var/lib/mysql
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_PASSWORD}
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+  php:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      target: develop
+    ports:
+      - '8080:80'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    volumes:
+      - ./:/var/www/
+    depends_on:
+      - mysql
+    environment:
+      WP_ENV: production
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_HOSTNAME: ${DB_HOSTNAME}
+      WP_USE_SMTP: "true"
+      SMTP_HOSTNAME: "maildev"
+      SMTP_PORT: "25"
+      SMTP_FROM: "office@break-media.com"
+      SMTP_FROM_NAME: "Stoll kaffee dev"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      - PMA_HOST=${DB_HOSTNAME}
+      - PMA_USER=${DB_USER}
+      - PMA_PASSWORD=${DB_PASSWORD}
+    restart: always
+    ports:
+      - 8181:80
+    volumes:
+      - /sessions
+  maildev:
+    image: maildev/maildev
+    ports:
+      - 25
