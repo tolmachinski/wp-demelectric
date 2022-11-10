@@ -31,11 +31,9 @@ set('http_group', 'www-data');
 set('writable_mode', 'chgrp');
 set('writable_recursive', true);
 
-if (!get('skip_writable')) {
-    add('writable_dirs', [
-        'web/dataTransfer',
-    ]);
-}
+//add('writable_dirs', [
+//    'web/dataTransfer',
+//]);
 
 
 // Hosts
