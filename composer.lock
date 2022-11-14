@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.4",
+            "version": "5.6.5",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "d5519098044308c6721db4e7c8db983030f61dec"
+                "reference": "93bb60763a7805e40de23d2f261c98bd28548baf"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.4-482955.tar",
-                "reference": "d5519098044308c6721db4e7c8db983030f61dec",
-                "shasum": "161de80ae40e3a1362f78080cc5a4e380ed73162"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.5-0ef4d2.tar",
+                "reference": "93bb60763a7805e40de23d2f261c98bd28548baf",
+                "shasum": "f1e29daa0a2c20a915d0c27032a1e953f0315f82"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-08T15:41:37+00:00"
+            "time": "2022-11-13T17:27:03+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "b9d7081b5c6bb4f329088764820b0ce3b42d4f42"
+                "reference": "f517ae332a1eee676b4f9cfca74d869ae4f5001c"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.5-af0a58.tar",
-                "reference": "b9d7081b5c6bb4f329088764820b0ce3b42d4f42",
-                "shasum": "06f13fa200726258ed6c6861f54b268ca9ba3275"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.6-3b6581.tar",
+                "reference": "f517ae332a1eee676b4f9cfca74d869ae4f5001c",
+                "shasum": "df7875c816538b520c5e80754321a7607f810bc2"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-11T11:35:49+00:00"
+            "time": "2022-11-12T13:25:11+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
