@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d56742f9a6c077651074ecf5ca6116a8",
+    "content-hash": "8297c637b278c2e72ff0fb3df8e2beba",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "335905ff7834e7db824da8b42c1adc40260f881c"
+                "reference": "0ce88f39b7a5f34ddfad941260249a04daf0da92"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.7-074115.tar",
-                "reference": "335905ff7834e7db824da8b42c1adc40260f881c",
-                "shasum": "c0b710834f21866eb02a925356898e1fed1d4865"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.8-295543.tar",
+                "reference": "0ce88f39b7a5f34ddfad941260249a04daf0da92",
+                "shasum": "d1b757ec2bb6e951d3503ee1c651b69c2f4adf03"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-15T19:51:32+00:00"
+            "time": "2022-11-16T07:00:19+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -2561,7 +2561,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.0.3",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -2592,7 +2592,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.0.3"
+                "source": "https://github.com/roots/wordpress/tree/6.1.1"
             },
             "funding": [
                 {
@@ -2679,22 +2679,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.0.3",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.0.3"
+                "reference": "6.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.0.3-no-content.zip",
-                "shasum": "39bb6da76aa5c28c4288593e0cd6a710cde7db6e"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.1.1-no-content.zip",
+                "shasum": "ad2d202747c5356e7b6246fbc339b46aebfa0665"
             },
             "require": {
                 "php": ">= 5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.0.3"
+                "wordpress/core-implementation": "6.1.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2745,7 +2745,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-10-17T22:55:15+00:00"
+            "time": "2022-11-15T19:14:34+00:00"
         },
         {
             "name": "roots/wp-config",
