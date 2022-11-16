@@ -59,7 +59,8 @@
     "breakmedia/formidable-api": "^1.12",
     "breakmedia/breakmedia-frm": "^1.0",
     "wpackagist-plugin/formidable": "^5.5",
-    "breakmedia/breakmedia-pdf": "^1.0.7"
+    "breakmedia/breakmedia-pdf": "^1.0.7",
+    "breakmedia/basel-child": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
