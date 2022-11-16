@@ -59,7 +59,10 @@
     "breakmedia/formidable-api": "^1.12",
     "breakmedia/breakmedia-frm": "^1.0",
     "wpackagist-plugin/formidable": "^5.5",
-    "breakmedia/breakmedia-pdf": "^1.0.7"
+    "breakmedia/breakmedia-pdf": "^1.0.7",
+    "wpackagist-plugin/advanced-woo-search": "^2.67",
+    "wpackagist-plugin/add-search-to-menu": "^5.4",
+    "wpackagist-plugin/ajax-search-for-woocommerce": "^1.20"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

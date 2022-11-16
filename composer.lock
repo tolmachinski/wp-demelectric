@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8297c637b278c2e72ff0fb3df8e2beba",
+    "content-hash": "b0dcc1e6fa78e576ca59e81e6bdf35b2",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -4554,6 +4554,42 @@
             "time": "2022-10-16T01:01:54+00:00"
         },
         {
+            "name": "wpackagist-plugin/add-search-to-menu",
+            "version": "5.4.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
+                "reference": "tags/5.4.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.5.4.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-woo-search",
+            "version": "2.67",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-woo-search/",
+                "reference": "tags/2.67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-woo-search.2.67.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-woo-search/"
+        },
+        {
             "name": "wpackagist-plugin/ajax-login-and-registration-modal-popup",
             "version": "2.22",
             "source": {
@@ -4570,6 +4606,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
+        },
+        {
+            "name": "wpackagist-plugin/ajax-search-for-woocommerce",
+            "version": "1.20.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ajax-search-for-woocommerce/",
+                "reference": "tags/1.20.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ajax-search-for-woocommerce.1.20.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/formidable",
