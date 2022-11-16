@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.7",
+            "version": "5.6.8",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "68a08bcd98ace191a1528a3f9c2edd87e835cad7"
+                "reference": "f04bd01cb231ba5fa55390d238998a46f397534d"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.7-833fa8.tar",
-                "reference": "68a08bcd98ace191a1528a3f9c2edd87e835cad7",
-                "shasum": "e0c6f695bc13bccc2e25a3d205648d80a67f4a9f"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.8-c2a8cd.tar",
+                "reference": "f04bd01cb231ba5fa55390d238998a46f397534d",
+                "shasum": "ac404233c5f451d85efa45cfa45b47d1cb28ac2c"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-15T15:03:03+00:00"
+            "time": "2022-11-16T08:07:20+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
