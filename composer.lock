@@ -333,20 +333,20 @@
         },
         {
             "name": "breakmedia/sitepress-multilingual-cms",
-            "version": "4.5.11",
+            "version": "4.5.14",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/sitepress-multilingual-cms.git",
-                "reference": "ad0f84c4362504fa52a38569f99ddd0cd1fec7ad"
+                "reference": "a08536eb766fc64db8e168e8dd06e7cefe584bf0"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/sitepress-multilingual-cms/breakmedia-sitepress-multilingual-cms-4.5.11-394f52.tar",
-                "reference": "ad0f84c4362504fa52a38569f99ddd0cd1fec7ad",
-                "shasum": "96aababd59ba866713edc0771fb734e6924e2be8"
+                "url": "https://satis.molbak.at/dist/breakmedia/sitepress-multilingual-cms/breakmedia-sitepress-multilingual-cms-4.5.14-751c27.tar",
+                "reference": "a08536eb766fc64db8e168e8dd06e7cefe584bf0",
+                "shasum": "fe7ddee8eb9fcd55345e4674097223b580e8f78e"
             },
             "type": "wordpress-plugin",
-            "time": "2022-10-17T09:50:31+00:00"
+            "time": "2022-11-16T07:10:59+00:00"
         },
         {
             "name": "breakmedia/wordpress-seo-premium",
@@ -384,20 +384,20 @@
         },
         {
             "name": "breakmedia/wpml-string-translation",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/wpml-string-translation.git",
-                "reference": "13b419e95437bacf032dda988b2ff5f02e920c23"
+                "reference": "a69839520a640d0f87d894a6b6067c1c0b28a0e5"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/wpml-string-translation/breakmedia-wpml-string-translation-3.2.2-cd69bc.tar",
-                "reference": "13b419e95437bacf032dda988b2ff5f02e920c23",
-                "shasum": "fc1abe5608b09869672b1bbec6b62ba45de96b78"
+                "url": "https://satis.molbak.at/dist/breakmedia/wpml-string-translation/breakmedia-wpml-string-translation-3.2.3-1d8910.tar",
+                "reference": "a69839520a640d0f87d894a6b6067c1c0b28a0e5",
+                "shasum": "f5b3b984317c0dc79e56e0e7fc5f6ebdfc47eb75"
             },
             "type": "wordpress-plugin",
-            "time": "2022-10-17T09:54:09+00:00"
+            "time": "2022-11-16T07:10:25+00:00"
         },
         {
             "name": "breakmedia/wpseo-woocommerce",
