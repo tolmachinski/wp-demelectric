@@ -92,10 +92,20 @@ Config::define('AUTH_SALT', env('AUTH_SALT'));
 Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
+Config::define('WC_CONSUMER_KEY', env("WC_CONSUMER_KEY"));
+Config::define('WC_CONSUMER_SECRET', env("WC_CONSUMER_SECRET"));
+
 
 /**
  * Custom Settings
  */
+Config::define('WC_PRODUCT_STOCK_STATUS_COLORS_HASMAP', array(
+    "stock_st_red" => array("color" => "red", "text" => "Nicht mehr lieferbar"),
+    "stock_st_orange" => array("color" => "orange", "text" => "Auf Bestellung"),
+    "stock_st_green" => array("color" => "green", "text" => "Auf Lager"),
+    "stock_st_yellow" => array("color" => "yellow", "text" => "Nachbestellt")
+));
+Config::define('WC_PRODUCT_STOCK_STATUS_FIELD_NAME', 'pa_stockstatus');
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Disable the plugin and theme file editor in the admin
