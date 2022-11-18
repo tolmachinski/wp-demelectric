@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0dcc1e6fa78e576ca59e81e6bdf35b2",
+    "content-hash": "8297c637b278c2e72ff0fb3df8e2beba",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "2a890facd9ea375f2402ed09e78e8a3f1bbd25e5"
+                "reference": "229603921bffca19f0be9db26dd8f2263b040c03"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.9-eb12dc.tar",
-                "reference": "2a890facd9ea375f2402ed09e78e8a3f1bbd25e5",
-                "shasum": "3d406bb34341dae579c595497a9e146c1db4f30c"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.10-aead1c.tar",
+                "reference": "229603921bffca19f0be9db26dd8f2263b040c03",
+                "shasum": "e318efddd524f9b0ab3feb2e6b05e3109d19008d"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-18T07:46:13+00:00"
+            "time": "2022-11-18T08:42:34+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -4554,42 +4554,6 @@
             "time": "2022-10-16T01:01:54+00:00"
         },
         {
-            "name": "wpackagist-plugin/add-search-to-menu",
-            "version": "5.4.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
-                "reference": "tags/5.4.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.5.4.10.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
-        },
-        {
-            "name": "wpackagist-plugin/advanced-woo-search",
-            "version": "2.67",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-woo-search/",
-                "reference": "tags/2.67"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-woo-search.2.67.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-woo-search/"
-        },
-        {
             "name": "wpackagist-plugin/ajax-login-and-registration-modal-popup",
             "version": "2.22",
             "source": {
@@ -4606,24 +4570,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
-        },
-        {
-            "name": "wpackagist-plugin/ajax-search-for-woocommerce",
-            "version": "1.20.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ajax-search-for-woocommerce/",
-                "reference": "tags/1.20.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ajax-search-for-woocommerce.1.20.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/formidable",
