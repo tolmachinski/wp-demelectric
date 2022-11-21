@@ -21,7 +21,9 @@ $config = [
         2 => "fr",
     ],
     ImportConfig::SKIP_ATTRIBUTES => [
-        'Test'
+        'Test',
+        'detail_attr_table',
+        'hyperlinks',
     ],
     ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
         "upsells" => 3,
