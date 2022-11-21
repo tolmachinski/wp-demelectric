@@ -10,6 +10,11 @@
     {
       "type": "composer",
       "url": "https://satis.molbak.at"
+    },
+    {
+      "type": "composer",
+      "url" : "https://composer.freemius.com/packages.json?authorization=Basic+bWFya2V0aW5nQGRlbWVsZWN0cmljLmNoOldoM1dvalpTUW04VUJxYlE5bnpGNGEwTmJkdVFKUkhRMGxxRE5NY0FVbTA%3D",
+      "only": ["freemius/*"]
     }
   ],
   "autoload": {
@@ -60,7 +65,8 @@
     "breakmedia/breakmedia-frm": "^1.0",
     "wpackagist-plugin/formidable": "^5.5",
     "breakmedia/breakmedia-pdf": "^1.0.7",
-    "breakmedia/basel-child": "^1.0"
+    "breakmedia/basel-child": "^1.0",
+    "freemius/ajax-search-for-woocommerce-premium": "^1.20.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

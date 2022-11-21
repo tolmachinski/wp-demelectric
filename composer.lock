@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85a17bd7a081bce12814dbd5921ecfb6",
+    "content-hash": "c7f1e4cf70589a022e7567491dcfe12a",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -274,17 +274,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.38",
+            "version": "1.0.39",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "8a25c5fcb7d4724c4162c38d606ec1da8b5f3140"
+                "reference": "17632e499947f9cd9cbb84925e6bc92f2225d90a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.38-9f3a7a.tar",
-                "reference": "8a25c5fcb7d4724c4162c38d606ec1da8b5f3140",
-                "shasum": "bb510c1c75e0cd3b18bfbdaa1949d24bc15d64fb"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.39-e7b371.tar",
+                "reference": "17632e499947f9cd9cbb84925e6bc92f2225d90a",
+                "shasum": "564d1e4e609fbab08c042536a41e679272b894a9"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -312,7 +312,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-11-08T14:19:01+00:00"
+            "time": "2022-11-21T17:54:37+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1587,6 +1587,18 @@
                 }
             ],
             "time": "2022-11-18T14:10:19+00:00"
+        },
+        {
+            "name": "freemius/ajax-search-for-woocommerce-premium",
+            "version": "1.21.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+21+Nov+2022+18%3A14%3A15+%2B0000&authorization=FSE+6392380%3AlCKrbcVYNpzuz63D49Lme7ItGuIcn_QDJ8fXpCECxqhduSLeXYXhYYWR8V3qghOkC12ESrv2R_W2GOpi6bWK1Ni2_u01WT6OMBoQhfyBlOV1tRjB_kFzCj3gQAGdTjalNCuIqeuJbRuxZGZ_-FmHPz_kj0We0wg-SsuQ2RMWdgdPwfWCMhudvQMEmJOAWm5a"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "graham-campbell/result-type",
