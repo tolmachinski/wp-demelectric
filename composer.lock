@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b59b27757c960be2db32e3fb57d528c8",
+    "content-hash": "8297c637b278c2e72ff0fb3df8e2beba",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -59,20 +59,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.8",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "0ce88f39b7a5f34ddfad941260249a04daf0da92"
+                "reference": "229603921bffca19f0be9db26dd8f2263b040c03"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.8-295543.tar",
-                "reference": "0ce88f39b7a5f34ddfad941260249a04daf0da92",
-                "shasum": "d1b757ec2bb6e951d3503ee1c651b69c2f4adf03"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.10-aead1c.tar",
+                "reference": "229603921bffca19f0be9db26dd8f2263b040c03",
+                "shasum": "e318efddd524f9b0ab3feb2e6b05e3109d19008d"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-16T07:00:19+00:00"
+            "time": "2022-11-18T08:42:34+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -4568,42 +4568,6 @@
             "time": "2022-10-16T01:01:54+00:00"
         },
         {
-            "name": "wpackagist-plugin/add-search-to-menu",
-            "version": "5.4.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
-                "reference": "tags/5.4.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.5.4.10.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
-        },
-        {
-            "name": "wpackagist-plugin/advanced-woo-search",
-            "version": "2.67",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-woo-search/",
-                "reference": "tags/2.67"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-woo-search.2.67.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-woo-search/"
-        },
-        {
             "name": "wpackagist-plugin/ajax-login-and-registration-modal-popup",
             "version": "2.22",
             "source": {
@@ -4620,24 +4584,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
-        },
-        {
-            "name": "wpackagist-plugin/ajax-search-for-woocommerce",
-            "version": "1.20.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ajax-search-for-woocommerce/",
-                "reference": "tags/1.20.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ajax-search-for-woocommerce.1.20.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/formidable",
@@ -4888,12 +4834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ed33734832e5a87eaa4341be7ce580de54157460"
+                "reference": "5317244268eb40e418f1cf8afa6d1d9df4e1f4a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ed33734832e5a87eaa4341be7ce580de54157460",
-                "reference": "ed33734832e5a87eaa4341be7ce580de54157460",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5317244268eb40e418f1cf8afa6d1d9df4e1f4a3",
+                "reference": "5317244268eb40e418f1cf8afa6d1d9df4e1f4a3",
                 "shasum": ""
             },
             "conflict": {
@@ -4950,7 +4896,7 @@
                 "codeigniter4/shield": "= 1.0.0-beta",
                 "codiad/codiad": "<=2.8.4",
                 "composer/composer": "<1.10.26|>=2-alpha.1,<2.2.12|>=2.3,<2.3.5",
-                "concrete5/concrete5": ">= 9.0.0RC1, < 9.1.3|<9",
+                "concrete5/concrete5": "<9",
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/contao": ">=4,<4.4.56|>=4.5,<4.9.18|>=4.10,<4.11.7|>=4.13,<4.13.3",
@@ -5418,7 +5364,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-16T22:04:17+00:00"
+            "time": "2022-11-11T00:18:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
