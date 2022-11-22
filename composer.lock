@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7f1e4cf70589a022e7567491dcfe12a",
+    "content-hash": "d09101354b2cf461c5cce1e15dc78dee",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -1593,7 +1593,7 @@
             "version": "1.21.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+22+Nov+2022+07%3A29%3A31+%2B0000&authorization=FSE+6392380%3AwgJQoGS0VJqJ7axL3VuMKI42VkvEhhruyZYAlakACwG5BJ9ypvP0tC__ZcTda71Ewlukga6e5lYgCy_tEQvIn35BaBBjGP73u9y7kk39RE9G3BMwHio17Msze6gkBXWvCXCEXrcfZNE8STplledcyC8TY6cbHcSju_RGtjjKVpLWLlQ6Ne4UHkFYGDSk1VRK"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+22+Nov+2022+09%3A23%3A02+%2B0000&authorization=FSE+6392380%3AX7xWnTAv4L2U1z8tYM997DOI2EtXC1sXSekM5ieFda96Ho_htzJdwiAONrmcQEKx5X8XaSzNvpwJUJUens_xtrbsB1qFd3nBAQZYolEnbZcn4ftwcYLqpxnJ4WMFruHf346Dml8LUV8uC2Ctgl3tMrhkJHnBmXnP1NRNRp3w6mce1QnNOOmcOTaDnMY0OVCB"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4581,24 +4581,6 @@
                 }
             ],
             "time": "2022-10-16T01:01:54+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/ajax-login-and-registration-modal-popup",
-            "version": "2.22",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ajax-login-and-registration-modal-popup/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ajax-login-and-registration-modal-popup.zip?timestamp=1653392735"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ajax-login-and-registration-modal-popup/"
         },
         {
             "name": "wpackagist-plugin/formidable",
