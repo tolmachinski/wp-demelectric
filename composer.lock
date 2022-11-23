@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.14",
+            "version": "1.0.17",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "5b0e2e04b3ce0b204ee7d7f2b189190fdc6ce2db"
+                "reference": "2c5b1f6d3628dee205ff703d280bbea9058c2061"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.14-ce22cf.tar",
-                "reference": "5b0e2e04b3ce0b204ee7d7f2b189190fdc6ce2db",
-                "shasum": "291f0e3d5c54ce257c0623ba265beaae5571d7b5"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.17-c1f94a.tar",
+                "reference": "2c5b1f6d3628dee205ff703d280bbea9058c2061",
+                "shasum": "f85d49aafcc478a814de5a09f464fbf51fcd29e5"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-22T14:13:22+00:00"
+            "time": "2022-11-23T20:45:12+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1390,16 +1390,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.13.3",
+            "version": "2.13.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "e750360bd52b080c4cbaaee1b48b80f7dc873b36"
+                "reference": "a5a6cc6630ce497290396d5f206887227820a634"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/e750360bd52b080c4cbaaee1b48b80f7dc873b36",
-                "reference": "e750360bd52b080c4cbaaee1b48b80f7dc873b36",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/a5a6cc6630ce497290396d5f206887227820a634",
+                "reference": "a5a6cc6630ce497290396d5f206887227820a634",
                 "shasum": ""
             },
             "require": {
@@ -1428,13 +1428,13 @@
                 "doctrine/annotations": "^1.13",
                 "doctrine/coding-standard": "^9.0.2 || ^10.0",
                 "phpbench/phpbench": "^0.16.10 || ^1.0",
-                "phpstan/phpstan": "~1.4.10 || 1.8.5",
+                "phpstan/phpstan": "~1.4.10 || 1.9.2",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
                 "psr/log": "^1 || ^2 || ^3",
                 "squizlabs/php_codesniffer": "3.7.1",
                 "symfony/cache": "^4.4 || ^5.4 || ^6.0",
                 "symfony/yaml": "^3.4 || ^4.0 || ^5.0 || ^6.0",
-                "vimeo/psalm": "4.27.0"
+                "vimeo/psalm": "4.30.0"
             },
             "suggest": {
                 "ext-dom": "Provides support for XSD validation for XML mapping files",
@@ -1484,9 +1484,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/orm/issues",
-                "source": "https://github.com/doctrine/orm/tree/2.13.3"
+                "source": "https://github.com/doctrine/orm/tree/2.13.4"
             },
-            "time": "2022-10-07T06:37:17+00:00"
+            "time": "2022-11-20T18:53:31+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -1593,7 +1593,7 @@
             "version": "1.21.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+22+Nov+2022+14%3A14%3A37+%2B0000&authorization=FSE+6392380%3Aoru03eIAN6WFIKoOIXL6rKjkzy1BrFwRd67kux48lqKPPSeRcRPGih55u1iMJnqhXe-GvYb6diaT6_w9IzoEbBjAxIJIQs-mAHCrsYw8MgbCZnOY2y0ExMEHvmoL2XiF7asCL1qA3kn4CaE0jPVsi0P4DD8onnzE6Cgs8OJCJCk0pWKzbTLUA_XFEoFwJZhB"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+23+Nov+2022+20%3A47%3A15+%2B0000&authorization=FSE+6392380%3AlfeadiOyB8O-ASUlBvXMwTWRptyLIsxj7Hg90LuC6yD5D1KAlYQkeVXA7eLCs-YcVdLwJZfd2vwzYb8pysLDAMXAe_G9_FBNviOIOe76MTgGj7M9bQBrYuZFip6nLz6fOOBRPf-iy9NCncT_kh4eSdJwYUlWX4kASsj60Sx38BqTLPY_eKPEvU14nNsb0Es1"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4831,12 +4831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "da95b1ad6506ec4dd087e04627f74f16cdb78c43"
+                "reference": "a1e30f9773206c2740bdb26d564857fe8ee897ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/da95b1ad6506ec4dd087e04627f74f16cdb78c43",
-                "reference": "da95b1ad6506ec4dd087e04627f74f16cdb78c43",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a1e30f9773206c2740bdb26d564857fe8ee897ae",
+                "reference": "a1e30f9773206c2740bdb26d564857fe8ee897ae",
                 "shasum": ""
             },
             "conflict": {
@@ -5015,6 +5015,7 @@
                 "ivankristianto/phpwhois": "<=4.3",
                 "jackalope/jackalope-doctrine-dbal": "<1.7.4",
                 "james-heinrich/getid3": "<1.9.21",
+                "jasig/phpcas": "<1.3.3",
                 "joomla/archive": "<1.1.12|>=2,<2.0.1",
                 "joomla/filesystem": "<1.6.2|>=2,<2.0.1",
                 "joomla/filter": "<1.4.4|>=2,<2.0.1",
@@ -5363,7 +5364,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-22T00:16:41+00:00"
+            "time": "2022-11-22T19:04:21+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
