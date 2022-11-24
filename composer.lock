@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "2c5b1f6d3628dee205ff703d280bbea9058c2061"
+                "reference": "9d72b101a8382bb7b327ebd030da0577bcb9a0af"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.17-c1f94a.tar",
-                "reference": "2c5b1f6d3628dee205ff703d280bbea9058c2061",
-                "shasum": "f85d49aafcc478a814de5a09f464fbf51fcd29e5"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.18-87d536.tar",
+                "reference": "9d72b101a8382bb7b327ebd030da0577bcb9a0af",
+                "shasum": "30575f017129d01172d14b14c399c125512ac936"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-23T20:45:12+00:00"
+            "time": "2022-11-24T15:06:50+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1593,7 +1593,7 @@
             "version": "1.21.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+23+Nov+2022+20%3A47%3A15+%2B0000&authorization=FSE+6392380%3AlfeadiOyB8O-ASUlBvXMwTWRptyLIsxj7Hg90LuC6yD5D1KAlYQkeVXA7eLCs-YcVdLwJZfd2vwzYb8pysLDAMXAe_G9_FBNviOIOe76MTgGj7M9bQBrYuZFip6nLz6fOOBRPf-iy9NCncT_kh4eSdJwYUlWX4kASsj60Sx38BqTLPY_eKPEvU14nNsb0Es1"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+24+Nov+2022+15%3A14%3A01+%2B0000&authorization=FSE+6392380%3AWsWpqph4RMNVMJry5ReqgT5fk5cuwuK2l_YeBHuV5JxOZtgO3pce44ZpiOKPJybjKcVExMuHrtJC8k0pbYJr7VrRb0__oBvUNXHM-byc4jrst--iJTLEcSIsbmrIwxNFfAN2X3-bpdi7Vzjutbe65XxNqtZ28TbrbBvHce0y1w2qy2PRjoyiWGlfYL2wvtVA"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4831,12 +4831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a1e30f9773206c2740bdb26d564857fe8ee897ae"
+                "reference": "0399700d159e09b16645945758b65b921d3491fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a1e30f9773206c2740bdb26d564857fe8ee897ae",
-                "reference": "a1e30f9773206c2740bdb26d564857fe8ee897ae",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0399700d159e09b16645945758b65b921d3491fe",
+                "reference": "0399700d159e09b16645945758b65b921d3491fe",
                 "shasum": ""
             },
             "conflict": {
@@ -5068,7 +5068,7 @@
                 "modx/revolution": "<= 2.8.3-pl|<2.8",
                 "mojo42/jirafeau": "<4.4",
                 "monolog/monolog": ">=1.8,<1.12",
-                "moodle/moodle": "<4.0.1",
+                "moodle/moodle": "<4.0.5",
                 "mustache/mustache": ">=2,<2.14.1",
                 "namshi/jose": "<2.2",
                 "neoan3-apps/template": "<1.1.1",
@@ -5364,7 +5364,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-22T19:04:21+00:00"
+            "time": "2022-11-23T23:04:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
