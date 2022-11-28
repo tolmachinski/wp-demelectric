@@ -8,37 +8,37 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.8",
+            "version": "5.6.9",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "f04bd01cb231ba5fa55390d238998a46f397534d"
+                "reference": "fdfbc0e1c5c515695835eaa3f93eaaeb86c7217c"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.8-c2a8cd.tar",
-                "reference": "f04bd01cb231ba5fa55390d238998a46f397534d",
-                "shasum": "ac404233c5f451d85efa45cfa45b47d1cb28ac2c"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.9-f9f548.tar",
+                "reference": "fdfbc0e1c5c515695835eaa3f93eaaeb86c7217c",
+                "shasum": "deec547771bd1285f31b97d40590c4560abfdcaf"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-16T08:07:20+00:00"
+            "time": "2022-11-28T13:23:06+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.27",
+            "version": "1.0.30",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "18183f401025a549a9b646cb5396df2fee1e88d4"
+                "reference": "0b47915eb47568c3b4cdb83fb6fedd83bf752f4f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.27-ba833f.tar",
-                "reference": "18183f401025a549a9b646cb5396df2fee1e88d4",
-                "shasum": "d32594c787aa25d8090487365c8b0aeacccd08e2"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.30-14250e.tar",
+                "reference": "0b47915eb47568c3b4cdb83fb6fedd83bf752f4f",
+                "shasum": "2c4f4293a7dac6517e98f0c6d51e0aaebc6b2dd7"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-28T08:25:07+00:00"
+            "time": "2022-11-28T16:09:21+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -108,16 +108,16 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
-                "reference": "08a7e56aa36856775acbc159facf835e4d4b600b"
+                "reference": "7c5d9f21a9032163ad20230b3672acf76c265aa4"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-1dc29e.tar",
-                "reference": "08a7e56aa36856775acbc159facf835e4d4b600b",
-                "shasum": "e74f9654bce03d8e66e3a039fa562361f001ab68"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-36deba.tar",
+                "reference": "7c5d9f21a9032163ad20230b3672acf76c265aa4",
+                "shasum": "0dcf826635c0483c10a4a067fd6af2bfde08e8cd"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-28T08:41:55+00:00"
+            "time": "2022-11-28T18:00:10+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -1607,10 +1607,10 @@
         },
         {
             "name": "freemius/ajax-search-for-woocommerce-premium",
-            "version": "1.21.0",
+            "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+24+Nov+2022+15%3A14%3A01+%2B0000&authorization=FSE+6392380%3AWsWpqph4RMNVMJry5ReqgT5fk5cuwuK2l_YeBHuV5JxOZtgO3pce44ZpiOKPJybjKcVExMuHrtJC8k0pbYJr7VrRb0__oBvUNXHM-byc4jrst--iJTLEcSIsbmrIwxNFfAN2X3-bpdi7Vzjutbe65XxNqtZ28TbrbBvHce0y1w2qy2PRjoyiWGlfYL2wvtVA"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+28+Nov+2022+18%3A02%3A42+%2B0000&authorization=FSE+6392380%3A1SfuwtekJYkQcrSHSxMfFogCS5opdDLpyLxq53FrNZdE_8nmXeWhxVeklLHZr7Gg8g5oEiSiDZ_143hsSB1LkPdzBrz_r-NlMo4-okrCus9_VeRZp10t_K9w8IIi0TBikfBWmvYFR8fsmN7Gx7kxUc0QT_3BIA2NmVu5P01Xz7B-1M-gvT--47UAhopgl4tn"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4848,12 +4848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0399700d159e09b16645945758b65b921d3491fe"
+                "reference": "6f53c627e2f44ac1bd2fbaf2a068e682f40968b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0399700d159e09b16645945758b65b921d3491fe",
-                "reference": "0399700d159e09b16645945758b65b921d3491fe",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6f53c627e2f44ac1bd2fbaf2a068e682f40968b5",
+                "reference": "6f53c627e2f44ac1bd2fbaf2a068e682f40968b5",
                 "shasum": ""
             },
             "conflict": {
@@ -5142,6 +5142,7 @@
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
+                "phpxmlrpc/phpxmlrpc": "<4.9",
                 "pimcore/data-hub": "<1.2.4",
                 "pimcore/pimcore": "<10.5.9",
                 "pocketmine/bedrock-protocol": "<8.0.2",
@@ -5381,7 +5382,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-23T23:04:03+00:00"
+            "time": "2022-11-28T12:05:40+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
