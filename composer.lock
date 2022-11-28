@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d09101354b2cf461c5cce1e15dc78dee",
+    "content-hash": "87978254a3afb91f207c99c33dd42974",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -101,6 +101,23 @@
             },
             "description": "BreakMedia PDF",
             "time": "2022-11-03T07:10:44+00:00"
+        },
+        {
+            "name": "breakmedia/breakmedia-widgets",
+            "version": "v1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
+                "reference": "08a7e56aa36856775acbc159facf835e4d4b600b"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-1dc29e.tar",
+                "reference": "08a7e56aa36856775acbc159facf835e4d4b600b",
+                "shasum": "e74f9654bce03d8e66e3a039fa562361f001ab68"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-11-28T08:41:55+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -5426,6 +5443,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "breakmedia/breakmedia-widgets": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,

@@ -65,7 +65,8 @@
     "wpackagist-plugin/formidable": "^5.5",
     "breakmedia/breakmedia-pdf": "^1.0.7",
     "breakmedia/basel-child": "^1.0",
-    "freemius/ajax-search-for-woocommerce-premium": "^1.20.2"
+    "freemius/ajax-search-for-woocommerce-premium": "^1.20.2",
+    "breakmedia/breakmedia-widgets": "v1.0.x-dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
