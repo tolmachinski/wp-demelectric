@@ -11,6 +11,9 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createUnsafeImmutable(__DIR__ . '/../../');
 $dotenv->safeLoad();
 
+$_SERVER['HTTP_HOST'] = getenv('WP_HOME');
+$_SERVER['REQUEST_METHOD'] = 'POST';
+
 return function (ContainerConfigurator $configurator) {
     $services = $configurator->services()
         ->defaults()
