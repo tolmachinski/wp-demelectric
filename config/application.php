@@ -105,6 +105,14 @@ Config::define('WC_PRODUCT_STOCK_STATUS_COLORS_HASMAP', array(
     "stock_st_green" => array("color" => "green", "text" => "Auf Lager"),
     "stock_st_yellow" => array("color" => "yellow", "text" => "Nachbestellt")
 ));
+
+Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
+    "art" => "pa_ean",
+    "art-no" => "pa_emno",
+    "e-no" => "pa_ve",
+    "brand-image" => "pa_pictogram_list"
+));
+
 Config::define('WC_PRODUCT_STOCK_STATUS_FIELD_NAME', 'pa_stockstatus');
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);

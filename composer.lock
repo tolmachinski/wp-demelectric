@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87978254a3afb91f207c99c33dd42974",
+    "content-hash": "d09101354b2cf461c5cce1e15dc78dee",
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.10",
+            "version": "5.6.11",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "99f361442393fba9632f1e0c8ed825c68370dc04"
+                "reference": "08370b0f7f8ee8ed24ebd7f408aec410d884afab"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.10-a42856.tar",
-                "reference": "99f361442393fba9632f1e0c8ed825c68370dc04",
-                "shasum": "f383d526a5f6477479e5a0344a979c6d5155de9a"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.11-300374.tar",
+                "reference": "08370b0f7f8ee8ed24ebd7f408aec410d884afab",
+                "shasum": "81be021ccb7cae3f8d076861c80ea66d4161fe54"
             },
             "type": "wordpress-theme",
-            "time": "2022-11-29T11:03:28+00:00"
+            "time": "2022-12-02T14:48:00+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -101,23 +101,6 @@
             },
             "description": "BreakMedia PDF",
             "time": "2022-11-03T07:10:44+00:00"
-        },
-        {
-            "name": "breakmedia/breakmedia-widgets",
-            "version": "v1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
-                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-5231ad.tar",
-                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d",
-                "shasum": "1ab20946ecf184990b27403323af824f79b0e592"
-            },
-            "type": "wordpress-plugin",
-            "time": "2022-11-28T18:20:12+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -1610,7 +1593,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+29+Nov+2022+14%3A41%3A35+%2B0000&authorization=FSE+6392380%3A3TCqwJ6jx5Xiu5_dQSFK3OMW37y_Hil-8bRWwmTpDa1DyJzoy2KlKrY-RCjMyAxvWu6SmAmkI84Gl8Yu9s1boj39PUI-l1Qlb1kua19WxyTsK-yvZJoJOxYXmVg2iD1DM26_AfV4Cagk_OHsKm_Mrb4ewCYrr-yS829_GKkVIfB46JRrcPKCq04ebKL2Pt1-"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+14%3A51%3A45+%2B0000&authorization=FSE+6392380%3AZZQlixy9qOfWrrYJ1Lq5vb7bD9cPpGJouZaUCQyZESRBeyennFp_sjruUmHUPjVjkoqGQ7JZePSqBnSZNL2PWRKXv1uRYW27rUfZMiVtCHzPuX3K-276WlkrcpnJ3WIrU1twKYepG82MRLAw9rsSpMN4AAoCCu-OKnbOg-wzXT7Em0lM7Ke5GK13D8xF9HXI"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4601,15 +4584,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "5.5.3.1",
+            "version": "5.5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/5.5.3.1"
+                "reference": "tags/5.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.5.5.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/formidable.5.5.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4848,12 +4831,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "8597757623c4695eb4a3193eb23f2345f7e2f911"
+                "reference": "c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8597757623c4695eb4a3193eb23f2345f7e2f911",
-                "reference": "8597757623c4695eb4a3193eb23f2345f7e2f911",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13",
+                "reference": "c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13",
                 "shasum": ""
             },
             "conflict": {
@@ -5211,6 +5194,7 @@
                 "snipe/snipe-it": "<6.0.11|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
+                "spatie/browsershot": "<3.57.3",
                 "spipu/html2pdf": "<5.2.4",
                 "spoonity/tcpdf": "<6.2.22",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1|>=3,<3.0.1",
@@ -5382,7 +5366,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-28T23:04:00+00:00"
+            "time": "2022-11-30T22:04:13+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5444,7 +5428,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "breakmedia/breakmedia-widgets": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
@@ -5453,5 +5436,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
