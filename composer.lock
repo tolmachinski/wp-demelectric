@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d09101354b2cf461c5cce1e15dc78dee",
+    "content-hash": "87978254a3afb91f207c99c33dd42974",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -101,6 +101,23 @@
             },
             "description": "BreakMedia PDF",
             "time": "2022-11-03T07:10:44+00:00"
+        },
+        {
+            "name": "breakmedia/breakmedia-widgets",
+            "version": "v1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
+                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-5231ad.tar",
+                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d",
+                "shasum": "1ab20946ecf184990b27403323af824f79b0e592"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-11-28T18:20:12+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -1593,7 +1610,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+14%3A51%3A45+%2B0000&authorization=FSE+6392380%3AZZQlixy9qOfWrrYJ1Lq5vb7bD9cPpGJouZaUCQyZESRBeyennFp_sjruUmHUPjVjkoqGQ7JZePSqBnSZNL2PWRKXv1uRYW27rUfZMiVtCHzPuX3K-276WlkrcpnJ3WIrU1twKYepG82MRLAw9rsSpMN4AAoCCu-OKnbOg-wzXT7Em0lM7Ke5GK13D8xF9HXI"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+14%3A56%3A03+%2B0000&authorization=FSE+6392380%3AoV2YSfHbAVLtpGm3gGiI3xpUMy1hYByK72j5OW4IfQPiAUYymZfxs6ldHd1AFCYBFGUyGv0sQ9ME9x0-5b_oZeLnczavt3X9nh9Qf1kMf6eOa78nEtGCalv-RWk05g3Fclg9l7PwOX-ojgI_KUMSuip8xvumB7V7um_o8WZElbpjlwiVaowhvmH0wwaR8Oyp"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5428,6 +5445,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "breakmedia/breakmedia-widgets": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
