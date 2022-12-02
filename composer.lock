@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.12",
+            "version": "5.6.13",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "fb03f8e20dd5e5296a891f7d3f692d090850b7ad"
+                "reference": "8b7aa509892df56e0cf93b868d1954570db478bd"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.12-0a7b8e.tar",
-                "reference": "fb03f8e20dd5e5296a891f7d3f692d090850b7ad",
-                "shasum": "2ef29c12ac1bd9976f5baaed93843801aec4e453"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.13-ff2299.tar",
+                "reference": "8b7aa509892df56e0cf93b868d1954570db478bd",
+                "shasum": "ee0e682751ff274a4e9d21d30b3867ceffa27d33"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-02T15:20:33+00:00"
+            "time": "2022-12-02T16:21:17+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -1610,7 +1610,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+15%3A29%3A49+%2B0000&authorization=FSE+6392380%3A4Ijvxol0jyuKyLAsBsFkl4TyCfBGocWlbjZksHA-YKzHSixkPcAXVgnDkDucFIwKLQ8MV0XlqctmvoQ7eBrwImifNXt3T2AedwXwJtLBn_b3e8ejDpSRqxFjSEaOn462mGX4LETMwWtAWgvztyEsiX3ZajHjagMKv41u_naLULGh84RUJiHYHvM3CwwIhOE2"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+16%3A24%3A23+%2B0000&authorization=FSE+6392380%3AGjK-aZYVUcL8R3PESWTqnanZ4zf8O6p3lKREuI3HDK0hKVVTIjvk_M2hid4IyaVsnP5OBgSe2ONIjV2beyqNw7UcBVIVPTsQAbJTsh6-4ZmwuqHCD4IJ6HCUcu2l1NlE2Nfdwnbj594sRxDj6j4tKadRswJ158_hX81d_RWMbj1O11mF4-9TQovGjhDUeG9x"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
