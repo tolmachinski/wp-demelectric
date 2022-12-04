@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/basel",
-            "version": "5.6.14",
+            "version": "5.6.15",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "c83fe48e7be23fd94cca40ba4d6b30cc8b2df74e"
+                "reference": "70b42e992b6979c02a55ff25a7125d03b0338a16"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.14-e0c1da.tar",
-                "reference": "c83fe48e7be23fd94cca40ba4d6b30cc8b2df74e",
-                "shasum": "11f0b5994da3df2bbcacf9bea2774aee2afef199"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.15-a5b636.tar",
+                "reference": "70b42e992b6979c02a55ff25a7125d03b0338a16",
+                "shasum": "7331c8b63d22ff54ec96ff0e530a168b3dc5bce2"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-02T16:45:23+00:00"
+            "time": "2022-12-04T19:16:57+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -1610,7 +1610,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+02+Dec+2022+16%3A47%3A28+%2B0000&authorization=FSE+6392380%3AGqjrz2iiNsstdKuLlZeOE_W9sb2yBX5Bfjsu-AA7sR5dHZuvR20v00j9xM7ckNVMzNClq1matiwi8XZLLCGOORsZcT_rsL9DTID-V-NSkQ6ADoJ5XS-ow7nMajG1u9n3oHY5ar5lssHUc84W-Wz-qZBmC0RIKm0wI_tP0UKsBkpHaEQm1QzFIJJxIZEdMl3L"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+04+Dec+2022+19%3A41%3A53+%2B0000&authorization=FSE+6392380%3AogWAb0F_wwv6iP0uqQHKNebZVzRxovVL7SGLVSd782HeSPUdvmW8duevWVdiak1q5un62VmP5TrOhox-D_6hXDgiTRDI3AarONde8HPQDGFtZaYMhEHaTraK4rh2SWy7Qr8f32yFiuF8bpOkhJnYcXBiebEv-91DkgiOSzBtc2gbgWGsRN6tNw2ugYgV_FCr"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4848,12 +4848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13"
+                "reference": "891ecbb72eac808c80fb97f2cce67824e94e5652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13",
-                "reference": "c4ccfdab77bd92444c6a2f7813bc20f29dbb9d13",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/891ecbb72eac808c80fb97f2cce67824e94e5652",
+                "reference": "891ecbb72eac808c80fb97f2cce67824e94e5652",
                 "shasum": ""
             },
             "conflict": {
@@ -4878,7 +4878,7 @@
                 "awesome-support/awesome-support": "<=6.0.7",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
                 "backdrop/backdrop": "<=1.23",
-                "badaso/core": "<2.6.1",
+                "badaso/core": "<2.7",
                 "bagisto/bagisto": "<0.1.5",
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
@@ -5211,7 +5211,7 @@
                 "snipe/snipe-it": "<6.0.11|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
-                "spatie/browsershot": "<3.57.3",
+                "spatie/browsershot": "<3.57.4",
                 "spipu/html2pdf": "<5.2.4",
                 "spoonity/tcpdf": "<6.2.22",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1|>=3,<3.0.1",
@@ -5383,7 +5383,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-30T22:04:13+00:00"
+            "time": "2022-12-02T23:04:13+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5454,5 +5454,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

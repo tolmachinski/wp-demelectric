@@ -12,6 +12,7 @@ web/app/cache/*
 web/Graphics
 # WordPress
 web/wp
+web/app/languages/*
 web/.htaccess
 
 # Logs
