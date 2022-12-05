@@ -1661,7 +1661,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+05+Dec+2022+09%3A48%3A26+%2B0000&authorization=FSE+6392380%3Ahavqxs4JUI-ZJ4vJGSMGCFzE3F6YQY5bnF336PhCMm40CHpa65dJojrh8P1ydpriMAyEw4xCYnjAGNfP5Q4LB8pe_nTNu583RKOZAh-bN9rjpNLia01qPXwjA6beij1qmHlQ3iuvJXQsPr6S1098EtlcukTe5K_aiCAEKPZsL7P1bnF5HXaOv62I9_3dJi77"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+05+Dec+2022+17%3A11%3A17+%2B0000&authorization=FSE+6392380%3AsSB3FWrJpXTjmHXCKTS6C2YZEAonZoKlFeod0KOLRaftSVlgXgFKotWLe8GACgApCArU_jv8z86w1S9vJLTuap9qvXgHP8ldZxmhtsFvSwA0Kq5MIyLcCNw_uUBrGd45_jbO2MeQuj_Tv-IQJSR9If2lxGA7jzGJHkURuV47ppFPSV1OSeg5u1p6Y1Nkj--G"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5523,5 +5523,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
