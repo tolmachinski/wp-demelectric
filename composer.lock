@@ -4,8 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93f8b93d78308be523b631557257e7e2",
+    "content-hash": "12897b250e111e2f790650bf4b3d8a10",
     "packages": [
+        {
+            "name": "breakmedia/ajax-search-for-woocommerce-child",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/ajax-search-for-woocommerce-child.git",
+                "reference": "fb4e49bb66ee0689891fc040dc4f0c1e5e72be65"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.1-fdd94f.tar",
+                "reference": "fb4e49bb66ee0689891fc040dc4f0c1e5e72be65",
+                "shasum": "124ce20ff949f6733beb6700f3baf8361d5f1740"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-12-05T16:49:08+00:00"
+        },
         {
             "name": "breakmedia/basel",
             "version": "5.6.15",
