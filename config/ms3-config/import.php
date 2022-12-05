@@ -40,7 +40,7 @@ $config = [
         ]
     ],
     ImportConfig::CATEGORY_DISPLAY_TYPE_HASHMAP => [
-        1 => "both",
+        1 => "subcategories",
         2 => "subcategories",
         3 => "subcategories"
     ]

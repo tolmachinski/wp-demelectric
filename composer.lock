@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87978254a3afb91f207c99c33dd42974",
+    "content-hash": "93f8b93d78308be523b631557257e7e2",
     "packages": [
         {
             "name": "breakmedia/basel",
@@ -118,6 +118,23 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-11-28T18:20:12+00:00"
+        },
+        {
+            "name": "breakmedia/folders-pro",
+            "version": "2.8.5",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/folders-pro.git",
+                "reference": "642855fb695f5699b244da0007d03cd548b6d8c0"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/folders-pro/breakmedia-folders-pro-2.8.5-8e1945.tar",
+                "reference": "642855fb695f5699b244da0007d03cd548b6d8c0",
+                "shasum": "ae85567b8bd36cb938c2fb54cc4e3523c0ef0832"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-12-05T08:07:02+00:00"
         },
         {
             "name": "breakmedia/formidable-api",
@@ -381,6 +398,23 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-11-16T07:10:59+00:00"
+        },
+        {
+            "name": "breakmedia/woocommerce-google-analytics-integration",
+            "version": "1.5.17",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/woocommerce-google-analytics-integration.git",
+                "reference": "83c8500727418358be42520ec5cbd6025d56ec25"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/woocommerce-google-analytics-integration/breakmedia-woocommerce-google-analytics-integration-1.5.17-30946c.tar",
+                "reference": "83c8500727418358be42520ec5cbd6025d56ec25",
+                "shasum": "83b0bba706ad243ec0051879d22d3347977dd427"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-12-05T08:05:36+00:00"
         },
         {
             "name": "breakmedia/wordpress-seo-premium",
@@ -4634,6 +4668,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/mail-integration-365",
+            "version": "1.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mail-integration-365/",
+                "reference": "tags/1.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mail-integration-365.1.9.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mail-integration-365/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
