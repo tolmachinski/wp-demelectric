@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ajax-search-for-woocommerce-child.git",
-                "reference": "fb4e49bb66ee0689891fc040dc4f0c1e5e72be65"
+                "reference": "11b5b159d91f2a4a6168059dba1f34771d1b08f8"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.1-fdd94f.tar",
-                "reference": "fb4e49bb66ee0689891fc040dc4f0c1e5e72be65",
-                "shasum": "124ce20ff949f6733beb6700f3baf8361d5f1740"
+                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.2-4f5db6.tar",
+                "reference": "11b5b159d91f2a4a6168059dba1f34771d1b08f8",
+                "shasum": "10db7cd87272a25ff934f121e7c3ce7d0d0855ed"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-05T16:49:08+00:00"
+            "time": "2022-12-06T12:47:43+00:00"
         },
         {
             "name": "breakmedia/basel",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.37",
+            "version": "1.0.38",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "d98b25aed444f28ed446defffe44c76712d01eae"
+                "reference": "669d14e75503f16c96bd84480fd7cd27c1ce9d69"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.37-f0fe3a.tar",
-                "reference": "d98b25aed444f28ed446defffe44c76712d01eae",
-                "shasum": "1903e0dab282f1ae94b224650a2d12d78fdb68d9"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.38-1f9455.tar",
+                "reference": "669d14e75503f16c96bd84480fd7cd27c1ce9d69",
+                "shasum": "f1be7265176579f84a80e2225116f7d5a6743388"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-05T16:37:37+00:00"
+            "time": "2022-12-06T12:29:51+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1661,7 +1661,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+05+Dec+2022+17%3A11%3A17+%2B0000&authorization=FSE+6392380%3AsSB3FWrJpXTjmHXCKTS6C2YZEAonZoKlFeod0KOLRaftSVlgXgFKotWLe8GACgApCArU_jv8z86w1S9vJLTuap9qvXgHP8ldZxmhtsFvSwA0Kq5MIyLcCNw_uUBrGd45_jbO2MeQuj_Tv-IQJSR9If2lxGA7jzGJHkURuV47ppFPSV1OSeg5u1p6Y1Nkj--G"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+06+Dec+2022+13%3A34%3A55+%2B0000&authorization=FSE+6392380%3AhuVHdtDSP_Nb9fZoGv30kq8CgMupaUicYRWo-c9NhqasgP2ncSk2majX3FY67W0CxpOANtCdSPGxxkKvDyFln2YCgZNZe8BV9MZwFzX66Ncsto8Jg4_9N5-d5JnGWyW-pBSkiwswUMMSFdBAlrB-81Y--lfFtBCVo9fCuWGgbLWDs-GpSLITs93zkAZB8dR6"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4706,15 +4706,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "4.8.11",
+            "version": "4.8.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/4.8.11"
+                "reference": "tags/4.8.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.8.11.zip"
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.8.12.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4917,12 +4917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "891ecbb72eac808c80fb97f2cce67824e94e5652"
+                "reference": "ae7d78fff43ae2c157a04b71f21c58d5009629ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/891ecbb72eac808c80fb97f2cce67824e94e5652",
-                "reference": "891ecbb72eac808c80fb97f2cce67824e94e5652",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ae7d78fff43ae2c157a04b71f21c58d5009629ba",
+                "reference": "ae7d78fff43ae2c157a04b71f21c58d5009629ba",
                 "shasum": ""
             },
             "conflict": {
@@ -5234,6 +5234,7 @@
                 "ptrofimov/beanstalk_console": "<1.7.14",
                 "pusher/pusher-php-server": "<2.2.1",
                 "pwweb/laravel-core": "<=0.3.6-beta",
+                "pyrocms/pyrocms": "<=3.9.1",
                 "rainlab/debugbar-plugin": "<3.1",
                 "rankmath/seo-by-rank-math": "<=1.0.95",
                 "react/http": ">=0.7,<1.7",
@@ -5345,7 +5346,7 @@
                 "topthink/framework": "<=6.0.13",
                 "topthink/think": "<=6.0.9",
                 "topthink/thinkphp": "<=3.2.3",
-                "tribalsystems/zenario": "<=9.3.57186",
+                "tribalsystems/zenario": "<=9.3.57595",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.44.7|>=2,<2.15.3|>=3,<3.4.3",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.29|>=10,<10.4.32|>=11,<11.5.16",
@@ -5452,7 +5453,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-02T23:04:13+00:00"
+            "time": "2022-12-05T19:04:07+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
