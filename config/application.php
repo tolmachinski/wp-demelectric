@@ -112,6 +112,11 @@ Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
     "e-no" => "pa_ve",
     "brand-image" => "pa_pictogram_list"
 ));
+Config::define("WC_SUPPORTED_LANGUAGES", array(
+    "de",
+    "fr",
+    "it"
+));
 
 Config::define('WC_PRODUCT_STOCK_STATUS_FIELD_NAME', 'pa_stockstatus');
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);

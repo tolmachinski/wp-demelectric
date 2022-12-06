@@ -70,7 +70,8 @@
     "wpackagist-plugin/mail-integration-365": "^1.9",
     "breakmedia/folders-pro": "^2.8",
     "breakmedia/woocommerce-google-analytics-integration": "^1.5",
-    "breakmedia/ajax-search-for-woocommerce-child": "^1.0"
+    "breakmedia/ajax-search-for-woocommerce-child": "^1.0",
+    "breakmedia/formidable-registration-child": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
