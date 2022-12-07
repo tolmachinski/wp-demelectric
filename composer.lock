@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ajax-search-for-woocommerce-child.git",
-                "reference": "11b5b159d91f2a4a6168059dba1f34771d1b08f8"
+                "reference": "f4f9038190e881132186b5767f20913832333aa5"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.2-4f5db6.tar",
-                "reference": "11b5b159d91f2a4a6168059dba1f34771d1b08f8",
-                "shasum": "10db7cd87272a25ff934f121e7c3ce7d0d0855ed"
+                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.3-1a421a.tar",
+                "reference": "f4f9038190e881132186b5767f20913832333aa5",
+                "shasum": "768eeeb21bc3762d06f9a7649ebc1a2c9afb13d6"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-06T12:47:43+00:00"
+            "time": "2022-12-07T18:18:44+00:00"
         },
         {
             "name": "breakmedia/basel",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.38",
+            "version": "1.0.39",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "669d14e75503f16c96bd84480fd7cd27c1ce9d69"
+                "reference": "15abac8c0fc283cef59c72731b38373a75bab90a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.38-1f9455.tar",
-                "reference": "669d14e75503f16c96bd84480fd7cd27c1ce9d69",
-                "shasum": "f1be7265176579f84a80e2225116f7d5a6743388"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.39-636e10.tar",
+                "reference": "15abac8c0fc283cef59c72731b38373a75bab90a",
+                "shasum": "50c24b4357f68350a3e3874d6da3343c607961d4"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-06T12:29:51+00:00"
+            "time": "2022-12-07T14:14:01+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1678,7 +1678,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+06+Dec+2022+16%3A39%3A27+%2B0000&authorization=FSE+6392380%3A0yun0vLfRJrTwNfrA8CgMpMkVxIBDD1W2z_epu8jO-cPWN2wLnvBjgWrLM5vz5e-QQ6hgNVzyEA6MGemtJHtz0Y_KautuANcVKRxUHYRPt5FAOVzA6J5SW_NCgr2XNxztQgbL_ajnO0XZX9TObv934jsJpye1MAwLNueX5IKAf03_b0zLXdPGsDLqKHWNrpM"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+07+Dec+2022+18%3A21%3A07+%2B0000&authorization=FSE+6392380%3AGHqsSgqoMjWzg9Pb0NlrDB9VEtw4I0xkv_7VOY3BoahyMgR2k9BoKvVuIHMVBpZ7d1GNHIJ0BJns6JPxneGfE4IIFFYaUYTbOc3BkKmqoc9-tEdBfVh_ENXSfKQ3imLU2TmfPvf6xfOQA4JRwnjCb3FfbgFk9ZmNxdC56Xnc0Uth8Dt4E7SJ0XJHFX5svLOe"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4934,12 +4934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5ff66815edb2a9cb060eed77daa81f20ae6ce5b4"
+                "reference": "079707d2c3cc5d146e620c7cdd9b047719bc35fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5ff66815edb2a9cb060eed77daa81f20ae6ce5b4",
-                "reference": "5ff66815edb2a9cb060eed77daa81f20ae6ce5b4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/079707d2c3cc5d146e620c7cdd9b047719bc35fb",
+                "reference": "079707d2c3cc5d146e620c7cdd9b047719bc35fb",
                 "shasum": ""
             },
             "conflict": {
@@ -4969,7 +4969,7 @@
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
                 "barryvdh/laravel-translation-manager": "<0.6.2",
-                "baserproject/basercms": "<=4.7.1",
+                "baserproject/basercms": "<4.7.2",
                 "billz/raspap-webgui": "<=2.6.6",
                 "bk2k/bootstrap-package": ">=7.1,<7.1.2|>=8,<8.0.8|>=9,<9.0.4|>=9.1,<9.1.3|>=10,<10.0.10|>=11,<11.0.3",
                 "bmarshall511/wordpress_zero_spam": "<5.2.13",
@@ -5470,7 +5470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-06T16:04:33+00:00"
+            "time": "2022-12-07T15:04:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
