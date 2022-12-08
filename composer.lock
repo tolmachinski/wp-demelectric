@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be9fc31fd5aa50729050f9c683f18f7f",
+    "content-hash": "12897b250e111e2f790650bf4b3d8a10",
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.15",
+            "version": "5.6.16",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "70b42e992b6979c02a55ff25a7125d03b0338a16"
+                "reference": "7e840ec8d15c53b33a5f117c2d387f8250c1711a"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.15-a5b636.tar",
-                "reference": "70b42e992b6979c02a55ff25a7125d03b0338a16",
-                "shasum": "7331c8b63d22ff54ec96ff0e530a168b3dc5bce2"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.16-df1855.tar",
+                "reference": "7e840ec8d15c53b33a5f117c2d387f8250c1711a",
+                "shasum": "9f9f878fde29acd34a2997aedf345b377498c900"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-04T19:16:57+00:00"
+            "time": "2022-12-08T13:42:55+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "229603921bffca19f0be9db26dd8f2263b040c03"
+                "reference": "7bca53cadead61eeeea57411efe38da9640e258b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.10-aead1c.tar",
-                "reference": "229603921bffca19f0be9db26dd8f2263b040c03",
-                "shasum": "e318efddd524f9b0ab3feb2e6b05e3109d19008d"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.11-7d803b.tar",
+                "reference": "7bca53cadead61eeeea57411efe38da9640e258b",
+                "shasum": "08a819b827e7c50d79bb7fb281ecb4f16439baa7"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-18T08:42:34+00:00"
+            "time": "2022-12-08T13:42:06+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -125,16 +125,16 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
-                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d"
+                "reference": "cbf6672ff274e0d9a489ef6f1da3bfa7f4de7d2f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-5231ad.tar",
-                "reference": "9849cb1d97353ab428f38192857a7d52d3d7390d",
-                "shasum": "1ab20946ecf184990b27403323af824f79b0e592"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-272e92.tar",
+                "reference": "cbf6672ff274e0d9a489ef6f1da3bfa7f4de7d2f",
+                "shasum": "bc1e93632a5b050712f303151869243a88fec86a"
             },
             "type": "wordpress-plugin",
-            "time": "2022-11-28T18:20:12+00:00"
+            "time": "2022-12-08T13:23:42+00:00"
         },
         {
             "name": "breakmedia/folders-pro",
@@ -288,23 +288,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T16:48:10+00:00"
-        },
-        {
-            "name": "breakmedia/formidable-registration-child",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:breakmedia/formidable-registration-child.git",
-                "reference": "86b923ecf9f7f836b9a29d9039a2e9132e2743f3"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/formidable-registration-child/breakmedia-formidable-registration-child-1.0.1-acd030.tar",
-                "reference": "86b923ecf9f7f836b9a29d9039a2e9132e2743f3",
-                "shasum": "5e03434c2add530bb2ef7af260a48088a3d1b6d3"
-            },
-            "type": "wordpress-plugin",
-            "time": "2022-12-06T16:31:31+00:00"
         },
         {
             "name": "breakmedia/formidable-wpml",
@@ -1678,7 +1661,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+07+Dec+2022+18%3A21%3A07+%2B0000&authorization=FSE+6392380%3AGHqsSgqoMjWzg9Pb0NlrDB9VEtw4I0xkv_7VOY3BoahyMgR2k9BoKvVuIHMVBpZ7d1GNHIJ0BJns6JPxneGfE4IIFFYaUYTbOc3BkKmqoc9-tEdBfVh_ENXSfKQ3imLU2TmfPvf6xfOQA4JRwnjCb3FfbgFk9ZmNxdC56Xnc0Uth8Dt4E7SJ0XJHFX5svLOe"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+08+Dec+2022+13%3A46%3A50+%2B0000&authorization=FSE+6392380%3AkALXPF-Ox6Szso1yQlJsFsyQiNh9nF2F3eiC482-O8QD5r0RS4kuCzeC0HgqMwgt5cvwMmWmTjVrORP8Ggl9rrAN04CnvPlDF9jNU9Cd1bep1zCG5MMyATJ_0jjJURXIGWgu6oDQqi5vDnzsuRQ-Eh4zl2uJDmbqA2gtw49PXZhZxU_1juTaZkJuQhXISBn0"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -1944,16 +1927,16 @@
         },
         {
             "name": "mpdf/mpdf",
-            "version": "v8.1.2",
+            "version": "v8.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpdf/mpdf.git",
-                "reference": "a8a22f4874157e490d41b486053a20bec42e182c"
+                "reference": "59ba1a9374211174996d8530a855dedfbd5f5681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/a8a22f4874157e490d41b486053a20bec42e182c",
-                "reference": "a8a22f4874157e490d41b486053a20bec42e182c",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/59ba1a9374211174996d8530a855dedfbd5f5681",
+                "reference": "59ba1a9374211174996d8530a855dedfbd5f5681",
                 "shasum": ""
             },
             "require": {
@@ -1961,7 +1944,7 @@
                 "ext-mbstring": "*",
                 "myclabs/deep-copy": "^1.7",
                 "paragonie/random_compat": "^1.4|^2.0|^9.99.99",
-                "php": "^5.6 || ^7.0 || ~8.0.0 || ~8.1.0",
+                "php": "^5.6 || ^7.0 || ~8.0.0 || ~8.1.0 || ~8.2.0",
                 "php-http/message-factory": "^1.0",
                 "psr/http-message": "^1.0",
                 "psr/log": "^1.0 || ^2.0",
@@ -1971,7 +1954,7 @@
                 "mockery/mockery": "^1.3.0",
                 "mpdf/qrcode": "^1.1.0",
                 "squizlabs/php_codesniffer": "^3.5.0",
-                "tracy/tracy": "^2.4",
+                "tracy/tracy": "~2.5",
                 "yoast/phpunit-polyfills": "^1.0"
             },
             "suggest": {
@@ -2017,7 +2000,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-08-15T08:15:09+00:00"
+            "time": "2022-12-08T12:55:58+00:00"
         },
         {
             "name": "ms3commerce/dataTransfer",
@@ -5541,5 +5524,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
