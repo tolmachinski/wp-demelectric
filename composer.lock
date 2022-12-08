@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12897b250e111e2f790650bf4b3d8a10",
+    "content-hash": "be9fc31fd5aa50729050f9c683f18f7f",
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
@@ -288,6 +288,23 @@
             },
             "type": "wordpress-plugin",
             "time": "2022-10-17T16:48:10+00:00"
+        },
+        {
+            "name": "breakmedia/formidable-registration-child",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-registration-child.git",
+                "reference": "86b923ecf9f7f836b9a29d9039a2e9132e2743f3"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-registration-child/breakmedia-formidable-registration-child-1.0.1-acd030.tar",
+                "reference": "86b923ecf9f7f836b9a29d9039a2e9132e2743f3",
+                "shasum": "5e03434c2add530bb2ef7af260a48088a3d1b6d3"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-12-06T16:31:31+00:00"
         },
         {
             "name": "breakmedia/formidable-wpml",
@@ -1661,7 +1678,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+08+Dec+2022+13%3A46%3A50+%2B0000&authorization=FSE+6392380%3AkALXPF-Ox6Szso1yQlJsFsyQiNh9nF2F3eiC482-O8QD5r0RS4kuCzeC0HgqMwgt5cvwMmWmTjVrORP8Ggl9rrAN04CnvPlDF9jNU9Cd1bep1zCG5MMyATJ_0jjJURXIGWgu6oDQqi5vDnzsuRQ-Eh4zl2uJDmbqA2gtw49PXZhZxU_1juTaZkJuQhXISBn0"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+08+Dec+2022+13%3A49%3A32+%2B0000&authorization=FSE+6392380%3A_acHYhbSrd-5qK1jbcGDLwHcGuDT7vsFoDx8p_jexf2xg5Y6PSW90R2yL0-bs-yk11eX-fh6a6qzUkVW1_4-aWwdHyslPHRvIe2FffGy8iRiZF0sbZ1s38w7HJW4eHOzIycsSONHPBeBy_4GOarXksDeuiPGIUCNA1vZYAg0RsPvcsC0vMsivBXtJE2nsRmz"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
