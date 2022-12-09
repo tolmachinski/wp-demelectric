@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.40",
+            "version": "1.0.41",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "6092b42e59e33083c9d8151cc3d4d66c965fcec1"
+                "reference": "a12d8f1ca443727bbeeb36b19e988f56e47c89cc"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.40-758b22.tar",
-                "reference": "6092b42e59e33083c9d8151cc3d4d66c965fcec1",
-                "shasum": "1fb7d46b0912874c5bb0b1e6e880b98d0ee84045"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.41-893590.tar",
+                "reference": "a12d8f1ca443727bbeeb36b19e988f56e47c89cc",
+                "shasum": "f65d405c8b4128ad4d9528987c4d06dbee758077"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-09T10:09:03+00:00"
+            "time": "2022-12-09T15:02:54+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -5541,5 +5541,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
