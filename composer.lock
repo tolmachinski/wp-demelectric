@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.16",
+            "version": "5.6.18",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "7e840ec8d15c53b33a5f117c2d387f8250c1711a"
+                "reference": "46e781c21726e75cfddf14a6941b6a6082419e29"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.16-df1855.tar",
-                "reference": "7e840ec8d15c53b33a5f117c2d387f8250c1711a",
-                "shasum": "9f9f878fde29acd34a2997aedf345b377498c900"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.18-f91962.tar",
+                "reference": "46e781c21726e75cfddf14a6941b6a6082419e29",
+                "shasum": "b88b0d68850bbc5f8d5df3cb9dc168723587f47f"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-08T13:42:55+00:00"
+            "time": "2022-12-09T10:08:29+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.39",
+            "version": "1.0.40",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "15abac8c0fc283cef59c72731b38373a75bab90a"
+                "reference": "6092b42e59e33083c9d8151cc3d4d66c965fcec1"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.39-636e10.tar",
-                "reference": "15abac8c0fc283cef59c72731b38373a75bab90a",
-                "shasum": "50c24b4357f68350a3e3874d6da3343c607961d4"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.40-758b22.tar",
+                "reference": "6092b42e59e33083c9d8151cc3d4d66c965fcec1",
+                "shasum": "1fb7d46b0912874c5bb0b1e6e880b98d0ee84045"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-07T14:14:01+00:00"
+            "time": "2022-12-09T10:09:03+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1678,7 +1678,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+08+Dec+2022+13%3A49%3A32+%2B0000&authorization=FSE+6392380%3A_acHYhbSrd-5qK1jbcGDLwHcGuDT7vsFoDx8p_jexf2xg5Y6PSW90R2yL0-bs-yk11eX-fh6a6qzUkVW1_4-aWwdHyslPHRvIe2FffGy8iRiZF0sbZ1s38w7HJW4eHOzIycsSONHPBeBy_4GOarXksDeuiPGIUCNA1vZYAg0RsPvcsC0vMsivBXtJE2nsRmz"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+09+Dec+2022+10%3A17%3A38+%2B0000&authorization=FSE+6392380%3AtlCoVZpsDkgV1QDGujP2V_MhKOk7KoQAHl9VELZBFBcyKyaAbPNt0bHNBrUdsiWk9RUruonQzevjuUcdeNRtp066Lca9gwXT0_WH5SzlAKyIgAKyrJHp5WQ3Xk3euFdrDGX7CNEKyf-un5yE8EXPjeNkFZFpQwLnEpLWQ9ijuiI-K81SIMjkX37skCCfPaiN"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4934,12 +4934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "079707d2c3cc5d146e620c7cdd9b047719bc35fb"
+                "reference": "a5d6404aa779f8c718f5e90164da5c37a6065aaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/079707d2c3cc5d146e620c7cdd9b047719bc35fb",
-                "reference": "079707d2c3cc5d146e620c7cdd9b047719bc35fb",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a5d6404aa779f8c718f5e90164da5c37a6065aaf",
+                "reference": "a5d6404aa779f8c718f5e90164da5c37a6065aaf",
                 "shasum": ""
             },
             "conflict": {
@@ -5238,7 +5238,7 @@
                 "prestashop/blockwishlist": ">=2,<2.1.1",
                 "prestashop/contactform": ">=1.0.1,<4.3",
                 "prestashop/gamification": "<2.3.2",
-                "prestashop/prestashop": ">=1.6.0.10,<1.7.8.7",
+                "prestashop/prestashop": "<1.7.8.8",
                 "prestashop/productcomments": "<5.0.2",
                 "prestashop/ps_emailsubscription": "<2.6.1",
                 "prestashop/ps_facetedsearch": "<3.4.1",
@@ -5357,7 +5357,7 @@
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<=5.1.7",
                 "thorsten/phpmyfaq": "<3.1.8",
-                "tinymce/tinymce": "<5.10",
+                "tinymce/tinymce": "<5.10.7|>=6,<6.3.1",
                 "titon/framework": ">=0,<9.9.99",
                 "tobiasbg/tablepress": "<= 2.0-RC1",
                 "topthink/framework": "<=6.0.13",
@@ -5470,7 +5470,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-07T15:04:22+00:00"
+            "time": "2022-12-09T00:16:03+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5541,5 +5541,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
