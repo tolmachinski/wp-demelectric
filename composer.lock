@@ -1678,7 +1678,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+09+Dec+2022+15%3A06%3A54+%2B0000&authorization=FSE+6392380%3AITt8Vf5EQ6LoMNlZTJZBmeD45vRNhwig8ytFCB-9kamRmEjmNG7g2XcPzFFORaIht846_zP5OvYpabVjpK4-pC6kgSrjtlFr2Og-DmpQNeh0w60H31mWb9EHCAUE-UWnOUkSrYoXqptjiw3AZNF78GJ47VDglKNGYA6tE3nKhTTmuP6JvUgkO4Xy50qeZB3m"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+09+Dec+2022+15%3A13%3A06+%2B0000&authorization=FSE+6392380%3AdFypfDql6OF9wY5p3mEftXDSSzXh1NkuukRay2mfnM0iqpcK_ffM_7fYXogRlhoSuELoG_DSas-7IPYgWlY-hYsfYhSTMizDAmIW4W7wuu3Vd9_-pyeL3j-l-ss4lVE6O33JFBsEfez8vis4-lqYVnx8YuKOslw80bAtJPySXDSzBNYfEoxA65hwRbBvGFz6"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
