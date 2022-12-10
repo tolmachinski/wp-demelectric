@@ -61,6 +61,12 @@
 	?>
 
 	<div id="content" class="site-content" tabindex="-1">
+        <?php
+            if(function_exists()) {
+                basel_current_breadcrumbs("pages");
+            }
+
+        ?>
 		<div class="col-full">
 
 		<?php

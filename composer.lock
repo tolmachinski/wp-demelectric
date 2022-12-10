@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.19",
+            "version": "5.6.20",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "9f6e95c7c6777a710837cb21e6c4989cf911b258"
+                "reference": "305c858c6d65d17019f2e2740a51d216ef14be6b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.19-6be1d2.tar",
-                "reference": "9f6e95c7c6777a710837cb21e6c4989cf911b258",
-                "shasum": "54564f56454c30a92f5a81de11cc1f22924af579"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.20-fc4604.tar",
+                "reference": "305c858c6d65d17019f2e2740a51d216ef14be6b",
+                "shasum": "66ef1a8f7373ee186a2f9f66fc7d035536f5473f"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-09T13:09:37+00:00"
+            "time": "2022-12-10T14:26:45+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -1678,7 +1678,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+09+Dec+2022+15%3A13%3A06+%2B0000&authorization=FSE+6392380%3AdFypfDql6OF9wY5p3mEftXDSSzXh1NkuukRay2mfnM0iqpcK_ffM_7fYXogRlhoSuELoG_DSas-7IPYgWlY-hYsfYhSTMizDAmIW4W7wuu3Vd9_-pyeL3j-l-ss4lVE6O33JFBsEfez8vis4-lqYVnx8YuKOslw80bAtJPySXDSzBNYfEoxA65hwRbBvGFz6"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sat%2C+10+Dec+2022+14%3A30%3A03+%2B0000&authorization=FSE+6392380%3AlT6VqvyFv57qhvYunya2yieJXbiKIQ_iBudIWSYIxajNCF1zvLm6gGjx05niWTRVpRfM8OclM98L0SZVMR6EL9g348KtJ_SGHdpNWgptJYMzILwdsDYmX-DGOrW_OiW-8yewkVMUg4OGCopXCmk1JxBnjQl64UHJkv1Uesr93WjItkGBIe9uaMkMgXxEeElx"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4934,12 +4934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a5d6404aa779f8c718f5e90164da5c37a6065aaf"
+                "reference": "cd9af30140f6f34d9132986f4c6f04cf5e90cdc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a5d6404aa779f8c718f5e90164da5c37a6065aaf",
-                "reference": "a5d6404aa779f8c718f5e90164da5c37a6065aaf",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cd9af30140f6f34d9132986f4c6f04cf5e90cdc8",
+                "reference": "cd9af30140f6f34d9132986f4c6f04cf5e90cdc8",
                 "shasum": ""
             },
             "conflict": {
@@ -4948,6 +4948,7 @@
                 "adodb/adodb-php": "<=5.20.20|>=5.21,<=5.21.3",
                 "aheinze/cockpit": "<=2.2.1",
                 "akaunting/akaunting": "<2.1.13",
+                "akeneo/pim-community-dev": "<5.0.119|>=6,<6.0.53",
                 "alextselegidis/easyappointments": "<=1.4.3",
                 "alterphp/easyadmin-extension-bundle": ">=1.2,<1.2.11|>=1.3,<1.3.1",
                 "amazing/media2click": ">=1,<1.3.3",
@@ -5470,7 +5471,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-09T00:16:03+00:00"
+            "time": "2022-12-09T21:04:12+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
