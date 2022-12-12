@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.20",
+            "version": "5.6.21",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "305c858c6d65d17019f2e2740a51d216ef14be6b"
+                "reference": "a869ece8cee73240f4f5f432de6d2844adad6066"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.20-fc4604.tar",
-                "reference": "305c858c6d65d17019f2e2740a51d216ef14be6b",
-                "shasum": "66ef1a8f7373ee186a2f9f66fc7d035536f5473f"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.21-56fe9f.tar",
+                "reference": "a869ece8cee73240f4f5f432de6d2844adad6066",
+                "shasum": "68ad533f94da1b9130a154c03891c4bdb0e4e156"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-10T14:26:45+00:00"
+            "time": "2022-12-12T10:00:09+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.41",
+            "version": "1.0.42",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "a12d8f1ca443727bbeeb36b19e988f56e47c89cc"
+                "reference": "603d3e2d01e99edb9e5a4ad3e0b924ac0bab503b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.41-893590.tar",
-                "reference": "a12d8f1ca443727bbeeb36b19e988f56e47c89cc",
-                "shasum": "f65d405c8b4128ad4d9528987c4d06dbee758077"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.42-6119a5.tar",
+                "reference": "603d3e2d01e99edb9e5a4ad3e0b924ac0bab503b",
+                "shasum": "4418c3d6a7f185b0ce2319ffb1f6963ed82d91f7"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-09T15:02:54+00:00"
+            "time": "2022-12-12T10:04:35+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -665,31 +665,34 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.13.3",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "648b0343343565c4a056bfc8392201385e8d89f0"
+                "reference": "3587ab58646bc515b2e03bbd3cfcd3682e8df5bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/648b0343343565c4a056bfc8392201385e8d89f0",
-                "reference": "648b0343343565c4a056bfc8392201385e8d89f0",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/3587ab58646bc515b2e03bbd3cfcd3682e8df5bf",
+                "reference": "3587ab58646bc515b2e03bbd3cfcd3682e8df5bf",
                 "shasum": ""
             },
             "require": {
-                "doctrine/lexer": "1.*",
+                "doctrine/lexer": "^1 || ^2",
                 "ext-tokenizer": "*",
                 "php": "^7.1 || ^8.0",
                 "psr/cache": "^1 || ^2 || ^3"
             },
             "require-dev": {
                 "doctrine/cache": "^1.11 || ^2.0",
-                "doctrine/coding-standard": "^6.0 || ^8.1",
-                "phpstan/phpstan": "^1.4.10 || ^1.8.0",
-                "phpunit/phpunit": "^7.5 || ^8.0 || ^9.1.5",
-                "symfony/cache": "^4.4 || ^5.2",
+                "doctrine/coding-standard": "^9 || ^10",
+                "phpstan/phpstan": "~1.4.10 || ^1.8.0",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "symfony/cache": "^4.4 || ^5.4 || ^6",
                 "vimeo/psalm": "^4.10"
+            },
+            "suggest": {
+                "php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
             },
             "type": "library",
             "autoload": {
@@ -732,9 +735,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/annotations/issues",
-                "source": "https://github.com/doctrine/annotations/tree/1.13.3"
+                "source": "https://github.com/doctrine/annotations/tree/1.14.0"
             },
-            "time": "2022-07-02T10:48:51+00:00"
+            "time": "2022-12-11T18:25:48+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1678,7 +1681,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sat%2C+10+Dec+2022+14%3A30%3A03+%2B0000&authorization=FSE+6392380%3AlT6VqvyFv57qhvYunya2yieJXbiKIQ_iBudIWSYIxajNCF1zvLm6gGjx05niWTRVpRfM8OclM98L0SZVMR6EL9g348KtJ_SGHdpNWgptJYMzILwdsDYmX-DGOrW_OiW-8yewkVMUg4OGCopXCmk1JxBnjQl64UHJkv1Uesr93WjItkGBIe9uaMkMgXxEeElx"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+10%3A05%3A45+%2B0000&authorization=FSE+6392380%3AJhTMuOqQNmUNpq9AGIKKW6T0juZEFmjHf32xkM84voYVsDPAFuxd555AG5J0SeHeeiAtp6uldmqvwiDF2SsXwH5CVS9UhdAZGFE1oFm-K_9gSWx5DrWhrUjTjNv6tYpgPtP1-Qnmc10TAHzBBzu_0Ml2AFQ8ijAZeDk9yskC3rLjF62ZG6E1Pj8PPIZgfgQO"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5542,5 +5545,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
