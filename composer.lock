@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.21",
+            "version": "5.6.22",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "a869ece8cee73240f4f5f432de6d2844adad6066"
+                "reference": "5eb61e049b8c9becc7b7bb179ede2d9485f1aee1"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.21-56fe9f.tar",
-                "reference": "a869ece8cee73240f4f5f432de6d2844adad6066",
-                "shasum": "68ad533f94da1b9130a154c03891c4bdb0e4e156"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.22-33bfd4.tar",
+                "reference": "5eb61e049b8c9becc7b7bb179ede2d9485f1aee1",
+                "shasum": "af9ea5aac32dec0dc1ba34bfb3a566a603b59ac7"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-12T10:00:09+00:00"
+            "time": "2022-12-12T13:18:52+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.42",
+            "version": "1.0.44",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "603d3e2d01e99edb9e5a4ad3e0b924ac0bab503b"
+                "reference": "7245ea401ad179d33960d77f4ebc037ce7ce1d29"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.42-6119a5.tar",
-                "reference": "603d3e2d01e99edb9e5a4ad3e0b924ac0bab503b",
-                "shasum": "4418c3d6a7f185b0ce2319ffb1f6963ed82d91f7"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.44-6258a6.tar",
+                "reference": "7245ea401ad179d33960d77f4ebc037ce7ce1d29",
+                "shasum": "efa372b61bc56a5404de664f8303d8b7a0bc9201"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-12T10:04:35+00:00"
+            "time": "2022-12-12T14:01:31+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -665,16 +665,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.14.0",
+            "version": "1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "3587ab58646bc515b2e03bbd3cfcd3682e8df5bf"
+                "reference": "9e034d7a70032d422169f27d8759e8d84abb4f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/3587ab58646bc515b2e03bbd3cfcd3682e8df5bf",
-                "reference": "3587ab58646bc515b2e03bbd3cfcd3682e8df5bf",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/9e034d7a70032d422169f27d8759e8d84abb4f51",
+                "reference": "9e034d7a70032d422169f27d8759e8d84abb4f51",
                 "shasum": ""
             },
             "require": {
@@ -735,9 +735,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/annotations/issues",
-                "source": "https://github.com/doctrine/annotations/tree/1.14.0"
+                "source": "https://github.com/doctrine/annotations/tree/1.14.1"
             },
-            "time": "2022-12-11T18:25:48+00:00"
+            "time": "2022-12-12T12:46:12+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1681,7 +1681,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+10%3A06%3A58+%2B0000&authorization=FSE+6392380%3ALI2bhNFcT3KeiaL1Z1MBv2FJBWzDQaT6azf3WQTHZ6ZXzaYn6GFIqoJgtxiWqoNxow2WAr9pioCCIBmkaUJqoJjXv6xii0jSXZQgc7U7QCN7HOJP2XNB7fG9VFqZME7pmbbvXLcYjuOj8NDlYk_pg5vJjaUEjCaxxCLjFhpb_9fHBV0uqNMQjas1YASSRJcd"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+14%3A03%3A41+%2B0000&authorization=FSE+6392380%3A7w6_RNnR1RPOBq2mdg9kZb0ShuXoGQSSiuNbhJ83jjLZJKvhUuIpZEANUJFGy5aqmcL5cVz2gvnZaYFH3MT-4QgcqSStsQUJx4KPSHmpy4n5s6-iqno0QOW-Kl8xpREhqR4RQKwAyLI6wn_b5Sfunk9dq8w-Z4WFbIXllXUOa-zjmxR-vaRJxIVY3LqvFpr-"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
