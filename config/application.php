@@ -100,10 +100,10 @@ Config::define('WC_CONSUMER_SECRET', env("WC_CONSUMER_SECRET"));
  * Custom Settings
  */
 Config::define('WC_PRODUCT_STOCK_STATUS_COLORS_HASMAP', array(
-    "stock_st_red" => array("color" => "red", "text" => "Nicht mehr lieferbar"),
-    "stock_st_orange" => array("color" => "orange", "text" => "Auf Bestellung"),
-    "stock_st_green" => array("color" => "green", "text" => "Auf Lager"),
-    "stock_st_yellow" => array("color" => "yellow", "text" => "Nachbestellt")
+    "stock_st_red" => array("color" => "#D81C3F", "text" => "Nicht mehr lieferbar"),
+    "stock_st_orange" => array("color" => "#ED8E36", "text" => "Auf Bestellung"),
+    "stock_st_green" => array("color" => "#00A825", "text" => "Auf Lager"),
+    "stock_st_yellow" => array("color" => "linear-gradient(0deg, rgba(157, 121, 67, 0.3), rgba(157, 121, 67, 0.3)), #FFD600", "text" => "Nachbestellt")
 ));
 
 Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
