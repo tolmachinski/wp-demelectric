@@ -291,20 +291,20 @@
         },
         {
             "name": "breakmedia/formidable-registration-child",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/formidable-registration-child.git",
-                "reference": "d8d4625d08a3772277075ea81c47312e9a065bb5"
+                "reference": "9d8e6f6353b35818655d12f6c1514b33afae51c9"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/formidable-registration-child/breakmedia-formidable-registration-child-1.0.2-868043.tar",
-                "reference": "d8d4625d08a3772277075ea81c47312e9a065bb5",
-                "shasum": "5548dc2d04b99bd8baf055e3414c22b99da8d4bb"
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-registration-child/breakmedia-formidable-registration-child-1.0.3-5bf02d.tar",
+                "reference": "9d8e6f6353b35818655d12f6c1514b33afae51c9",
+                "shasum": "1b30828d9e72ffb9242e695987171a8b5f678bb2"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-12T16:33:17+00:00"
+            "time": "2022-12-12T17:07:28+00:00"
         },
         {
             "name": "breakmedia/formidable-wpml",
@@ -1681,7 +1681,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+16%3A40%3A07+%2B0000&authorization=FSE+6392380%3AOs4sbV-Dfs-Hcmt_lq3IO_QdPhfeeW02Y_ZbTofGVy2aQYCaTa3F8nTzp41C3Pwk_CIOBU2_wqP3ngmfuqd9GaVFBJ1rQx2atH2IGVntpgp58Rp7nZofUdfvdEYtdY9QrbK2Ac60_3HTXrbUQhNCQZy7pz1jDySAM6zgAs32KLsDzTs-oKHELY37o-U_pZcJ"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+17%3A09%3A02+%2B0000&authorization=FSE+6392380%3AFI05Pu3qP1f5rVzfN4wqovhASzoa2MAQ0B3EUzT1Mp9x2YGNpIIcQ6DxEzBCXBTommc9tRIr666m9wK2VyuTTO9rIOkF5K_rYzmQ3lguELvLkjClSDCXUlRmwKnP0FTk3hOWwdeST5JMc4G9dHq4Zk14sNcthXxnBBxG5CZhkc9xUwa_Oh-dDTWNOqPc6Es0"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
