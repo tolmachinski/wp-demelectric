@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.22",
+            "version": "5.6.23",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "5eb61e049b8c9becc7b7bb179ede2d9485f1aee1"
+                "reference": "c1de5ae34ff15ac7282d6ece0ec4703b97b6bbfb"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.22-33bfd4.tar",
-                "reference": "5eb61e049b8c9becc7b7bb179ede2d9485f1aee1",
-                "shasum": "af9ea5aac32dec0dc1ba34bfb3a566a603b59ac7"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.23-903845.tar",
+                "reference": "c1de5ae34ff15ac7282d6ece0ec4703b97b6bbfb",
+                "shasum": "4f291ac334f8b53ade68b663b7ba2637a65476e7"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-12T13:18:52+00:00"
+            "time": "2022-12-13T12:56:11+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -1681,7 +1681,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+12+Dec+2022+18%3A10%3A22+%2B0000&authorization=FSE+6392380%3AbmO78GCJqgGL07egt7GuFbCFI4qULLqS2fFq8lxkOF2viB_pR_eji8Ynis6kRnv4QNNBwNpbU7r8sVfsrBbfo3bSF5vU4DKbRHxTPrQvbKB_rx_5Qr2G6UvD_TSchz-NBQhsZoW-uLDJjQnY3nkB10sWDDgMZqCQTK5cnNHqU46_VdpJw2K0KIoMZXobPS35"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+13+Dec+2022+12%3A59%3A29+%2B0000&authorization=FSE+6392380%3A34R9Dtj1praUloEIewwHjzomrrZb2YcRK4XVLxj872beQhNiButn44Dne_OJqhXmFLV5kGo34e5Y5SiEdgEXP5rjaJ-Nurrd5Bt1Y7MojN1Xp3QXPb4mjeNDdeF6EkfO6lpXDrTxJeyKN5MZtU_H3xXB75H9LWketuMtFxBJLUyhGVmqbiglvxMP6NKV-4y6"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4937,12 +4937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "cd9af30140f6f34d9132986f4c6f04cf5e90cdc8"
+                "reference": "3e59e9dfd2585e12a905c1f769c3214f7a957d41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cd9af30140f6f34d9132986f4c6f04cf5e90cdc8",
-                "reference": "cd9af30140f6f34d9132986f4c6f04cf5e90cdc8",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3e59e9dfd2585e12a905c1f769c3214f7a957d41",
+                "reference": "3e59e9dfd2585e12a905c1f769c3214f7a957d41",
                 "shasum": ""
             },
             "conflict": {
@@ -5360,7 +5360,7 @@
                 "thelia/thelia": ">=2.1-beta.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<=5.1.7",
-                "thorsten/phpmyfaq": "<3.1.8",
+                "thorsten/phpmyfaq": "<3.1.9",
                 "tinymce/tinymce": "<5.10.7|>=6,<6.3.1",
                 "titon/framework": ">=0,<9.9.99",
                 "tobiasbg/tablepress": "<= 2.0-RC1",
@@ -5474,7 +5474,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-09T21:04:12+00:00"
+            "time": "2022-12-12T23:04:14+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
