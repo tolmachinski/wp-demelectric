@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.25",
+            "version": "5.6.26",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "c63a07a866b63379215dc3ea301bd2893cfb91d6"
+                "reference": "4e4b8d5ff05026cf736bf2207e87e6dc51fad62f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.25-22416b.tar",
-                "reference": "c63a07a866b63379215dc3ea301bd2893cfb91d6",
-                "shasum": "3514e0c0d4e46ee7ab3972f4625a798f772f6cd7"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.26-bbaf3a.tar",
+                "reference": "4e4b8d5ff05026cf736bf2207e87e6dc51fad62f",
+                "shasum": "d5cdf33b892e16e852c952de08f6526d4b7785f9"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-15T13:32:49+00:00"
+            "time": "2022-12-15T15:00:48+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.54",
+            "version": "1.0.55",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "920cb548e2f9fd34f90d209604e7654a8ec4448a"
+                "reference": "90cd72d21a0c2f70f3406282018574154a8da3ce"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.54-644fdb.tar",
-                "reference": "920cb548e2f9fd34f90d209604e7654a8ec4448a",
-                "shasum": "f73035d81b89ae5fd0821ed1680492148381f43c"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.55-8a2a86.tar",
+                "reference": "90cd72d21a0c2f70f3406282018574154a8da3ce",
+                "shasum": "e974ec37089d7f048e14adbdd053d73a553d9849"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-15T13:31:49+00:00"
+            "time": "2022-12-16T14:40:15+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1681,7 +1681,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+15+Dec+2022+13%3A35%3A14+%2B0000&authorization=FSE+6392380%3AW3hWUUb6X9i-mHTUGKPu_QT5jZ4BTDWs4AJR4AbXsY2bATIpkE0HfTeyTiL_kKeeiBxsL2PV6NI8yYZLhuyOEPakpElCCpSDusSu36CCAHDqWhlXVCE4MT8cqZqeKmAqL2I7M8bp41yltEQXJgEtZfgOunCwK-EKCutS7i3DeLiq0CFkDjnVxWTB7KKEwLz9"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+16+Dec+2022+14%3A42%3A32+%2B0000&authorization=FSE+6392380%3Als7Hjsh19xMsQvoOtiJNuZIkQn6a_Pnh3zRBSv7a23Y9tPgPaAuenqTSBzYvp19nUy5RBfGjAr3R3VZzR1CGjimGRbFmh7zNzrjkyr4TA1vKhRC-bBeRHnJtRJmifIvE-jrQXv9_Ld7Cc2k4pcETll7iGfXsgd6MK-A2ePe4SGn2vTFGE_IJX172-h5A2glo"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4672,15 +4672,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "5.5.4",
+            "version": "5.5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/5.5.4"
+                "reference": "tags/5.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.5.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/formidable.5.5.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4937,12 +4937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a9271310987d5cd362141476d9fff15c189dc204"
+                "reference": "648a1a2e7bb5d18dfaefe5f93da438127cebc5b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a9271310987d5cd362141476d9fff15c189dc204",
-                "reference": "a9271310987d5cd362141476d9fff15c189dc204",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/648a1a2e7bb5d18dfaefe5f93da438127cebc5b2",
+                "reference": "648a1a2e7bb5d18dfaefe5f93da438127cebc5b2",
                 "shasum": ""
             },
             "conflict": {
@@ -5062,7 +5062,7 @@
                 "facade/ignition": "<1.16.15|>=2,<2.4.2|>=2.5,<2.5.2",
                 "facturascripts/facturascripts": "<=2022.8",
                 "feehi/cms": "<=2.1.1",
-                "feehi/feehicms": "<=2.0.1.1",
+                "feehi/feehicms": "<=2.1.1",
                 "fenom/fenom": "<=2.12.1",
                 "filegator/filegator": "<7.8",
                 "firebase/php-jwt": "<2",
@@ -5262,6 +5262,7 @@
                 "remdex/livehelperchat": "<3.99",
                 "rmccue/requests": ">=1.6,<1.8",
                 "robrichards/xmlseclibs": "<3.0.4",
+                "roots/soil": "<4.1",
                 "rudloff/alltube": "<3.0.3",
                 "s-cart/core": "<6.9",
                 "s-cart/s-cart": "<6.9",
@@ -5411,6 +5412,7 @@
                 "yiisoft/yii2-gii": "<2.0.4",
                 "yiisoft/yii2-jui": "<2.0.4",
                 "yiisoft/yii2-redis": "<2.0.8",
+                "yikesinc/yikes-inc-easy-mailchimp-extender": "<6.8.6",
                 "yoast-seo-for-typo3/yoast_seo": "<7.2.3",
                 "yourls/yourls": "<=1.8.2",
                 "zendesk/zendesk_api_client_php": "<2.2.11",
@@ -5474,7 +5476,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-13T18:04:19+00:00"
+            "time": "2022-12-16T00:14:52+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
