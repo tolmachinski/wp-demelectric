@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.61",
+            "version": "1.0.63",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "c69a178a977695578a54f3d337723080d636b9c0"
+                "reference": "e41787319335870d58320ccbf9f95aec8c061424"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.61-62e47e.tar",
-                "reference": "c69a178a977695578a54f3d337723080d636b9c0",
-                "shasum": "a143caf648939bbad487de2e7b85b24995e97518"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.63-859ad6.tar",
+                "reference": "e41787319335870d58320ccbf9f95aec8c061424",
+                "shasum": "10b17c756a6b8f9291929ddf99df3d43f3bed1f0"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-21T10:42:08+00:00"
+            "time": "2022-12-21T17:40:06+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.14",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "264b7ff612639390855043668f74c818031afa6d"
+                "reference": "102728e57ce091e237cd8ff1fbd007734eac9c3b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.14-f4dd3e.tar",
-                "reference": "264b7ff612639390855043668f74c818031afa6d",
-                "shasum": "d83ad756f7fed9130586de9cb9e72c423c5f2f63"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.15-82a200.tar",
+                "reference": "102728e57ce091e237cd8ff1fbd007734eac9c3b",
+                "shasum": "b25473499086b3df833b92645ef1874503fe595a"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-21T07:30:56+00:00"
+            "time": "2022-12-21T18:21:34+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -1682,7 +1682,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+21+Dec+2022+10%3A46%3A47+%2B0000&authorization=FSE+6392380%3AoG3C6KDByBBwq4aSYrBSQvbDhaMBg8kwg0g_XcAlh2JuT1dfYBQ5COfP8N7RkgObD4dmlsGprqFQ7JsTAXCAW76hM4c_WWp_S4BAhctVB8xA-NaQtyJStGlrhH2ZX-0UtUGvaLS_Tpl0ZmELgxviy96m8hMGZOqeNEOMffhYLGShLDjJx6JTe782V3cRqu9f"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+21+Dec+2022+18%3A24%3A01+%2B0000&authorization=FSE+6392380%3A6lj5tO17o5N7jMM1zFbJdCo_aUhAMnOBNjyRCv2jKBjLIjB7eBOWUoGVsGa6hD4Iy4DttrQdVbiAcrQpzN5JBv442DA6hZR3qlg5rvHHUb58Jjq7MWZDIlA6uPjApFE9ayasjX61OU4cCUBN0lUjzUZoNVSEnzb9C563GTGMjHBc6tuMu4S94ax_Sy5-zrLY"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
