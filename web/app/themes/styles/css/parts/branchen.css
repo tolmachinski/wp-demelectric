@@ -1,0 +1,254 @@
+.rs-layer:not(.rs-wtbindex) {
+  font-family: "Arial", Gadget, "sans-serif" !important;
+}
+.branchen-container {
+  margin-bottom: 100px;
+}
+.branchen-container .yoast-breadcrumb {
+  margin-top: 25px;
+}
+.branchen-container .title-wrapper .title-subtitle {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: normal;
+  color: #d81c3f;
+  margin-bottom: 4px;
+}
+.branchen-container .branchen-cards-wrap {
+  margin-top: 60px;
+  margin-left: -20px;
+  margin-right: -20px;
+  position: relative;
+}
+.branchen-container .branchen-cards-wrap:last-child {
+  margin-top: 42px;
+}
+.branchen-container .branchen-cards-wrap .vc_column-inner {
+  padding: 0 20px;
+}
+.branchen-container .branchen-cards-wrap .info-box-icon {
+  margin-bottom: -72px;
+}
+.branchen-container .branchen-cards-wrap .info-box-content {
+  height: 209px;
+}
+.branchen-container .branchen-cards-wrap h3 {
+  font-family: "GT-America-Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.branchen-container .branchen-cards-wrap p {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: -1px;
+}
+.branchen-container .branchen-cards-wrap .info-btn-wrapper {
+  margin-bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -28px;
+}
+.branchen-container .branchen-cards-wrap .info-btn-wrapper a {
+  font-family: 'Arial';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+@media (max-width: 1199px) {
+  .branchen-container .branchen-cards-wrap .info-box-content {
+    height: 270px;
+  }
+}
+@media (max-width: 767px) {
+  .branchen-container .branchen-cards-wrap {
+    margin-top: 25px;
+  }
+  .branchen-container .branchen-cards-wrap:last-child {
+    margin-top: 62px;
+  }
+  .branchen-container .branchen-cards-wrap .info-box-content {
+    height: auto;
+  }
+  .branchen-container .branchen-cards-wrap .info-box-icon {
+    margin-bottom: -84px;
+  }
+  .branchen-container .branchen-cards-wrap .info-box-inner {
+    margin-bottom: 10px;
+  }
+  .branchen-container .branchen-cards-wrap h3 {
+    margin-top: 21px;
+    margin-bottom: 2px;
+  }
+  .branchen-container .branchen-cards-wrap p {
+    margin-bottom: 49px !important;
+  }
+  .branchen-container .branchen-cards-wrap .vc_column_container {
+    margin-top: 49px;
+  }
+  .branchen-container .branchen-cards-wrap .vc_column_container:first-child {
+    margin-top: 0;
+  }
+  .branchen-container .yoast-breadcrumb {
+    margin-top: 15px;
+    margin-bottom: -11px;
+  }
+  .branchen-container .title-wrapper {
+    text-transform: capitalize;
+    max-width: 277px !important;
+    margin: 0 auto;
+  }
+}
+.main-page-wrapper .page-title {
+  margin-bottom: 0;
+}
+.main-page-wrapper .basel-text-size-default.basel-list-shape-icon .list-icon {
+  min-width: 30px;
+  height: 30px;
+  margin-top: -3px;
+  margin-right: 18px;
+}
+.main-page-wrapper .basel-text-size-default.basel-list-shape-icon .list-icon:before {
+  font-size: 19px;
+  line-height: 30px;
+}
+.branchen-products .title {
+  font-family: "GT-America-Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-top: -4px;
+}
+.branchen-products .title:after {
+  background-color: #d81c3f !important;
+  width: 50px !important;
+  bottom: -37px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+@media (max-width: 767px) {
+  .branchen-products .owl-carousel.product-items {
+    margin-bottom: 55px;
+  }
+}
+.branchen-banner {
+  margin-top: 11px !important;
+  padding-top: 0 !important;
+  height: 303px;
+}
+.branchen-banner .vc_row {
+  height: 303px;
+}
+.branchen-banner h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+}
+.branchen-banner .basel-button-wrapper {
+  text-align: right;
+}
+.branchen-banner .btn {
+  margin-right: -12px;
+  line-height: 23px;
+}
+@media (max-width: 1450px) {
+  .branchen-banner .btn {
+    margin-right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .branchen-banner .vc_row {
+    background-position: top right 20% !important;
+  }
+}
+@media (max-width: 767px) {
+  .branchen-banner {
+    height: 355px;
+  }
+  .branchen-banner .vc_row {
+    height: 355px;
+  }
+  .branchen-banner h2 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  .branchen-banner .wpb_text_column {
+    margin-left: 33px;
+    margin-top: 15px;
+  }
+  .branchen-banner .basel-button-wrapper {
+    text-align: left;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .branchen-detail-container {
+    margin-bottom: 15px;
+  }
+}
+.branchen-promo-banner {
+  padding-top: 85px !important;
+}
+.branchen-promo-banner .title {
+  font-family: "GT-America-Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-top: -4px;
+}
+.branchen-promo-banner .title:after {
+  background-color: #d81c3f !important;
+  width: 50px !important;
+  bottom: -37px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.branchen-promo-banner .banners-carousel-wrapper {
+  margin-top: 50px;
+}
+.branchen-promo-banner .banner-image {
+  opacity: 1 !important;
+}
+.branchen-promo-banner .promo-banner {
+  transition: all 0.3s ease-in-out;
+}
+.branchen-promo-banner .promo-banner .wrapper-content-baner {
+  opacity: 0;
+}
+.branchen-promo-banner .promo-banner:hover .banner-image {
+  opacity: 0.2 !important;
+  transform: scale(1.05);
+}
+.branchen-promo-banner .promo-banner:hover .wrapper-content-baner {
+  opacity: 1;
+}
+.branchen-promo-banner h3 {
+  font-size: 38px;
+  font-family: "GT-America-Condensed-Black / H2", Arial, Helvetica, sans-serif;
+  margin-bottom: 41px !important;
+  margin-top: 19px;
+}
+.branchen-promo-banner p {
+  font-size: 14px;
+  font-family: "GT-America-Condensed-Regular / h3", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.owl-nav {
+  display: none;
+}
