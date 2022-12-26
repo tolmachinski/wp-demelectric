@@ -25,6 +25,17 @@ $config = [
         'detail_attr_table',
         'hyperlinks',
     ],
+    ImportConfig::CUSTOM_ATTRIBUTES => [
+        'ean',
+        'eNo',
+        'emNo',
+        'featured_until',
+        'logo_1',
+        'logo_2',
+        'pictogram_list',
+        'detail_description',
+        'productlead',
+    ],
     ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
         "upsells" => 3,
         "cross-sells" => 2,
