@@ -106,6 +106,13 @@ Config::define('WC_PRODUCT_STOCK_STATUS_COLORS_HASMAP', array(
     "stock_st_yellow" => array("color" => "linear-gradient(0deg, rgba(157, 121, 67, 0.3), rgba(157, 121, 67, 0.3)), #FFD600", "text" => "Nachbestellt")
 ));
 
+Config::define('WC_PRODUCT_STOCK_STATUS_INLINE_COLORS_HASMAP', array(
+    "stock_st_red" => array("color" => "#D81C3F", "text" => "Nicht mehr lieferbar"),
+    "stock_st_orange" => array("color" => "#ED8E36", "text" => "Auf Bestellung"),
+    "stock_st_green" => array("color" => "#00A825", "text" => "Auf Lager"),
+    "stock_st_yellow" => array("color" => "#ED8E36", "text" => "Nachbestellt")
+));
+
 Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
     "art" => "pa_ean",
     "art-no" => "pa_emno",
