@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.30",
+            "version": "5.6.31",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "36f75d64dbc215af015b6eedb7b73860d0b350af"
+                "reference": "3af3c958dfcf5872841a05168a26b837c4502f1f"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.30-b2c049.tar",
-                "reference": "36f75d64dbc215af015b6eedb7b73860d0b350af",
-                "shasum": "a09f8f7878470e12000dff2085d3521967e050a7"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.31-d02f1b.tar",
+                "reference": "3af3c958dfcf5872841a05168a26b837c4502f1f",
+                "shasum": "f1575849cdecc75b14330a88a6d2f23342e5a1d1"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-17T15:12:55+00:00"
+            "time": "2022-12-26T09:44:56+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.67",
+            "version": "1.0.68",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "a396ec1cc72255a25da0e067e1e62a47533dcd8c"
+                "reference": "9a3d97a85b2b154aae3883618bc5a25261a38a32"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.67-82c921.tar",
-                "reference": "a396ec1cc72255a25da0e067e1e62a47533dcd8c",
-                "shasum": "8fa0be73ddb8ce60359e8f4d6fb87db28482d2ae"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.68-c58629.tar",
+                "reference": "9a3d97a85b2b154aae3883618bc5a25261a38a32",
+                "shasum": "0cd743f30adf4b25ec3a9a47ae2142a8f116245a"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-23T07:47:40+00:00"
+            "time": "2022-12-26T09:43:25+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -1682,7 +1682,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+23+Dec+2022+07%3A55%3A28+%2B0000&authorization=FSE+6392380%3A5rWT9XpC44Wk4vsDp3KtKWH-6S4Gz8FXSaqe8oFJIiRggs4m0W5UVAAPiz9fNjRF7VQT0EVNY0KfsHOyQzLKWCevBpFJU3qjO0Q27ZM9N7xzBKeQITQlDWp0w4ABL0JwLjkvYn8HEf-8ocllm_2sVRVpZhJ5azTbknoA5cV8OBHSKSPa_kj9e5e2QGRqq_xi"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+26+Dec+2022+09%3A48%3A47+%2B0000&authorization=FSE+6392380%3AjwJRp45mwP0MMBH-0Fe1av8bW9inayDyiWS6BqJlgvvyXWr_KPtYreHLaKvtv6XJpj3yCFCrzncCk_1AGHN_Hku73_ch8akgHu_2BNG6NFMGdt1ogzApL_KphBlVgkGbMKNxEcmuSNY5apNkVsEqaU2LD1Z1nlnkh1xl8ZFxBkh7LflAuLjE-42pTLtZyl3L"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
