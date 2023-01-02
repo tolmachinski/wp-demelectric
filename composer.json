@@ -72,13 +72,13 @@
     "breakmedia/woocommerce-google-analytics-integration": "^1.5",
     "breakmedia/ajax-search-for-woocommerce-child": "^1.0",
     "breakmedia/formidable-registration-child": "^1.0",
-    "breakmedia/formidable-surveys": "^1.0"
+    "breakmedia/formidable-surveys": "^1.0",
+    "perftools/php-profiler": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
     "roave/security-advisories": "dev-latest",
-    "deployer/deployer": "^7.0",
-    "perftools/php-profiler": "^1.1"
+    "deployer/deployer": "^7.0"
   },
   "config": {
     "optimize-autoloader": true,

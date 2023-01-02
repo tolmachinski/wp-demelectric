@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2f41601e3fc13a74a5bab1cbf8efb6d",
+    "content-hash": "fc79a0f2a09ef3ca0dee62235afe239e",
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+02+Jan+2023+19%3A25%3A48+%2B0000&authorization=FSE+6392380%3ASZpr6-2FyKXDTcXuoazNb1033OhQ4ZEvu_P_h9Gk0Tzp6ZJbUG93SW7eAOavhBeZp_GbJyKWbNJcQgcgAMuXT4jLTvOncV2PScgrpT3-yFiIOF_dPED4xRYEzNRclw8_2SQdKwjar09uctlkNGccTyJ3mk9ZKlUmk--RfDVwhCyYyuArszdxvv77Q7P0Vy30"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+02+Jan+2023+19%3A31%3A38+%2B0000&authorization=FSE+6392380%3AGBdF2c4URkA1LbJIFwuN1bejDYavwTrERT90DgKY6UkfRMrUd4KC8iPoTe-vUZot_yyuNUbZ-RS8z-MpnZb9n_DGXg03xF-j6uQjs7GmaWyHA5FTu3iE6x8kWaRzy1c0IwGSmni8x2hKA34QhHDZJJ-taqhU1JQa3E54Tu6axxXwxBxRW1Gqa8tyxZF-VXtx"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -2230,6 +2230,68 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "perftools/php-profiler",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/perftools/php-profiler.git",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perftools/php-profiler/zipball/40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^5.3.0 || ^7.0 || ^8.0"
+            },
+            "conflict": {
+                "perftools/xhgui-collector": "<1.8"
+            },
+            "require-dev": {
+                "alcaeus/mongo-php-adapter": "^1.1",
+                "perftools/xhgui-collector": "^1.8"
+            },
+            "suggest": {
+                "alcaeus/mongo-php-adapter": "Adapter to provide ext-mongo interface on top of mongo-php-library (PHP>=5.6)",
+                "ext-curl": "cURL extension for upload saver",
+                "ext-mongo": "mongo extension (PHP>=5.3,<7.0)",
+                "ext-mongodb": "mongodb extension (PHP>=5.4)",
+                "ext-tideways": "Use tideways to profile",
+                "ext-uprofiler": "Use uprofiler to profile",
+                "ext-xhprof": "Use xhprof to profile",
+                "perftools/xhgui-collector": "For mongodb or pdo savers"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xhgui\\Profiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lauri Piisang",
+                    "email": "lauri.piisang@eesti.ee"
+                },
+                {
+                    "name": "Elan Ruusamäe",
+                    "email": "glen@pld-linux.org"
+                }
+            ],
+            "description": "PHP Profiling based on XHGui",
+            "support": {
+                "issues": "https://github.com/perftools/php-profiler/issues",
+                "source": "https://github.com/perftools/php-profiler/tree/1.1.1"
+            },
+            "time": "2022-06-09T14:39:38+00:00"
         },
         {
             "name": "php-http/message-factory",
@@ -4948,68 +5010,6 @@
                 }
             ],
             "time": "2022-09-10T07:44:30+00:00"
-        },
-        {
-            "name": "perftools/php-profiler",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/perftools/php-profiler.git",
-                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/perftools/php-profiler/zipball/40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
-                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "php": "^5.3.0 || ^7.0 || ^8.0"
-            },
-            "conflict": {
-                "perftools/xhgui-collector": "<1.8"
-            },
-            "require-dev": {
-                "alcaeus/mongo-php-adapter": "^1.1",
-                "perftools/xhgui-collector": "^1.8"
-            },
-            "suggest": {
-                "alcaeus/mongo-php-adapter": "Adapter to provide ext-mongo interface on top of mongo-php-library (PHP>=5.6)",
-                "ext-curl": "cURL extension for upload saver",
-                "ext-mongo": "mongo extension (PHP>=5.3,<7.0)",
-                "ext-mongodb": "mongodb extension (PHP>=5.4)",
-                "ext-tideways": "Use tideways to profile",
-                "ext-uprofiler": "Use uprofiler to profile",
-                "ext-xhprof": "Use xhprof to profile",
-                "perftools/xhgui-collector": "For mongodb or pdo savers"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Xhgui\\Profiler\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lauri Piisang",
-                    "email": "lauri.piisang@eesti.ee"
-                },
-                {
-                    "name": "Elan Ruusamäe",
-                    "email": "glen@pld-linux.org"
-                }
-            ],
-            "description": "PHP Profiling based on XHGui",
-            "support": {
-                "issues": "https://github.com/perftools/php-profiler/issues",
-                "source": "https://github.com/perftools/php-profiler/tree/1.1.1"
-            },
-            "time": "2022-06-09T14:39:38+00:00"
         },
         {
             "name": "roave/security-advisories",
