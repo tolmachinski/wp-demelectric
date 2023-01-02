@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be9fc31fd5aa50729050f9c683f18f7f",
+    "content-hash": "e2f41601e3fc13a74a5bab1cbf8efb6d",
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.34",
+            "version": "5.6.36",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "af54f61f0363c078719eca3ccca8c3fd4e4be01a"
+                "reference": "04574b504ecf484bfc24f0da04ec635a98792fe9"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.34-042976.tar",
-                "reference": "af54f61f0363c078719eca3ccca8c3fd4e4be01a",
-                "shasum": "9f0835507743359e9acc44485a15a6d44289154b"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.36-a9bedb.tar",
+                "reference": "04574b504ecf484bfc24f0da04ec635a98792fe9",
+                "shasum": "ad04c5bf5c1e273fec0916564060580a8454d173"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-01T14:36:18+00:00"
+            "time": "2023-01-02T18:33:47+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.70",
+            "version": "1.0.71",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "e40f5e36d3fb02100bee0c71ffe53c7a624a1ad0"
+                "reference": "eb2dfd58219e450819a18258a55a348b54f80d71"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.70-f693de.tar",
-                "reference": "e40f5e36d3fb02100bee0c71ffe53c7a624a1ad0",
-                "shasum": "86c9048c424d8c4e0adea0787625ad49271b0b14"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.71-34b28c.tar",
+                "reference": "eb2dfd58219e450819a18258a55a348b54f80d71",
+                "shasum": "b09c01807fb0a149f61cd23b5c9dd8ae134025b9"
             },
             "type": "wordpress-theme",
-            "time": "2022-12-29T17:30:05+00:00"
+            "time": "2023-01-02T08:50:33+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -307,6 +307,23 @@
             "time": "2022-12-12T18:07:55+00:00"
         },
         {
+            "name": "breakmedia/formidable-surveys",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:breakmedia/formidable-surveys.git",
+                "reference": "e6a309a68e59f260cc436b9db22cd4c755eb9ed8"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://satis.molbak.at/dist/breakmedia/formidable-surveys/breakmedia-formidable-surveys-1.0.6-f4b069.tar",
+                "reference": "e6a309a68e59f260cc436b9db22cd4c755eb9ed8",
+                "shasum": "d0d5c7742bf4b5082e0a8ebd5487fdd3ceb8c01b"
+            },
+            "type": "wordpress-plugin",
+            "time": "2022-12-29T09:26:12+00:00"
+        },
+        {
             "name": "breakmedia/formidable-wpml",
             "version": "1.12",
             "source": {
@@ -342,17 +359,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.48",
+            "version": "1.0.49",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "c1f7886fbbfc5fea6ba47e9049fdbaa27a7adc1f"
+                "reference": "4b4bc3fac35bf4a52a9caab2bc10d6538c3b3274"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.48-e0a81e.tar",
-                "reference": "c1f7886fbbfc5fea6ba47e9049fdbaa27a7adc1f",
-                "shasum": "923d9cbba54301134374e2d3de5c1f898b4ee5ca"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.49-5cc46c.tar",
+                "reference": "4b4bc3fac35bf4a52a9caab2bc10d6538c3b3274",
+                "shasum": "d413d06704ecc7724508a9058e43cfbcff406931"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -380,7 +397,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2022-12-29T17:35:47+00:00"
+            "time": "2023-01-02T19:23:11+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1682,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+01+Jan+2023+15%3A04%3A34+%2B0000&authorization=FSE+6392380%3AJJDZnSpsZDPrQb8nKDd6_rhUkSedFxxcBENpnK9CxHi_3wsKzapbpZNtRiU7U7nTWnhq0mEPuDw3Xko9NKL5mXJH-F9e1o8fhaIh6nd1VjeSc5zko5s6Irx5Xz2pMeadHgL81WrcDSOBEx0KbDxuY6lGShXaWaVEF8sDISLSBU9yq1zCy-pGYwzK4OlbM5WG"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+02+Jan+2023+19%3A25%3A48+%2B0000&authorization=FSE+6392380%3ASZpr6-2FyKXDTcXuoazNb1033OhQ4ZEvu_P_h9Gk0Tzp6ZJbUG93SW7eAOavhBeZp_GbJyKWbNJcQgcgAMuXT4jLTvOncV2PScgrpT3-yFiIOF_dPED4xRYEzNRclw8_2SQdKwjar09uctlkNGccTyJ3mk9ZKlUmk--RfDVwhCyYyuArszdxvv77Q7P0Vy30"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4933,6 +4950,68 @@
             "time": "2022-09-10T07:44:30+00:00"
         },
         {
+            "name": "perftools/php-profiler",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/perftools/php-profiler.git",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perftools/php-profiler/zipball/40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^5.3.0 || ^7.0 || ^8.0"
+            },
+            "conflict": {
+                "perftools/xhgui-collector": "<1.8"
+            },
+            "require-dev": {
+                "alcaeus/mongo-php-adapter": "^1.1",
+                "perftools/xhgui-collector": "^1.8"
+            },
+            "suggest": {
+                "alcaeus/mongo-php-adapter": "Adapter to provide ext-mongo interface on top of mongo-php-library (PHP>=5.6)",
+                "ext-curl": "cURL extension for upload saver",
+                "ext-mongo": "mongo extension (PHP>=5.3,<7.0)",
+                "ext-mongodb": "mongodb extension (PHP>=5.4)",
+                "ext-tideways": "Use tideways to profile",
+                "ext-uprofiler": "Use uprofiler to profile",
+                "ext-xhprof": "Use xhprof to profile",
+                "perftools/xhgui-collector": "For mongodb or pdo savers"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xhgui\\Profiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lauri Piisang",
+                    "email": "lauri.piisang@eesti.ee"
+                },
+                {
+                    "name": "Elan Ruusamäe",
+                    "email": "glen@pld-linux.org"
+                }
+            ],
+            "description": "PHP Profiling based on XHGui",
+            "support": {
+                "issues": "https://github.com/perftools/php-profiler/issues",
+                "source": "https://github.com/perftools/php-profiler/tree/1.1.1"
+            },
+            "time": "2022-06-09T14:39:38+00:00"
+        },
+        {
             "name": "roave/security-advisories",
             "version": "dev-latest",
             "source": {
@@ -5549,5 +5628,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

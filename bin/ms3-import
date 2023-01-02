@@ -10,6 +10,16 @@ use Symfony\Component\DependencyInjection\Loader\PhpFileLoader;
 
 include __DIR__ . '/../vendor/autoload.php';
 
+$config = \Xhgui\Profiler\Config::create();
+$config->load(__DIR__ .'/../config/profiler/config.php');
+$profiler = new \Xhgui\Profiler\Profiler($config);
+try {
+    $profiler = new \Xhgui\Profiler\Profiler($config);
+    $profiler->start();
+} catch (Exception $e){
+    var_dump($e);
+}
+
 $application = new Symfony\Component\Console\Application;
 $containerBuilder = new ContainerBuilder();
 
