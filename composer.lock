@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ajax-search-for-woocommerce-child.git",
-                "reference": "a1f0fefd21561f82abc070f9f340c3177cabd33e"
+                "reference": "db9afdaede63a78cb086a32ea94099fbac0af723"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.5-59f4c6.tar",
-                "reference": "a1f0fefd21561f82abc070f9f340c3177cabd33e",
-                "shasum": "209162eec9a05297c4ebccae9ff9e63c80156f7a"
+                "url": "https://satis.molbak.at/dist/breakmedia/ajax-search-for-woocommerce-child/breakmedia-ajax-search-for-woocommerce-child-1.0.6-20fd12.tar",
+                "reference": "db9afdaede63a78cb086a32ea94099fbac0af723",
+                "shasum": "40749f739e4627eff3afa1974e2346241b56cc4d"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-14T09:58:45+00:00"
+            "time": "2023-01-02T21:09:17+00:00"
         },
         {
             "name": "breakmedia/basel",
@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.71",
+            "version": "1.0.72",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "eb2dfd58219e450819a18258a55a348b54f80d71"
+                "reference": "3956741c67db5816f0ec67b793a92ef40f9d5227"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.71-34b28c.tar",
-                "reference": "eb2dfd58219e450819a18258a55a348b54f80d71",
-                "shasum": "b09c01807fb0a149f61cd23b5c9dd8ae134025b9"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.72-44c1c8.tar",
+                "reference": "3956741c67db5816f0ec67b793a92ef40f9d5227",
+                "shasum": "a75ba309d8884ccfd95958160231124c95041355"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-02T08:50:33+00:00"
+            "time": "2023-01-03T07:59:42+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.18",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "1ef3b563fdebce150b908a8d120a1e2fb067bc34"
+                "reference": "1c6d53f56184e9580522fdee669ab7cf3eb5bee3"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.18-51b8c6.tar",
-                "reference": "1ef3b563fdebce150b908a8d120a1e2fb067bc34",
-                "shasum": "030d6a8dcbd9e14ea7855d46756c4ecd8ae83675"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.20-897dd7.tar",
+                "reference": "1c6d53f56184e9580522fdee669ab7cf3eb5bee3",
+                "shasum": "ff5ad0052af812674aa18888eacbb67391ef7a0c"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-01T15:00:32+00:00"
+            "time": "2023-01-03T08:03:14+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -359,17 +359,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.50",
+            "version": "1.0.52",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "05023471daf0fb1bbb1624693f6718748edaae11"
+                "reference": "5a58f954d43b29a0423c80053b3905a298683ce5"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.50-aaa7d6.tar",
-                "reference": "05023471daf0fb1bbb1624693f6718748edaae11",
-                "shasum": "8befaf1bc28415df681c97aed66e0550bbf16ff1"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.52-4ba866.tar",
+                "reference": "5a58f954d43b29a0423c80053b3905a298683ce5",
+                "shasum": "617d1422f6385061a7d30f9d593bada331628189"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -397,7 +397,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2023-01-02T20:40:07+00:00"
+            "time": "2023-01-03T08:00:35+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+02+Jan+2023+20%3A42%3A36+%2B0000&authorization=FSE+6392380%3AoHC1_lJY3KSlXqVW_YyjFSjJQdClPso2591ZSPEQdmiWPtY7YPkK-TcjZ_q7DZCxVSZUN1P0dmCEJJ8oahLwHyBg8tu3cVZD9D7w4-rVvYNKwNlbyEPaAbi0677lLUTR8xW7poQUjTt4fE9YrPXMlFcsLMNAA8ON8uls7jY7_spVgswh4sYs4PhbI3hk5Pg6"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+08%3A05%3A23+%2B0000&authorization=FSE+6392380%3AvsMp2aga6-NrsghPAGN7JWiH3TIn-dnzmxEbwdIW7Hvh0iKftWMIJbyfYLyq-26Gt6xouUbAXY5t8I_lHsWXO7KoE2OXrzzz1ubldBbdGocQzU6dhi3tEDTKB0M6A4P61yy9fWyYzwKAC8JPyq1C2LuwhDBEn2F5GkDH_T-R44gRrr4TruhcR_zvoEicfMdN"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
