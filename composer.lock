@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1fd4b75e48a275aa44d9db09f4d58b6",
+    "content-hash": "fc79a0f2a09ef3ca0dee62235afe239e",
     "packages": [
         {
             "name": "breakmedia/ajax-search-for-woocommerce-child",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.20",
+            "version": "1.0.21",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "1c6d53f56184e9580522fdee669ab7cf3eb5bee3"
+                "reference": "d40189ca8d714a46f42b89abf6b79df56786bf2b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.20-897dd7.tar",
-                "reference": "1c6d53f56184e9580522fdee669ab7cf3eb5bee3",
-                "shasum": "ff5ad0052af812674aa18888eacbb67391ef7a0c"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.21-0e8e33.tar",
+                "reference": "d40189ca8d714a46f42b89abf6b79df56786bf2b",
+                "shasum": "4e0f501daa4d079f46fad9724cde2868e7ba17b8"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-03T08:03:14+00:00"
+            "time": "2023-01-03T11:33:55+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+11%3A15%3A44+%2B0000&authorization=FSE+6392380%3AfFIIFag_7eRORves8tzDG0ZaIeS2AU8tTBX9l8Dfdr-5_iveFPlnjbSmm94yeLZfutL7BghGCR3v2X5vaaBU-3WNjTr3avZS-VwmP18vVrszUbijt2WrhhlltBix47KtnIYF4OdfW_IENwbQMpbQGw6kqsHIazR-adXp7Y62sA-x810oZSdxUUqZT_0NvVLw"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+11%3A37%3A37+%2B0000&authorization=FSE+6392380%3A6ZG6ysJ8dvIVctHADAXcKxHdGhCJP0vD6ECPMkVB0hpukUcrxiJEKFobYNyg0ap0Xm59WXJZcCZgf_G0bG2qS-rT_G2ZnWAUpMkQYbJNmVviX2DrUpJSn6r24kAdr8GJelvNJYpWSxbR0kYuIq167TkbOTXk_NOxoIdBMklNJ5jBiH6nGT6ht8HIG-PHDTtF"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -2230,6 +2230,68 @@
                 "source": "https://github.com/paragonie/random_compat"
             },
             "time": "2020-10-15T08:29:30+00:00"
+        },
+        {
+            "name": "perftools/php-profiler",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/perftools/php-profiler.git",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perftools/php-profiler/zipball/40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "reference": "40edd32f8ac471dd4d0f6e7057ed0acab4eb1c36",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^5.3.0 || ^7.0 || ^8.0"
+            },
+            "conflict": {
+                "perftools/xhgui-collector": "<1.8"
+            },
+            "require-dev": {
+                "alcaeus/mongo-php-adapter": "^1.1",
+                "perftools/xhgui-collector": "^1.8"
+            },
+            "suggest": {
+                "alcaeus/mongo-php-adapter": "Adapter to provide ext-mongo interface on top of mongo-php-library (PHP>=5.6)",
+                "ext-curl": "cURL extension for upload saver",
+                "ext-mongo": "mongo extension (PHP>=5.3,<7.0)",
+                "ext-mongodb": "mongodb extension (PHP>=5.4)",
+                "ext-tideways": "Use tideways to profile",
+                "ext-uprofiler": "Use uprofiler to profile",
+                "ext-xhprof": "Use xhprof to profile",
+                "perftools/xhgui-collector": "For mongodb or pdo savers"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xhgui\\Profiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lauri Piisang",
+                    "email": "lauri.piisang@eesti.ee"
+                },
+                {
+                    "name": "Elan Ruusamäe",
+                    "email": "glen@pld-linux.org"
+                }
+            ],
+            "description": "PHP Profiling based on XHGui",
+            "support": {
+                "issues": "https://github.com/perftools/php-profiler/issues",
+                "source": "https://github.com/perftools/php-profiler/tree/1.1.1"
+            },
+            "time": "2022-06-09T14:39:38+00:00"
         },
         {
             "name": "php-http/message-factory",
