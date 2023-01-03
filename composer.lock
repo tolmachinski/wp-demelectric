@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.25",
+            "version": "1.0.26",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "5fc54fc6227be632e7c20097167a3b0ee322d819"
+                "reference": "5f972d4a9cda381f204b7681c55b84565def4775"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.25-92e08b.tar",
-                "reference": "5fc54fc6227be632e7c20097167a3b0ee322d819",
-                "shasum": "1faacb485ab96290511034ad0273369445b4d308"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.26-af2ff2.tar",
+                "reference": "5f972d4a9cda381f204b7681c55b84565def4775",
+                "shasum": "0dc668206665c032981fe4aa0bc804d9ce8f065d"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-03T17:26:19+00:00"
+            "time": "2023-01-03T18:07:54+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+17%3A29%3A33+%2B0000&authorization=FSE+6392380%3AkQXSUxicOhGepw-naaxQue_G4EDT-v8FeRXGQ0HdbSoqEdLTptBP28je1NSOjx8uDqZ3Y2BJn7rvVDm7ZPKwLMeOHRi_SJGlT5a9IUIx5Soptx5yKWQK6sh8hyUAqTZH4BF9qPbKgDrnBgfXWfCQGSzL_-ogBNLNagWhZ6xC4_kaOgCPQDc74bs5IMed89Ml"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+18%3A09%3A36+%2B0000&authorization=FSE+6392380%3Aqj9Cx122P4PIhA3h1QqFb5IlxfQnmTto4jmA8MfuaxCHUVTntuM4tkwsNnrWYp5DvQluJp4fPQRc4XKHpYutYal_FBJGer_0NIbF1kiY4PfQXkckbpaSID4Hhfm-SMpwlNySg4HPKE9ZU6PV8k9hglEMHwqok28K-1yEvkQCD22g-RPVHfbuBYjTCyNwq-Cv"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
