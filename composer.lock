@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.40",
+            "version": "5.6.41",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "0599f37164165df5fe637bc59a868f5fd120aa4f"
+                "reference": "8027e3779067ae74de3c2825b6eae0d4f3ca0410"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.40-4deae7.tar",
-                "reference": "0599f37164165df5fe637bc59a868f5fd120aa4f",
-                "shasum": "a211fc0115dc47b699d0353885850be11bbf0e22"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.41-a4ca6e.tar",
+                "reference": "8027e3779067ae74de3c2825b6eae0d4f3ca0410",
+                "shasum": "5e5faf30b16fa04e3f96774afd83e078a667bd61"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-03T16:33:47+00:00"
+            "time": "2023-01-03T17:07:17+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.23",
+            "version": "1.0.24",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "aed7836201b0b46b87709add947b3a0c563aebbd"
+                "reference": "9171b869e199133323eb608a607e4b7407f540c3"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.23-e18aed.tar",
-                "reference": "aed7836201b0b46b87709add947b3a0c563aebbd",
-                "shasum": "d965f1e781e3243cbd05288276fbbe197becb558"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.24-050f39.tar",
+                "reference": "9171b869e199133323eb608a607e4b7407f540c3",
+                "shasum": "d71b9ef1f7a69babec4d02e12317b122a7010e7f"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-03T16:51:47+00:00"
+            "time": "2023-01-03T17:04:05+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+16%3A53%3A33+%2B0000&authorization=FSE+6392380%3AUaFqoOwvzhzeiG4pIJzDW4OFGtXLZfgQryyTLS6aD5NXkoT-4hcLkLUww0J4P-0JWp_8aG6AEAuSvUDuyI5q5ZGknZSkIfb1g9TgQ6tr8MObDvK783D14JHHnVDnq_KvAPwl_xO6oBsbUqgeu2FdggeBupWN0ksGgwnKO230I6dc-xxsp9B5UrDe-OFZwrY7"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Tue%2C+03+Jan+2023+17%3A10%3A46+%2B0000&authorization=FSE+6392380%3A0UgPlQuj-PmAdr8iSpaEn0cVohbOOKYsqsIDho6oXM8YXwAh4LA6id-io8m1xYyQp2Lu7S47_VtWN0xsvaIfThzpy8ThvHxjEXZ8_S4yigWwgBIWIaWkCbWdic4AzvBKPFqGQlVNuT-IM2F8_gEZciBG3SlyImSN7lo9OqOLNYR-E8clA8XgwU9BJqPQ5xIL"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5017,12 +5017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e8f95474ff76aecbfaedb2e4db50eb259ff72e58"
+                "reference": "3793a63aac3c97bb8d5c9039b33b6101b6ab2841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e8f95474ff76aecbfaedb2e4db50eb259ff72e58",
-                "reference": "e8f95474ff76aecbfaedb2e4db50eb259ff72e58",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3793a63aac3c97bb8d5c9039b33b6101b6ab2841",
+                "reference": "3793a63aac3c97bb8d5c9039b33b6101b6ab2841",
                 "shasum": ""
             },
             "conflict": {
@@ -5161,7 +5161,7 @@
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
                 "friendsoftypo3/mediace": ">=7.6.2,<7.6.5",
                 "froala/wysiwyg-editor": "<3.2.7",
-                "froxlor/froxlor": "<0.10.39",
+                "froxlor/froxlor": "<0.10.39|>=2-beta.0,<2-beta.1",
                 "fuel/core": "<1.8.1",
                 "gaoming13/wechat-php-sdk": "<=1.10.2",
                 "genix/cms": "<=1.1.11",
@@ -5557,7 +5557,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-30T18:04:41+00:00"
+            "time": "2023-01-03T17:04:46+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
