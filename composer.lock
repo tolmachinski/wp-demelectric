@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.41",
+            "version": "5.6.43",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "8027e3779067ae74de3c2825b6eae0d4f3ca0410"
+                "reference": "827edc4d41bf9fd20a264ecdee889a5bd54828de"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.41-a4ca6e.tar",
-                "reference": "8027e3779067ae74de3c2825b6eae0d4f3ca0410",
-                "shasum": "5e5faf30b16fa04e3f96774afd83e078a667bd61"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.43-b86270.tar",
+                "reference": "827edc4d41bf9fd20a264ecdee889a5bd54828de",
+                "shasum": "87a95a31c8ee0dd1b202961e08ab10d2e982b718"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-03T17:07:17+00:00"
+            "time": "2023-01-04T10:07:03+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+04+Jan+2023+07%3A21%3A03+%2B0000&authorization=FSE+6392380%3A-kBNVvuydXIOHx8Y_C_Oi4MGFVKHxuw9hthLnlE8HW7j6qtzx9z4JqF3Lhz4yo_mu7CKmID_V8Mt_e8WxPYDfr4k1W3Ge9ZleL5TfLMaXygAvESIaU-4YW32bzLIjiHYS1EaTRv-YiYRaGiNs-Pbt3-5RToyvkT6bnsQT5QLE6ponBtLMkpqwZt7j884H-AF"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+04+Jan+2023+10%3A08%3A50+%2B0000&authorization=FSE+6392380%3A3rBHwnvX6fjmHnvVwwkGjEVBI3TKBS0xT2NKjDVSsI_mxu7khDHv--kOgfNnmSQD-qfU5XfWXKF5k3vSsoBu75YlFYX5942Q7jAk-I2QhUlbzaWsvBHIRrEfqBhTf8F7udCXRTPThaNFBlA75vKRuDSa5H37klbEdNBhSkWoyAZuaWHk_ZwKFN3RhTExGklx"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5628,5 +5628,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
