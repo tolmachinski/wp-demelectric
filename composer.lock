@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.43",
+            "version": "5.6.44",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "827edc4d41bf9fd20a264ecdee889a5bd54828de"
+                "reference": "436109974eac11b050c8efb7d5494311cda641f5"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.43-b86270.tar",
-                "reference": "827edc4d41bf9fd20a264ecdee889a5bd54828de",
-                "shasum": "87a95a31c8ee0dd1b202961e08ab10d2e982b718"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.44-137f90.tar",
+                "reference": "436109974eac11b050c8efb7d5494311cda641f5",
+                "shasum": "394f7a082154f5a4e9624b096f020d2462059c2d"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-04T10:07:03+00:00"
+            "time": "2023-01-04T11:03:36+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.73",
+            "version": "1.0.75",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "c87b7623f13f249a41afec036c8056673832a965"
+                "reference": "b35cdba2a9fa29998a3cf8d5cd5ce371b7a974ac"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.73-484a3e.tar",
-                "reference": "c87b7623f13f249a41afec036c8056673832a965",
-                "shasum": "3e26b2e7cf461bb45e2b522da346b911cc1ed9b2"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.75-661467.tar",
+                "reference": "b35cdba2a9fa29998a3cf8d5cd5ce371b7a974ac",
+                "shasum": "576703019f63931059e277d40947617f1d240382"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-04T07:14:49+00:00"
+            "time": "2023-01-04T18:30:23+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -359,17 +359,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.52",
+            "version": "1.0.53",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "5a58f954d43b29a0423c80053b3905a298683ce5"
+                "reference": "7f1055c1cfa510b12221d04e0a9a255c334f5e80"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.52-4ba866.tar",
-                "reference": "5a58f954d43b29a0423c80053b3905a298683ce5",
-                "shasum": "617d1422f6385061a7d30f9d593bada331628189"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.53-4bcebb.tar",
+                "reference": "7f1055c1cfa510b12221d04e0a9a255c334f5e80",
+                "shasum": "10cb2e30473af21c812a4b4c81ddce1764fb8008"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -397,7 +397,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2023-01-03T08:00:35+00:00"
+            "time": "2023-01-04T18:28:21+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+04+Jan+2023+10%3A27%3A14+%2B0000&authorization=FSE+6392380%3AMX83S2JFrW9Yx9XQssIroq1rEhfhlF1g9OvZzkJnMDrbaiSllM1j6K_sBdAWWIn9erZNwVB5gnxQkTFC7QAdtj2mB9BSfJb-NzlCSvvbOsG4xaex0kiNofVV67UdfjT-kyL9M5gu3QRoZoD4HSMGNqWS-uiYflvuyfG5HVOdTvOnpQRp6qIiro7NV2DBXrPn"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Wed%2C+04+Jan+2023+18%3A32%3A02+%2B0000&authorization=FSE+6392380%3AQ95kCptz_E7Lo4LWsx78Bx8E0XW7l9nrisxeiQEjyL1UvM9nUrdde9xskFEOEpOvGmbH3252MuJvbCBA4Olbzu2pGXBlnad4jhWciabN9dks-zscuy2gGsQLT5sXlg1y2CvrrV7Mwro159JLi_PQ3WChfwxV8OhgFH2FfviX3cMTytRV3sLS53E9udRcX6H2"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5017,12 +5017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3793a63aac3c97bb8d5c9039b33b6101b6ab2841"
+                "reference": "ef9dca6c49faa06e7203bbed30411e26e474a8fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3793a63aac3c97bb8d5c9039b33b6101b6ab2841",
-                "reference": "3793a63aac3c97bb8d5c9039b33b6101b6ab2841",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ef9dca6c49faa06e7203bbed30411e26e474a8fb",
+                "reference": "ef9dca6c49faa06e7203bbed30411e26e474a8fb",
                 "shasum": ""
             },
             "conflict": {
@@ -5446,7 +5446,7 @@
                 "tinymce/tinymce": "<5.10.7|>=6,<6.3.1",
                 "titon/framework": ">=0,<9.9.99",
                 "tobiasbg/tablepress": "<= 2.0-RC1",
-                "topthink/framework": "<=6.0.13",
+                "topthink/framework": "<6.0.14",
                 "topthink/think": "<=6.0.9",
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<=9.3.57595",
@@ -5557,7 +5557,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-03T17:04:46+00:00"
+            "time": "2023-01-04T14:04:25+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5628,5 +5628,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
