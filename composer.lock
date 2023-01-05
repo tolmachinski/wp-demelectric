@@ -25,20 +25,20 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.45",
+            "version": "5.6.46",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "fd7baea088fe5400494bd8e1a040299209f4f4da"
+                "reference": "017498595cebb090335cb8f2d8fb3535ab0402c0"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.45-60220e.tar",
-                "reference": "fd7baea088fe5400494bd8e1a040299209f4f4da",
-                "shasum": "80a26327299724b7eb3c15cd48fec37a46ac6017"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.46-7d36b8.tar",
+                "reference": "017498595cebb090335cb8f2d8fb3535ab0402c0",
+                "shasum": "6b8f5ffcf0ffcdb06575b6b9899342adac5b6c60"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-05T10:35:55+00:00"
+            "time": "2023-01-05T11:46:42+00:00"
         },
         {
             "name": "breakmedia/basel-child",
@@ -76,20 +76,20 @@
         },
         {
             "name": "breakmedia/breakmedia-frm",
-            "version": "1.0.27",
+            "version": "1.0.28",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-frm.git",
-                "reference": "903011aac4f0bd986f8e1a4f7d38a83f7c293514"
+                "reference": "28c62909adc61c003c0a9140a9e6219cf9f4f288"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.27-a12a6b.tar",
-                "reference": "903011aac4f0bd986f8e1a4f7d38a83f7c293514",
-                "shasum": "8689ccbdd82d456ee7ef7aa0911aa96a0c29b361"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-frm/breakmedia-breakmedia-frm-1.0.28-ca25ea.tar",
+                "reference": "28c62909adc61c003c0a9140a9e6219cf9f4f288",
+                "shasum": "c8b8fb15cd5699817541e3e7000a018f9696bb81"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-04T10:24:40+00:00"
+            "time": "2023-01-05T11:49:19+00:00"
         },
         {
             "name": "breakmedia/breakmedia-pdf",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+05+Jan+2023+10%3A44%3A34+%2B0000&authorization=FSE+6392380%3AIZlzGGAL4z1R87yHjOJuQfzj4HPIMOLIi0zOZkrNnwd18rP5L6knZGk8Tu4J_X9STsUhFel8LzFWFmzLwvNVAKUN3F3dB7lSs2fzELk2rqSwVrwkKPmcM3diDFcOLqCHLvuawXD-dThsTJLp_9r1ITLWE33gQtQbezi4cTUDkaUC-lbt8drhk1cwOWs7ax0w"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+05+Jan+2023+11%3A50%3A44+%2B0000&authorization=FSE+6392380%3AZ-T4iYw2m83YAtpBtX1S89J8e0famT8K_v6B96KHB0wvxHq1CpyCHdr9KhoTxSk6kloS2-OTF8-rvnDn5enEaI9nVruVwHAYS6GVNaZ79dIgfK_pKMsJ-AtSvBeQeN2PdfVZCcJ0AFakethdqiFh6mrjm8k6hs9OaIX4p56o0CqSFlEvjQ1f8-wLi3XetFiU"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4896,15 +4896,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-multilingual",
-            "version": "5.0.2",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-multilingual/",
-                "reference": "tags/5.0.2"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-multilingual.5.0.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-multilingual.5.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5628,5 +5628,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
