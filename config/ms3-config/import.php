@@ -47,6 +47,7 @@ $config = [
     ],
     ImportConfig::ATTRIBUTES_VALUES_MAPPER => [
         'StockStatus' => [
+            0 => 'stock_st_red',
             1 => 'stock_st_red',
             2 => 'stock_st_orange',
             3 => 'stock_st_green',

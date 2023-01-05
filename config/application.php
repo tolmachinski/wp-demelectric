@@ -115,8 +115,8 @@ Config::define('WC_PRODUCT_STOCK_STATUS_INLINE_COLORS_HASMAP', array(
 
 Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
     "art" => "pa_ean",
-    "art-no" => "pa_emno",
-    "e-no" => "pa_ve",
+    "art-no" => "artNr",
+    "e-no" => "ean",
     "brand-image" => "pa_pictogram_list"
 ));
 Config::define("WC_SUPPORTED_LANGUAGES", array(
