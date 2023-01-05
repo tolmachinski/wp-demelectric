@@ -42,20 +42,20 @@
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.75",
+            "version": "1.0.76",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "b35cdba2a9fa29998a3cf8d5cd5ce371b7a974ac"
+                "reference": "3e7da245c37071d4cadd75c1c9e633cdf02b17a7"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.75-661467.tar",
-                "reference": "b35cdba2a9fa29998a3cf8d5cd5ce371b7a974ac",
-                "shasum": "576703019f63931059e277d40947617f1d240382"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.76-5f5f6c.tar",
+                "reference": "3e7da245c37071d4cadd75c1c9e633cdf02b17a7",
+                "shasum": "22d0efde9c2cdfa0a10a8d632b889bbc3b757f51"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-04T18:30:23+00:00"
+            "time": "2023-01-05T16:48:33+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -359,17 +359,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.54",
+            "version": "1.0.55",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "fa9f4d43b8c44eb4fdbe20bcbb040b7d8085c05f"
+                "reference": "7ce9689e6c8a002c26a29a8f681301e845160c47"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.54-a4e45a.tar",
-                "reference": "fa9f4d43b8c44eb4fdbe20bcbb040b7d8085c05f",
-                "shasum": "3a67aeb517f236a8061ede69847db97175aaa6fe"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.55-3e9ab6.tar",
+                "reference": "7ce9689e6c8a002c26a29a8f681301e845160c47",
+                "shasum": "46e5ba9076c8ff3937b2c5e287e2a8f43785642c"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -397,7 +397,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2023-01-04T19:45:42+00:00"
+            "time": "2023-01-05T16:48:18+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+05+Jan+2023+11%3A50%3A44+%2B0000&authorization=FSE+6392380%3AZ-T4iYw2m83YAtpBtX1S89J8e0famT8K_v6B96KHB0wvxHq1CpyCHdr9KhoTxSk6kloS2-OTF8-rvnDn5enEaI9nVruVwHAYS6GVNaZ79dIgfK_pKMsJ-AtSvBeQeN2PdfVZCcJ0AFakethdqiFh6mrjm8k6hs9OaIX4p56o0CqSFlEvjQ1f8-wLi3XetFiU"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Thu%2C+05+Jan+2023+16%3A52%3A38+%2B0000&authorization=FSE+6392380%3AKcbXIYDjokbkx01SlkHCAdKHNpq9DRQ1h5lRPmqN9EyjMGyn1erWOes9pBYS5AcKth0TR7squBJOqMJEbK-AeghRBciNihn0rmq-7O9OXh_omX_JDA9io4_7_MbiqmjVMxZPeAJ_RXb0UrO53s-g1SBaYHpTbboxN1kc9RwsbMqgWbxLTQt0AUh1TJQ7JIZ2"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -5628,5 +5628,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

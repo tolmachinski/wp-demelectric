@@ -26,6 +26,7 @@ $config = [
         'hyperlinks',
     ],
     ImportConfig::CUSTOM_ATTRIBUTES => [
+        'artNr',
         'ean',
         'eNo',
         'emNo',
@@ -35,6 +36,10 @@ $config = [
         'pictogram_list',
         'detail_description',
         'productlead',
+        'bezeichnung1',
+        'produktetext',
+        'ETIM_Group',
+        'ETIM_Class',
     ],
     ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
         "upsells" => 3,
