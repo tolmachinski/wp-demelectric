@@ -359,17 +359,17 @@
         },
         {
             "name": "breakmedia/ms3-connector",
-            "version": "1.0.56",
+            "version": "1.0.57",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/ms3-connector.git",
-                "reference": "9382075556aeee9e2d35077e60db24a74e987afe"
+                "reference": "972b8c4ce48dde2dbd113cf1eead0fb9ac647a88"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.56-d7cb39.tar",
-                "reference": "9382075556aeee9e2d35077e60db24a74e987afe",
-                "shasum": "f90a0f56750e55785afe76b0400f3ac97fdd56f0"
+                "url": "https://satis.molbak.at/dist/breakmedia/ms3-connector/breakmedia-ms3-connector-1.0.57-cec972.tar",
+                "reference": "972b8c4ce48dde2dbd113cf1eead0fb9ac647a88",
+                "shasum": "77570b0246d27561df276683a00ffb8eb4222d7f"
             },
             "require": {
                 "doctrine/annotations": "^1.13",
@@ -397,7 +397,7 @@
                 }
             ],
             "description": "mS3 Connector for woocommerce",
-            "time": "2023-01-05T22:25:27+00:00"
+            "time": "2023-01-07T13:54:20+00:00"
         },
         {
             "name": "breakmedia/prdctfltr",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Fri%2C+06+Jan+2023+14%3A32%3A13+%2B0000&authorization=FSE+6392380%3A7NLDPLs6T29ABFUgSpwnkjdAkIYmIGKhgifUbLObacxfTSXqSVDP1Z-j0_J6vyX3JH6_tvV4q1rgT7bqy4rkbjHsHjClRtcO_w2nEM5hoJJoWQYISCBXPls9P6aCuW4798L1FiA2DXPusP2oYL5VZ6ALw49d-jzF67nHpcERFMg_EgyneAyZrhUsONDbjalC"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sat%2C+07+Jan+2023+14%3A06%3A44+%2B0000&authorization=FSE+6392380%3AOqnbDFTK8VYrOS7DBReJB6dVHjwTbjlKTORyjM3DOSpFZZlVUBoncv_35bvoNeGBT3rUnKL49d6YuDwABS3g6TmysEZE3TPKDXTCaMSqBePd73iWtePOOr__PLEsQoSS5tFCmktvjzIP5_GWPJou2eoQPbrAq7OE-U-ZfmKSeXHEJImWTiyFhnQJtrgIk0cF"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"

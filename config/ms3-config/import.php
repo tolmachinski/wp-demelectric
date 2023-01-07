@@ -23,10 +23,10 @@ $config = [
     ImportConfig::SKIP_ATTRIBUTES => [
         'Test',
         'detail_attr_table',
-        'hyperlinks',
     ],
     ImportConfig::CUSTOM_ATTRIBUTES => [
         'artNr',
+        'art',
         'ean',
         'eNo',
         'emNo',
@@ -37,9 +37,12 @@ $config = [
         'detail_description',
         'productlead',
         'bezeichnung1',
+        'bezeichnung2',
         'produktetext',
         'ETIM_Group',
         'ETIM_Class',
+        'nettogewicht',
+        'hyperlinks',
     ],
     ImportConfig::PRODUCT_RELATION_TYPE_HASHMAP => [
         "upsells" => 3,
@@ -60,7 +63,8 @@ $config = [
         1 => "subcategories",
         2 => "subcategories",
         3 => "subcategories"
-    ]
+    ],
+    ImportConfig::IMPORT_PROCESS_PARAMETERS => '-d memory_limit=4G',
 ];
 
 return function (ContainerConfigurator $configurator, ContainerBuilder $container) use ($config) {
