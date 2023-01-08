@@ -114,9 +114,9 @@ Config::define('WC_PRODUCT_STOCK_STATUS_INLINE_COLORS_HASMAP', array(
 ));
 
 Config::define('WC_PRODUCT_PRODUCT_ATTRIBUTES', array(
-    "art" => "pa_ean",
+    "art" => "art",
     "art-no" => "artNr",
-    "e-no" => "ean",
+    "e-no" => "eNo",
     "brand-image" => "pa_pictogram_list"
 ));
 Config::define("WC_SUPPORTED_LANGUAGES", array(
@@ -126,6 +126,7 @@ Config::define("WC_SUPPORTED_LANGUAGES", array(
 ));
 
 Config::define('WC_PRODUCT_STOCK_STATUS_FIELD_NAME', 'pa_stockstatus');
+Config::define('WC_PRODUCT_SUBHEADER_FIELD_NAME', 'produktetext');
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Disable the plugin and theme file editor in the admin

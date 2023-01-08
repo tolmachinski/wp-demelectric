@@ -25,37 +25,37 @@
         },
         {
             "name": "breakmedia/basel",
-            "version": "5.6.49",
+            "version": "5.6.50",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel.git",
-                "reference": "05d3def1e010c43e6c36cd312d69e19c2e725e39"
+                "reference": "978b87e19fd702924475c1cfa70b16650d263495"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.49-f6f50b.tar",
-                "reference": "05d3def1e010c43e6c36cd312d69e19c2e725e39",
-                "shasum": "2a8cf1fe2c859330522b1512fd68e1be81f1c446"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel/breakmedia-basel-5.6.50-0ce97f.tar",
+                "reference": "978b87e19fd702924475c1cfa70b16650d263495",
+                "shasum": "fc001b17379898809ae71de5048b27dad561653a"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-06T14:15:54+00:00"
+            "time": "2023-01-08T19:14:55+00:00"
         },
         {
             "name": "breakmedia/basel-child",
-            "version": "1.0.77",
+            "version": "1.0.78",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/basel-child.git",
-                "reference": "9ed2bcdaab3e0c3749673d11a455954349e4ae61"
+                "reference": "b36d13fde1f1161e613bac963d29cd65d7bfb077"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.77-b42cf7.tar",
-                "reference": "9ed2bcdaab3e0c3749673d11a455954349e4ae61",
-                "shasum": "df8d9b59d2e04055c9f674456924d25f7c7c06d6"
+                "url": "https://satis.molbak.at/dist/breakmedia/basel-child/breakmedia-basel-child-1.0.78-8de6b0.tar",
+                "reference": "b36d13fde1f1161e613bac963d29cd65d7bfb077",
+                "shasum": "c37ceab9dc9567849c795f289ae3d076380375fe"
             },
             "type": "wordpress-theme",
-            "time": "2023-01-07T20:32:52+00:00"
+            "time": "2023-01-08T19:15:18+00:00"
         },
         {
             "name": "breakmedia/basel-post-types",
@@ -125,16 +125,16 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
-                "reference": "cbf6672ff274e0d9a489ef6f1da3bfa7f4de7d2f"
+                "reference": "b539d061d96f122a4f47cc61d782b144ad366bc2"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-272e92.tar",
-                "reference": "cbf6672ff274e0d9a489ef6f1da3bfa7f4de7d2f",
-                "shasum": "bc1e93632a5b050712f303151869243a88fec86a"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-beb107.tar",
+                "reference": "b539d061d96f122a4f47cc61d782b144ad366bc2",
+                "shasum": "0fa403e67b3a97e9050a812a790f37db1061650b"
             },
             "type": "wordpress-plugin",
-            "time": "2022-12-08T13:23:42+00:00"
+            "time": "2023-01-08T19:16:06+00:00"
         },
         {
             "name": "breakmedia/folders-pro",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sat%2C+07+Jan+2023+20%3A34%3A55+%2B0000&authorization=FSE+6392380%3Ak8ZgY-GnQvW2DJMZBvxHbn-1W93_FNrRPMooNRMKaK4ADv1lw422_n687YdDu9nvLdcsdiNR0rw3pd8AR99KRzs8tyF3GhsTGiQxbeg-lB8HGzfA9aHlme4TaiYXDtwLjr38yPkyrHQb4Sm4Zu-Dc05Xi-aB2Nu9mJksAdPgspbY5y03yfxq36oamlq56vXu"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+08+Jan+2023+19%3A19%3A52+%2B0000&authorization=FSE+6392380%3AbLXy5UxDpk1J75yxZpjhNc1XcC8VXVzxfjjYXFU9_4W3QB8CkAURp3Vty946StkXcAB3jw5SR5QXSIi6xrZw21MaVWAwJjCerNk91O1oFNBwCWtTd7bi6-Y4vtb4TTStqmccx636chUi4ivIAih54hEDtNdmdbDa5hQBI7umpbTpGVej_V06s5FD2GMrQrhw"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
