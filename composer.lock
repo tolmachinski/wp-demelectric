@@ -125,16 +125,16 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:breakmedia/breakmedia-widgets.git",
-                "reference": "b539d061d96f122a4f47cc61d782b144ad366bc2"
+                "reference": "35da458e44b12753d2fc6589912f89b91c2c7f30"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-beb107.tar",
-                "reference": "b539d061d96f122a4f47cc61d782b144ad366bc2",
-                "shasum": "0fa403e67b3a97e9050a812a790f37db1061650b"
+                "url": "https://satis.molbak.at/dist/breakmedia/breakmedia-widgets/breakmedia-breakmedia-widgets-v1.0.x-dev-0c5ab1.tar",
+                "reference": "35da458e44b12753d2fc6589912f89b91c2c7f30",
+                "shasum": "1becaf5dc30dd6eb8a4d3f35d9c1ccb9b98c7e8b"
             },
             "type": "wordpress-plugin",
-            "time": "2023-01-08T19:16:06+00:00"
+            "time": "2023-01-08T19:54:14+00:00"
         },
         {
             "name": "breakmedia/folders-pro",
@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+08+Jan+2023+19%3A19%3A52+%2B0000&authorization=FSE+6392380%3AbLXy5UxDpk1J75yxZpjhNc1XcC8VXVzxfjjYXFU9_4W3QB8CkAURp3Vty946StkXcAB3jw5SR5QXSIi6xrZw21MaVWAwJjCerNk91O1oFNBwCWtTd7bi6-Y4vtb4TTStqmccx636chUi4ivIAih54hEDtNdmdbDa5hQBI7umpbTpGVej_V06s5FD2GMrQrhw"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+08+Jan+2023+19%3A55%3A52+%2B0000&authorization=FSE+6392380%3AXIT3pa0GFZhh-SfO98NeXBl46aYX7ULIEkpvc497WBd_BBePzAwQpmCLeXBIR-qdqL-Ty5bHRAGo_TKixTM-aPseLsc8s84bGIZXNkIEPBfy0SGVQ4AVbUTlXqsxDYIPWMgpmRrpy17qvcaSlx8gTI5m0cjuFryTNoIlRc_Xk8MjZ7a1stio2lVAkB1spiTp"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
