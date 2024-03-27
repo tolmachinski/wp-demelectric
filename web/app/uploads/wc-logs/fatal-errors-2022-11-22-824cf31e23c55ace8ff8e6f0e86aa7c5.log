@@ -1,0 +1,2 @@
+2022-11-22T09:55:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.40/web/wp/wp-includes/class-wp-hook.php in Zeile 313
+

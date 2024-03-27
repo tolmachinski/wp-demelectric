@@ -1,0 +1,10 @@
+{
+    "require": {
+        "thenetworg\/oauth2-azure": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "_PhpScoper99e9e79e8301\\Classes\\Mail_Integration_365\\": ""
+        }
+    }
+}

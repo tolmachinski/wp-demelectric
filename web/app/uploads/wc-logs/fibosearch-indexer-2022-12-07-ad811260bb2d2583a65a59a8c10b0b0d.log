@@ -1,0 +1,28 @@
+2022-12-07T19:36:11+00:00 INFO [3470725] Build ID: 6390dd1b0af47
+2022-12-07T19:36:11+00:00 INFO [3470725] Indexer mode: async
+2022-12-07T19:36:11+00:00 INFO [3470725] Parallel build: yes
+2022-12-07T19:36:11+00:00 INFO [3470725] Plugin version: 1.21.1
+2022-12-07T19:36:11+00:00 INFO [3470725] Multilingual: Yes, Provider: WPML, Default: de, Langs: fr,de,it
+2022-12-07T19:36:11+00:00 INFO [3470725] Indexer prepared for building the index
+2022-12-07T19:36:14+00:00 INFO [3470777] Indexer started building the index
+2022-12-07T19:36:14+00:00 INFO [3470777] [Readable index] Building...
+2022-12-07T19:36:15+00:00 INFO [3470777] [Searchable index] Building...
+2022-12-07T19:36:21+00:00 INFO [3470733] [Readable index] Processed 100 objects
+2022-12-07T19:36:21+00:00 INFO [3470733] [Readable index] Processed 112 objects
+2022-12-07T19:36:21+00:00 INFO [3470733] [Readable index] Completed
+2022-12-07T19:36:21+00:00 INFO [3470733] [Taxonomy index] Building...
+2022-12-07T19:36:24+00:00 INFO [3470446] [Taxonomy index] Processed 16 terms in 0.0974 s
+2022-12-07T19:36:24+00:00 INFO [3470446] [Taxonomy index] Completed
+2022-12-07T19:36:25+00:00 INFO [3470446] [Variation index] Building...
+2022-12-07T19:36:25+00:00 INFO [3470446] [Variation index] Processed 0 objects
+2022-12-07T19:36:25+00:00 INFO [3470446] [Variation index] Completed
+2022-12-07T19:36:26+00:00 INFO [3470723] [Searchable index] Processed 76 objects in 2.3405 s
+2022-12-07T19:36:27+00:00 INFO [3470723] [Searchable index] Processed 117 objects in 1.3532 s
+2022-12-07T19:36:30+00:00 INFO [3470723] [Searchable index] Processed 126 objects in 3.3147 s
+2022-12-07T19:36:34+00:00 INFO [3470723] [Searchable index] Processed 151 objects in 3.5947 s
+2022-12-07T19:36:34+00:00 INFO [3470723] [Searchable index] Completed
+2022-12-07T19:36:35+00:00 INFO [3470723] Indexing completed
+2022-12-07T19:36:36+00:00 NOTICE [3470723] [Searchable index] Array to string conversion | Type: E_NOTICE | File: /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.75/web/wp/wp-includes/shortcodes.php:355
+2022-12-07T19:36:36+00:00 NOTICE [3470723] [Searchable index] Array to string conversion | Type: E_NOTICE | File: /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.75/web/wp/wp-includes/shortcodes.php:355
+2022-12-07T19:36:36+00:00 NOTICE [3470723] [Searchable index] Array to string conversion | Type: E_NOTICE | File: /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.75/web/wp/wp-includes/shortcodes.php:355
+2022-12-07T19:36:36+00:00 NOTICE [3470723] [Searchable index] Array to string conversion | Type: E_NOTICE | File: /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.75/web/wp/wp-includes/shortcodes.php:355

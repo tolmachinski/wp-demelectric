@@ -1,0 +1,2 @@
+2022-11-23T15:54:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.43/web/app/plugins/sitepress-multilingual-cms/classes/display-as-translated/class-wpml-cache-terms-per-lang.php in Zeile 65
+

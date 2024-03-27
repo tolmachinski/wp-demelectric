@@ -1,0 +1,4 @@
+2022-11-17T08:58:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.29/web/wp/wp-includes/class-wp-object-cache.php on line 180
+
+2022-11-17T09:17:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.29/web/app/plugins/sitepress-multilingual-cms/vendor/jakeasmith/http_build_url/src/http_build_url.php on line 87
+

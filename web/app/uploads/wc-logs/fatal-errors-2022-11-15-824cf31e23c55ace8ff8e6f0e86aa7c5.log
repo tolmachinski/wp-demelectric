@@ -1,0 +1,28 @@
+2022-11-15T19:59:55+00:00 CRITICAL Uncaught Error: Call to undefined method BreakFrmFieldWishlist::get_property_name_settings() in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php:107
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(807): BreakFrmFieldWishlist->front_field_input(Array, Array)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(716): FrmFieldType->include_front_field_input(Array, Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(684): FrmFieldType->prepare_field_html(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/helpers/Fr in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php on line 107
+
+2022-11-15T20:01:51+00:00 CRITICAL Uncaught Error: Call to undefined method BreakFrmFieldWishlist::get_property_name_settings() in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php:62
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-fields/back-end/settings.php(70): BreakFrmFieldWishlist->show_primary_options(Array)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/FrmFieldsController.php(316): include('/var/www/vhosts...')
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-forms/add_field.php(73): FrmFieldsController::load_single_field_settings(NULL)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/Frm in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php on line 62
+
+2022-11-15T20:02:11+00:00 CRITICAL Uncaught Error: Call to undefined method BreakFrmFieldWishlist::get_property_name_settings() in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php:62
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-fields/back-end/settings.php(70): BreakFrmFieldWishlist->show_primary_options(Array)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/FrmFieldsController.php(316): include('/var/www/vhosts...')
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-forms/add_field.php(73): FrmFieldsController::load_single_field_settings(NULL)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/Frm in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php on line 62
+
+2022-11-15T20:02:33+00:00 CRITICAL Uncaught Error: Call to undefined method BreakFrmFieldWishlist::get_property_name_settings() in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php:62
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-fields/back-end/settings.php(70): BreakFrmFieldWishlist->show_primary_options(Array)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/FrmFieldsController.php(316): include('/var/www/vhosts...')
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/views/frm-forms/add_field.php(73): FrmFieldsController::load_single_field_settings(NULL)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/formidable/classes/controllers/Frm in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.25/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php on line 62
+

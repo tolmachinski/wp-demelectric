@@ -1,0 +1,81 @@
+2022-12-02T15:46:27+00:00 CRITICAL Uncaught Error: Call to a member function get_cross_sell_ids() on bool in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:221
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_w in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 221
+
+2022-12-02T15:46:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cross_sell_ids() on bool in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:221
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_w in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 221
+
+2022-12-02T15:47:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cross_sell_ids() on bool in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:221
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_w in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.63/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 221
+
+2022-12-02T16:27:09+00:00 CRITICAL Uncaught Error: Class 'XTS\WC_Wishlist\Config' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:218
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_wishlist...')
+# in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 218
+
+2022-12-02T16:29:06+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/views/frm-fields/front-end/field-wishlist.php:31
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php(106): include()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(807): BreakFrmFieldWishlist->front_field_input(Array, Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(716): FrmFieldType->include_front_field_input(Array, Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(684): FrmFieldType->prepa in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/views/frm-fields/front-end/field-wishlist.php in Zeile 31
+
+2022-12-02T16:29:29+00:00 CRITICAL Uncaught Error: Class 'XTS\WC_Wishlist\Config' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:218
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_wishlist...')
+# in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 218
+
+2022-12-02T16:31:24+00:00 CRITICAL Uncaught Error: Class 'XTS\WC_Wishlist\Config' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:218
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '<p>[basel_wishl...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.ph in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 218
+
+2022-12-02T16:31:59+00:00 CRITICAL Uncaught Error: Class 'XTS\WC_Wishlist\Config' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:218
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '<p>[basel_wishl...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.ph in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 218
+
+2022-12-02T16:32:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/views/frm-fields/front-end/field-wishlist.php:31
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/models/fields/BreakFrmFieldWishlist.php(106): include()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(807): BreakFrmFieldWishlist->front_field_input(Array, Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(716): FrmFieldType->include_front_field_input(Array, Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/formidable/classes/models/fields/FrmFieldType.php(684): FrmFieldType->prepa in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.64/web/app/plugins/breakmedia-frm/classes/views/frm-fields/front-end/field-wishlist.php in Zeile 31
+
+2022-12-02T16:49:52+00:00 CRITICAL Uncaught Error: Class 'XTS\WC_Wishlist\Config' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php:218
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php(127): XTS\WC_Wishlist\Ui->wishlist_page_content()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/wp/wp-includes/shortcodes.php(355): XTS\WC_Wishlist\Ui->wishlist_page('', '', 'basel_wishlist')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/wp/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(frmmod...', 'do_shortcode_ta...', '[basel_wishlist...')
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/wp/wp-includes/class-wp-hook.php(308): do_shortcode('[basel_wishlist...')
+# in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.65/web/app/themes/basel/inc/woocommerce/wishlist/class-ui.php in Zeile 218
+

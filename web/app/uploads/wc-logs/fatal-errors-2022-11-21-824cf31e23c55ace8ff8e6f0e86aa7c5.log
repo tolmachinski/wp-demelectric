@@ -1,0 +1,37 @@
+2022-11-21T13:07:27+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Sitemaps_Cache' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/inc/sitemaps/class-sitemaps.php:107
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/wp-seo-main.php(341): WPSEO_Sitemaps->__construct()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/class-wp-hook.php(308): wpseo_init('')
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(Object(WCPay\MultiCurrency\MultiCurrency), Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/inc/sitemaps/class-sitemaps.php in Zeile 107
+
+2022-11-21T13:07:27+00:00 CRITICAL require_once(): Failed opening required '/var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/inc/wpseo-functions.php' (include_path='.:/opt/plesk/php/7.4/share/pear') in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/wp-seo-main.php in Zeile 319
+
+2022-11-21T13:07:27+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Admin_Asset_Manager' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/classes/premium-assets.php:59
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/classes/premium-assets.php(45): WPSEO_Premium_Assets->get_version()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/class-wp-hook.php(308): WPSEO_Premium_Assets->register_frontend_assets('')
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/wp/wp-settings.php(617): do_ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.32/web/app/plugins/wordpress-seo-premium/classes/premium-assets.php in Zeile 59
+
+2022-11-21T14:47:56+00:00 CRITICAL Uncaught Error: Call to a member function get_element_id() on null in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.33/web/app/plugins/sitepress-multilingual-cms/classes/emails/notification/summary/class-wpml-tm-jobs-summary-report.php:81
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.33/web/app/plugins/sitepress-multilingual-cms/classes/emails/notification/summary/class-wpml-tm-jobs-summary-report.php(47): WPML_TM_Jobs_Summary_Report->build_completed_jobs()
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.33/web/app/plugins/sitepress-multilingual-cms/classes/emails/notification/summary/class-wpml-tm-jobs-summary-report-process-factory.php(66): WPML_TM_Jobs_Summary_Report->__construct(Object(WPML_Translation_Jobs_Collection), Object(WPML_TM_String), Object(WPML_TM_Post), 'weekly', Object(WPML_Translation_Element_Factory))
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/release in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.33/web/app/plugins/sitepress-multilingual-cms/classes/emails/notification/summary/class-wpml-tm-jobs-summary-report.php in Zeile 81
+
+2022-11-21T16:03:34+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Primary_Term' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php:69
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php(51): Yoast\WP\SEO\Integrations\Primary_Category->get_primary_category(Object(WP_Post))
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/wp/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Integrations\Primary_Category->post_link_category(Object(WP_Term), Array, Object(WP_Post))
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/wp/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_Term), Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/wp/ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.34/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php in Zeile 69
+
+2022-11-21T19:01:04+00:00 CRITICAL Uncaught Error: Class '\Yoast\WP\SEO\Models\Primary_Term' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.36/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/lib/model.php:111
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.36/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/repositories/primary-term-repository.php(20): Yoast\WP\Lib\Model::of_type('Primary_Term')
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.36/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/repositories/primary-term-repository.php(38): Yoast\WP\SEO\Repositories\Primary_Term_Repository->query()
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.36/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/builders/primary-term-builder.php(79): Yoast\WP\SEO\Repositories\Primary_Term_Repository->find_by_post_id_and_taxonomy in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.36/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/lib/model.php in Zeile 111
+

@@ -1,0 +1,2473 @@
+# Copyright (C) 2022 FiboSearch Team
+# This file is distributed under the same license as the FiboSearch - AJAX Search for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: FiboSearch v1.21.0\n"
+"Report-Msgid-Bugs-To: https://fibosearch.com/contact\n"
+"Last-Translator: Damian Góra <support@fibosearch.com>\n"
+"Language-Team: FiboSearch Team <support@fibosearch.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-08 11:23+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: includes/Admin/Troubleshooting.php:2269
+msgid "\"Out of stock\" relationships"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Logger.php:45
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1538
+msgid "%s - %s"
+msgstr ""
+
+#: ajax-search-for-woocommerce.php:299
+msgid ""
+"%s is enabled but not effective. It is missing core files. Please reinstall "
+"the plugin."
+msgstr ""
+
+#: ajax-search-for-woocommerce.php:280
+msgid "%s is enabled but not effective. It requires %s in order to work."
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:75
+msgid "%s Theme"
+msgstr ""
+
+#: ajax-search-for-woocommerce.php:260
+#, php-format
+msgid ""
+"%s: You need PHP version at least 7.0 to run this plugin. You are currently "
+"using PHP version %s."
+msgstr ""
+
+#: includes/Settings.php:340
+msgid "(beta feature)"
+msgstr ""
+
+#: includes/Settings.php:802 includes/Settings.php:865
+msgid "-- Disabled"
+msgstr ""
+
+#: partials/admin/stats/stats.php:164 partials/admin/stats/stats.php:213
+msgid "0 searches with results"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1448
+msgid ""
+"1. Unblock the default endpoint or get around the restrictions. Learn how to "
+"solve the issue on our <a target=\"_blank\" href=\"%s\">documentation</a> "
+"and fix it as soon as possible."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1449
+msgid ""
+"2. Once you do that, turn off the safe mode by clicking the following button:"
+msgstr ""
+
+#: includes/Settings.php:188
+msgid "<a target=\"_blank\" href=\"%s\">Read more</a> about this feature."
+msgstr ""
+
+#: partials/admin/stats/stats.php:57
+msgid ""
+"<b>Adding the phrase to the product name</b> - just add the phrase to the "
+"product name, description, SKU, custom field, tag or anything else that's in "
+"your current search scope"
+msgstr ""
+
+#: partials/admin/indexer-header.php:86
+msgid ""
+"<b>Maybe your server can’t send an HTTP requests to itself</b>. Visit the "
+"documentation and read the section <a target=\"_blank\" href=\"%s\">“Your "
+"server can’t send an HTTP request to itself”</a>."
+msgstr ""
+
+#: partials/admin/features.php:19
+msgid ""
+"<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ "
+"products "
+msgstr ""
+
+#: partials/admin/stats/stats.php:58
+msgid ""
+"<b>Synonyms</b> - if the phrase is an alternate version of any other words, "
+"add it as a synonym. Learn more about <a href=\"%s\" target=\"_blank\">the "
+"synonyms feature."
+msgstr ""
+
+#: partials/admin/stats/stats.php:60
+msgid ""
+"<b>Varied naming convention</b> - this issue occurs when users may type a "
+"phrase in several different way – eg. you have SKU \"CB-978-8-7290\", but "
+"users might type it in a different way: \"CB978 8 7290\", \"CB/978/8/7290\", "
+"\"CB97887290\" and so on. To solve such problems, contact our <a href=\"%s\" "
+"target=\"_blank\">technical support</a>, because the solution may be "
+"different for each case."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1541
+msgid ""
+"<strong>Important:</strong> After you rename plugins folders, you need to "
+"reactivate them in the Plugins screen."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1455
+msgid ""
+"<strong>Warning:</strong> We have detected that the search endpoint is being "
+"overwritten by the filter and the alternative search endpoint will not work "
+"properly. Remove filters that override the search engine endpoint."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1063
+msgid ""
+"A real solution is to find the reason why the WP-Cron doesn’t work and fix "
+"it."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1861
+msgid "A search engine's AJAX call did not return valid results"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:831
+msgid ""
+"Add <strong>Archive Products</strong> widget to the template <strong>"
+"%s</strong> or create a new template dedicated to the WooCommerce search "
+"results page. Learn how to do it in <a href=\"%s\" target=\"_blank\">our "
+"documentation</a>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1225
+#: includes/Admin/Troubleshooting.php:1259
+#: includes/Admin/Troubleshooting.php:1500
+#: includes/Admin/Troubleshooting.php:1503
+msgid "Add a constant <code>%s</code> to your <code>wp-config.php</code> file."
+msgstr ""
+
+#: partials/admin/indexer-header.php:57
+msgid ""
+"Add below code to your child theme’s <em>functions.php</em> file or via a "
+"plugin that allows custom functions to be added, such as the <a href=\"https:"
+"//wordpress.org/plugins/code-snippets/\" target=\"_blank\">Code snippets</a> "
+"plugin."
+msgstr ""
+
+#: partials/admin/indexer-header.php:71
+msgid ""
+"Add below code to your child theme’s <em>functions.php</em> file or via a "
+"plugin that allows custom functions to be added, such as the <a href=\"https:"
+"//wordpress.org/plugins/code-snippets/\" target=\"_blank\">Code snippets</a> "
+"plugin. Please don’t add custom code directly to your parent theme’s "
+"functions.php file as this will be wiped entirely when you update the theme."
+msgstr ""
+
+#: includes/EmbeddingViaMenu.php:150
+msgid "Add FiboSearch as a menu item."
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:529 includes/Admin/SettingsAPI.php:630
+msgid "Add new rule"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:952
+msgid ""
+"Add the following PHP code to your functions.php file in the child theme or "
+"use e.g. CodeSnippets plugin."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2028
+msgid "Add the following URL to the white list:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1976
+msgid ""
+"Adding extra rules to <code>/usr/local/nginx/conf/wpsecure_${vhostname}."
+"conf</code>"
+msgstr ""
+
+#: includes/Settings.php:419
+msgctxt "admin"
+msgid "No results label"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1510
+msgid ""
+"After following the above solutions, perform some search analytics table "
+"maintenance: %s"
+msgstr ""
+
+#: widget.php:24
+msgid "AJAX (live) search form for WooCommerce"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1502
+msgid ""
+"All analytics records are deleted after 30 days by default. You can change "
+"this limit to 14 days, for example, and reduce the database weight by about "
+"50%%."
+msgstr ""
+
+#: partials/admin/indexer-header.php:21
+msgid "All product changes will be <strong>re-indexed automatically</strong>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1453
+msgid "Alternative endpoint: <code>%s</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2234
+msgid "Alternative search endpoint"
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:106
+msgid "Alternative ways to embed a search bar"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:77
+msgid "Analytics (beta)"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2239
+msgid "Analytics optimization"
+msgstr ""
+
+#: partials/admin/features.php:31
+msgid "And more..."
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:63
+msgid "and more..."
+msgstr ""
+
+#: includes/Settings.php:268
+msgid "Appearance"
+msgstr ""
+
+#: partials/admin/how-to-use.php:24
+msgid ""
+"Are there any difficulties? <b>We will do it for you!</b> We offer free of "
+"charge search bar implementation for Pro users. <a target=\"_blank\" "
+"href=\"%s\">Become one now!</a>"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:133
+msgid "Are you sure you want to reset stats?"
+msgstr ""
+
+#: partials/admin/how-to-use.php:18
+msgid "As a block"
+msgstr ""
+
+#: partials/admin/how-to-use.php:17
+msgid ""
+"As a menu item - go to the %s and add the menu item “FiboSearch bar”. Done!"
+msgstr ""
+
+#: partials/admin/how-to-use.php:20
+msgid "As a widget - go to the %s and choose “FiboSearch bar”"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:588
+msgid "Attributes: %s"
+msgstr ""
+
+#: includes/Settings.php:124 partials/admin/search-preview.php:23
+msgid "Autocomplete"
+msgstr ""
+
+#: partials/admin/stats/stats.php:82
+msgid "autocomplete"
+msgstr ""
+
+#: includes/Settings.php:248
+msgid "Background color"
+msgstr ""
+
+#: includes/Integrations/Brands.php:192 includes/Integrations/Brands.php:214
+msgid "Based on the plugin %s"
+msgstr ""
+
+#: includes/Settings.php:209 includes/Settings.php:397
+msgid "Basic"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2259
+msgid "Blocked search endpoint test"
+msgstr ""
+
+#: includes/Settings.php:608
+msgid "Border color"
+msgstr ""
+
+#: includes/Integrations/Brands.php:323
+msgid "Brand"
+msgstr ""
+
+#: includes/Integrations/Brands.php:322
+msgid "Brands"
+msgstr ""
+
+#: includes/Settings.php:302 includes/Settings.php:328
+msgid "Breakpoint"
+msgstr ""
+
+#: partials/admin/indexer-body.php:42
+msgid "Build ID"
+msgstr ""
+
+#: partials/admin/indexer-header-demo.php:15
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:880
+msgid "Build index"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:428
+msgid ""
+"Can't check the status. The search index hasn't been completed. Go to the "
+"Indexer tab and wait until the search index is completed."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:800
+msgid "Canceling..."
+msgstr ""
+
+#: partials/admin/indexer-body.php:25
+msgid "Cancellation..."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1345
+msgid ""
+"Change the above-mentioned language codes to the correct format: <code>"
+"xx</code>, <code>xxx</code>, <code>xx-xx</code> or <code>xx-xxxx</code>."
+msgstr ""
+
+#: partials/admin/stats/critical-searches-row.php:12
+msgid "Check"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1783
+msgid ""
+"Check how to solve this issue in <a target=\"_blank\" href=\"%s\">our "
+"documentation.</a> Before you fix the problem, switch on the alternative "
+"search endpoint here: %s. This will allow the search engine to work again, "
+"but search speed may not be optimal. Activate the alternative endpoint only "
+"temporarily, and solve the source of the problem as soon as possible."
+msgstr ""
+
+#: partials/admin/stats/stats.php:25
+msgid "Check if it's been solved"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:429
+msgid "Check the indexer status"
+msgstr ""
+
+#: partials/admin/embedding-in-theme.php:18
+msgid "child theme of <b>%s</b>"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:416
+msgid "Click the button below to remove this phrase from the list."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:810
+msgid "Completed. Works."
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:835
+msgid "Contact"
+msgstr ""
+
+#: partials/admin/indexer-header.php:53
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"max_allowed_packet</code> variable in your MySQL server. It will definitely "
+"solve the problem."
+msgstr ""
+
+#: partials/admin/indexer-header.php:64
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"max_connections</code> variable in your MySQL server. It will definitely "
+"solve the problem."
+msgstr ""
+
+#: partials/admin/indexer-header.php:55
+msgid ""
+"Contact your hosting provider and ask for increasing the value of the <code>"
+"wait_timeout</code> variable in your MySQL server. It should solve the "
+"source of the problem. If your hosting provider isn't able to change MySQL "
+"variables, try to solve it in an alternative way. Follow steps below:"
+msgstr ""
+
+#: includes/Helpers.php:1191
+msgid "continue reading"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1023
+msgid ""
+"Could not load <code>wp-load.php</code> from the locations it normally is. "
+"To solve this issue, contact the <a target=\"_blank\" href=\"%s\">technical "
+"support</a>."
+msgstr ""
+
+#: includes/Settings.php:319
+msgid ""
+"Covers anything that is displayed on the screen and simplifies the view to "
+"search bar + results."
+msgstr ""
+
+#: partials/admin/stats/stats.php:8
+msgid "Critical searches without result"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1456
+msgid "Current endpoint: <code>%s</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1022
+msgid "Custom location of wp-load.php file"
+msgstr ""
+
+#: includes/Settings.php:761
+msgid "daily"
+msgstr ""
+
+#: includes/Settings.php:337
+msgid "Darkened background"
+msgstr ""
+
+#: includes/Settings.php:338
+msgid ""
+"Darkening the page background while autocomplete is active gives it stronger "
+"emphasis, minimizing elements (e.g., ads, carousels, and other page content) "
+"that could distract users from considering autocomplete suggestions."
+msgstr ""
+
+#: partials/admin/indexer-body.php:46
+msgid "DB"
+msgstr ""
+
+#: partials/admin/debug/debug.php:19
+msgid "Debug page"
+msgstr ""
+
+#: widget.php:37 includes/EmbeddingViaMenu.php:186
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1452
+msgid "Default endpoint: <code>%s</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1896
+msgid "Defender plugin by WPMU DEV blocks AJAX calls of the live search"
+msgstr ""
+
+#: includes/Settings.php:520
+msgid "Details panel"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2244
+msgid "Detection of plugins folders renaming"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:824
+#: includes/Admin/Troubleshooting.php:894
+msgid "Dismiss"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:453
+msgid ""
+"Due to the way the TranslatePress - Multilingual plugin works, we can only "
+"provide support for it in the <a href=\"%s\" target=\"_blank\">Pro "
+"version</a>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2156
+msgid "Elementor search results template"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1772
+msgid "Enable alternative search endpoint"
+msgstr ""
+
+#: includes/Settings.php:747
+msgid "Enable Scheduler"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:100
+msgid "Enable search analytics"
+msgstr ""
+
+#: partials/admin/indexer-body.php:76 partials/admin/indexer-body.php:99
+#: partials/admin/indexer-body.php:124
+msgid "End"
+msgstr ""
+
+#: partials/admin/indexer-header.php:45
+msgid "Error code %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:293
+msgid "Error!"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:815
+msgid "Errors"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:841
+msgid ""
+"Even though the current index is being built, it doesn't affect your search "
+"engine."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:843
+msgid ""
+"Even though the current index wasn't built, it doesn't affect your search "
+"engine."
+msgstr ""
+
+#: includes/Settings.php:711 includes/Settings.php:824
+msgid "Exclude"
+msgstr ""
+
+#: includes/Settings.php:707 includes/Settings.php:820
+msgid ""
+"Exclude the product group from the search results or allow search only among "
+"the indicated product group."
+msgstr ""
+
+#: includes/Settings.php:672
+msgid "Exclude “out of stock” products"
+msgstr ""
+
+#: includes/Settings.php:700 includes/Settings.php:813
+msgid "Exclude/include products"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:678
+#: includes/Admin/Troubleshooting.php:729
+msgid "Extensions should looks like the picture below:"
+msgstr ""
+
+#: partials/admin/stats/stats.php:69
+msgid ""
+"Fantastic! The FiboSearch analyzer hasn't found any critical search phrases "
+"for the last %d days."
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:70 includes/Admin/AdminMenu.php:71
+msgid "FiboSearch"
+msgstr ""
+
+#. Name of the plugin
+msgid "FiboSearch - AJAX Search for WooCommerce"
+msgstr ""
+
+#: widget.php:26 includes/EmbeddingViaMenu.php:55
+#: includes/EmbeddingViaMenu.php:156
+msgid "FiboSearch bar"
+msgstr ""
+
+#: includes/EmbeddingViaMenu.php:178
+msgid "FiboSearch bar will be displayed here."
+msgstr ""
+
+#: includes/Settings.php:288
+msgid "FiboSearch might be displayed as a search bar, icon, or mixed of them."
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:54
+msgid "FiboSearch Pro - Upgrade Now"
+msgstr ""
+
+#: includes/Settings.php:275
+msgid ""
+"FiboSearch provides two different styles of search bars: Solaris and Pirx. "
+"Solaris has a rectangular shape while Pirx is a bean-shaped bar with curvy "
+"and smooth edges. <a target=\"_blank\" href=\"%s\">See the differences</a> "
+"between Solaris and Pirx style."
+msgstr ""
+
+#. Author of the plugin
+msgid "FiboSearch Team"
+msgstr ""
+
+#: includes/Settings.php:706 includes/Settings.php:819
+msgid "Filtering mode"
+msgstr ""
+
+#: includes/Settings.php:718 includes/Settings.php:831
+msgid "Filters"
+msgstr ""
+
+#: includes/Settings.php:719 includes/Settings.php:832
+msgid ""
+"Filters that specify the product group and taxonomy that will be affected by "
+"the above mode"
+msgstr ""
+
+#: partials/admin/indexer-body.php:21
+msgid "Finalization... Wait a moment. (%s products)"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2027
+msgid "Find section <code>Access Control -> whitelist URL</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1604
+msgid "Fix “Out of stock“ relationships"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1535
+msgid ""
+"For the following plugins, rename their folders to the indicated one for the "
+"integration to work properly:"
+msgstr ""
+
+#: includes/Helpers.php:1086
+msgid ""
+"Furthermore, you can override this option for a specific search bar via "
+"shortcode params. <a href=\"%s\" target=\"_blank\">Learn more about "
+"shortcodes parameters</a>."
+msgstr ""
+
+#: includes/Settings.php:678
+msgid "Fuzziness"
+msgstr ""
+
+#: includes/Settings.php:798 includes/Settings.php:860
+msgid "Fuzzy matching"
+msgstr ""
+
+#: partials/admin/features.php:21 includes/Admin/Promo/Upgrade.php:49
+msgid "Fuzzy search"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:527
+msgid ""
+"Go to <a href=\"%s\" target=\"_blank\">Tools -> Site Health</a> in your "
+"WordPress. You should see issues related to REST API or Loopback request. "
+"Expand descriptions of these errors and follow the instructions. Probably "
+"you will need to contact your hosting provider to solve it."
+msgstr ""
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:30
+msgid ""
+"Go to <code>Appearance -> <a target=\"_blank\" href=\"%s\">Customize</a> -> "
+"Header -> Search</code> and enable <code>Predictive Search</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1898
+msgid ""
+"Go to <code>Defender -> Security Tweaks -> <a href=\"%s\" target=\"_blank\">"
+"Resolved</a> -> Prevent PHP execution</code> and add following file path as "
+"exceptions: <code>%s</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:956
+msgid ""
+"Go to <code>Security -> Settings -> Advanced -> <a href=\"%s\" "
+"target=\"_blank\">System Tweaks</a></code>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:627
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products (tab)</a></code> and check option <code>%s</code> and uncheck "
+"option <code>%s</code>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:728
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>HUSKY - "
+"Advanced searching by Text</code> extension and save changes."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:677
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>"
+"Searching by Text</code> extension and save changes."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:766
+msgid ""
+"Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">"
+"Products Filter (tab)</a> -> Options (tab)</code>, set <code>Try to ajaxify "
+"the shop</code> option to <code>No</code> and save changes."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1144
+msgid ""
+"Go to the <code>Jetpack settings page -> <a href=\"%s\" target=\"_blank\">"
+"Performance tab</a> -> disable the Search module</code>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1112
+#: includes/Admin/Troubleshooting.php:1226
+#: includes/Admin/Troubleshooting.php:1260
+#: includes/Admin/Troubleshooting.php:1346
+#: includes/Admin/Troubleshooting.php:1379
+msgid "Go to the Indexer tab and click the button <i>%s</i>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1344
+msgid ""
+"Go to the multilingual plugin settings page and find the section where you "
+"can edit the available languages."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2026
+msgid "Go to the settings"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:588
+msgid "Great! Our plugin works great with this version of WordPress."
+msgstr ""
+
+#: partials/admin/troubleshooting.php:18
+msgid ""
+"Great! We have not detected any problems that could affect the correct "
+"functioning of our plugin."
+msgstr ""
+
+#: includes/Settings.php:411
+msgid "Group results"
+msgstr ""
+
+#: includes/Settings.php:805 includes/Settings.php:868
+msgid "Hard"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1975
+msgid "Here are few samples NGINX config which helps other users:"
+msgstr ""
+
+#: includes/Integrations/Themes/Impreza/Impreza.php:18
+msgid ""
+"Here is <a href=\"%s\" target=\"_blank\">article</a> about how to do it "
+"using Impreza child-theme."
+msgstr ""
+
+#: partials/admin/stats/stats.php:175
+msgid ""
+"Here is the list of phrases that were typed by users who followed the "
+"pattern: type the phrase into the bar → clicked “See all results” or just "
+"hit enter/return (for Mac users)"
+msgstr ""
+
+#: includes/Admin/Promo/FeedbackNotice.php:71
+msgid ""
+"Hey %s, it's Damian Góra from %s. You have used this free plugin for some "
+"time now, and I hope you like it!"
+msgstr ""
+
+#: partials/admin/indexer-header.php:103
+msgid "Hide details"
+msgstr ""
+
+#: includes/Settings.php:601
+msgid "Highlight color"
+msgstr ""
+
+#: includes/Settings.php:194
+msgid "How to add search bar in your theme?"
+msgstr ""
+
+#: includes/Settings.php:200
+msgid "How to add?"
+msgstr ""
+
+#: partials/admin/stats/stats.php:53
+msgid "How to fix it?"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2113
+#, php-format
+msgctxt "HTML button with text: \"dismiss\""
+msgid "If you do not want to receive such notifications, you can %s them."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid ""
+"https://fibosearch.com?utm_source=wp-"
+"admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1438
+msgid "I've fixed it! Restore the default endpoint"
+msgstr ""
+
+#: widget.php:41 includes/EmbeddingViaMenu.php:190 includes/Settings.php:295
+msgid "Icon on desktop, search bar on mobile"
+msgstr ""
+
+#: widget.php:40 includes/EmbeddingViaMenu.php:189 includes/Settings.php:294
+msgid "Icon on mobile, search bar on desktop"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1291
+msgid ""
+"If the following errors are related to your theme or plugins, try to fix "
+"them yourself or contact your developers. Otherwise, please <a href=\"%s\" "
+"target=\"_blank\">create a support ticket</a>."
+msgstr ""
+
+#: partials/admin/indexer-header.php:89
+msgid ""
+"If the indexer still doesn't work, add a constant <code>"
+"define('DGWT_WCAS_INDEXER_MODE', 'sync');</code> to your <code>wp-config."
+"php</code> file and try to rebuild the search index again"
+msgstr ""
+
+#: partials/admin/features.php:14
+msgid ""
+"If users can’t find the product they’re searching for, they can’t buy it. "
+"Help your customers to find the right products even <span>10× faster</span>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1985
+msgid ""
+"If you can't solve it on the NGINX level, try alternative 100%% reliable "
+"solution described <a target=\"_blank\" href=\"%s\">in this article</a>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:902
+#, php-format
+msgid ""
+"If you have regenerated the images or do not think it is necessary, you can "
+"ignore and dismiss this message: %s"
+msgstr ""
+
+#: partials/admin/indexer-header.php:66
+msgid ""
+"If you see the <b>Troubleshooting tab</b> above, click it and try to solve "
+"the issues mentioned there"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:834
+msgid ""
+"If you think the search results page is displaying your products correctly, "
+"you can ignore and dismiss this message: %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1505
+msgid ""
+"If your current numbers of records in the <code>%s</code> table is not a "
+"issue, increase the limit to 500k, for example, and this alert will "
+"disappear."
+msgstr ""
+
+#: includes/Helpers.php:1190
+msgctxt "in categories fe. in Books > Crime stories"
+msgid "in"
+msgstr ""
+
+#: includes/Settings.php:748
+msgid ""
+"In most cases, you don't need to use the scheduler because the search index "
+"updates when you edit products. If you use import tools or custom code to "
+"refresh prices or bulk add/edit products, the indexing scheduler will be "
+"helpful."
+msgstr ""
+
+#: includes/Settings.php:712 includes/Settings.php:825
+msgid "Include"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:726
+msgid ""
+"Incompatible \"HUSKY - Advanced searching by Text\" extension from \"WOOF - "
+"WooCommerce Products Filter plugin\" is active"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2148
+msgid ""
+"Incompatible \"HUSKY - Advanced searching by Text\" extension in WOOF - "
+"WooCommerce Products Filter"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:675
+msgid ""
+"Incompatible \"Searching by Text\" extension from \"WOOF - WooCommerce "
+"Products Filter plugin\" is active"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2144
+msgid ""
+"Incompatible \"Searching by Text\" extension in WOOF - WooCommerce Products "
+"Filter"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:764
+msgid ""
+"Incompatible \"Try to ajaxify the shop\" option from WOOF - WooCommerce "
+"Products Filter plugin is enabled"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2152
+msgid ""
+"Incompatible \"Try to ajaxify the shop\" option in WOOF - WooCommerce "
+"Products Filter"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1340
+msgid "Incompatible multilingual plugin setting"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2136
+msgid "Incompatible plugins"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1256
+msgid "Incompatible Polylang plugin setting"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1222
+msgid "Incompatible WPML Multilingual CMS plugin setting"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:625
+#: includes/Admin/Troubleshooting.php:2140
+msgid "Incorrect \"Add to cart\" behaviour in WooCommerce settings"
+msgstr ""
+
+#: includes/Settings.php:154
+msgid "Increase sales"
+msgstr ""
+
+#: includes/Settings.php:777
+msgid "Increases sales conversions."
+msgstr ""
+
+#: partials/admin/indexer-body.php:18
+msgid "Index build progress"
+msgstr ""
+
+#: partials/admin/indexer-body.php:50
+msgid "Index build start"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2189
+msgid "Index completeness test"
+msgstr ""
+
+#: includes/Settings.php:842 includes/Settings.php:876
+msgid "Index status"
+msgstr ""
+
+#: partials/admin/indexer-header.php:16
+msgid "Indexed <strong>100&#37;</strong>, <strong>%d products</strong>."
+msgstr ""
+
+#: includes/Settings.php:148
+msgid "Indexer"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2249
+msgid "Indexer Error"
+msgstr ""
+
+#: partials/admin/indexer-body.php:16
+msgid ""
+"Indexing... This process will continue in the background. You can leave this "
+"page without any worries."
+msgstr ""
+
+#: partials/admin/features.php:30
+msgid "Individual customization of the search bar (simple CSS improvements)"
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:52
+msgid "Individual tips and support from the FiboSearch team"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2229
+msgid "InnoDB support"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1060
+msgid ""
+"Install the <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/advanced-cron-manager/\">Advanced Cron Manager</a> plugin to "
+"verify if WP-Cron works correctly. You should see some of the actions "
+"related to the Indexer:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:591
+msgid ""
+"Install the latest version of WordPress for our plugin for optimal "
+"performance!"
+msgstr ""
+
+#: includes/Settings.php:757
+msgid "Interval"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1342
+msgid "Invalid language code: <code>%s</code>"
+msgid_plural "Invalid language codes: <code>%s</code>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/admin/indexer-header.php:92
+msgid ""
+"Is it still not working? Visit the <a target=\"_blank\" href=\"%s\">"
+"documentation</a> or write a <a target=\"_blank\" href=\"%s\">support "
+"request</a>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:536
+msgid ""
+"Is it still not working? Write a <a target=\"_blank\" href=\"%s\">support "
+"request</a>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:530
+msgid ""
+"Is your website publicly available only for whitelisted IPs? <b>Add your "
+"server IP to the whitelist</b>. That’s all. This is a common mistake when "
+"access is blocked by a <code>.htaccess</code> file. Developers add a list of "
+"allowed IPs, but they forget to add the IP of the server to allow it to make "
+"HTTP requests to itself."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1037
+#: includes/Admin/Troubleshooting.php:2184
+msgid "Issue with WP-Cron"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:899
+msgid ""
+"It is recommended to generate a special small image size for existing "
+"products to ensure a better user experience. This is a one-time action."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2101
+msgid ""
+"It is very important that we can review these errors to be able to improve "
+"the plugin. That’s why we kindly ask for your help to make FiboSearch even "
+"more useful, not only for you but also for the other 150&nbsp;000+&nbsp;"
+"users."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:845
+msgid "It works well based on the last properly built index from %s"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:414
+msgid "It's sorted."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:950
+msgid ""
+"iThemes Security plugin blocks AJAX requests. Take a look at the solution."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2194
+msgid "Jetpack search module"
+msgstr ""
+
+#: includes/Settings.php:241
+msgid "Label"
+msgstr ""
+
+#: partials/admin/stats/langs.php:10
+msgid "Language"
+msgstr ""
+
+#: partials/admin/indexer-header.php:20
+msgid "Last build %s"
+msgstr ""
+
+#: widget.php:43 includes/EmbeddingViaMenu.php:74 includes/Settings.php:287
+msgid "Layout"
+msgstr ""
+
+#: partials/admin/how-to-use.php:12
+msgid "learn how to use blocks"
+msgstr ""
+
+#: includes/Settings.php:403
+msgid "Limit"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:247 partials/admin/stats/stats.php:41
+msgid "load another %d phrase"
+msgid_plural "load another %d phrases"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Troubleshooting.php:1499
+msgid ""
+"Log only critical phrases. This will reduce the growth of records in the "
+"database by about 70%%."
+msgstr ""
+
+#: partials/admin/indexer-body.php:143
+msgid "Logs"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2254
+msgid "Loopback request"
+msgstr ""
+
+#: partials/admin/search-preview.php:198 partials/admin/search-preview.php:243
+msgid ""
+"Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. "
+"Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin "
+"pharetra imperdiet neque, non varius."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1489
+msgid "Maintain the search analytics table"
+msgstr ""
+
+#: partials/admin/stats/stats.php:224
+msgid "Maintenance"
+msgstr ""
+
+#: includes/Settings.php:665 includes/Settings.php:788
+msgid "Make your custom fields searchable from our search bar."
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:417
+msgid "Mark this phrase as resolved"
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:163
+msgid "Marketplace"
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:173
+msgid "Marketplace third-party integration"
+msgstr ""
+
+#: includes/Settings.php:224
+msgid "Max form width"
+msgstr ""
+
+#: includes/Settings.php:406
+msgid "maximum number of suggestions"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1782
+msgid ""
+"Maybe your server blocks it with the Apache module <code>mod_security</code>."
+" Contact your hosting provider and ask what might block the URL you see "
+"above."
+msgstr ""
+
+#: partials/admin/how-to-use.php:17
+msgid "Menu Screen"
+msgstr ""
+
+#: includes/Settings.php:219
+msgid "Min characters to show autocomplete"
+msgstr ""
+
+#: includes/Settings.php:215
+msgid "Minimum characters"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1178
+msgid "Missing plugin: WooCommerce Multilingual"
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:48
+msgid ""
+"Modern search engine based on an inverted index and advanced matching "
+"algorithms"
+msgstr ""
+
+#: includes/Settings.php:468
+msgid "More results label"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2219
+msgid "Multilingual slugs"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:842
+msgid "My Account"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1972
+msgid "NGINX configurations may block search requests"
+msgstr ""
+
+#: includes/Helpers.php:1192 includes/Settings.php:421
+msgid "No results"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:526 includes/Admin/SettingsAPI.php:626
+msgid "No rules"
+msgstr ""
+
+#: includes/Admin/Promo/FeedbackNotice.php:86
+msgid "No thanks"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2214
+msgid "Non Critical Indexer Errors"
+msgstr ""
+
+#: includes/Settings.php:474
+msgid "Non-products in autocomplete"
+msgstr ""
+
+#: includes/Settings.php:804 includes/Settings.php:867
+msgid "Normal"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:821
+msgid "Not exist"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2162
+msgid "Not regenerated images"
+msgstr ""
+
+#: includes/Integrations/Themes/DFDRonneby/DFDRonneby.php:18
+msgid "Note: We currently only support the header type: \"Header 10\""
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2224
+msgid "Old index"
+msgstr ""
+
+#: partials/admin/search-preview.php:30 partials/admin/search-preview.php:70
+msgid "On desktop"
+msgstr ""
+
+#: partials/admin/search-preview.php:29 partials/admin/search-preview.php:69
+msgid "On mobile"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:552
+msgid "One or more required PHP extensions are missing on your server"
+msgstr ""
+
+#: includes/Settings.php:348
+msgid "Other colors"
+msgstr ""
+
+#: widget.php:48 includes/Settings.php:318
+msgid "Overlay on mobile"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2093
+msgid "Past error diagnostics"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:413
+msgid "Perfect!"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2132
+msgid "PHP extensions"
+msgstr ""
+
+#: partials/admin/stats/stats.php:23 partials/admin/stats/stats.php:133
+#: partials/admin/stats/stats.php:182
+msgid "Phrase"
+msgstr ""
+
+#: includes/Settings.php:280
+msgctxt "Pirx is proper name."
+msgid "Pirx (beta)"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2209
+msgid "Polylang with disabled translations for products"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:422
+msgid "Poor!"
+msgstr ""
+
+#: partials/admin/indexer-body.php:63
+msgid "Posts & pages"
+msgstr ""
+
+#: includes/Settings.php:375
+msgid "Preloader"
+msgstr ""
+
+#: partials/admin/search-preview.php:21
+msgid "Preview"
+msgstr ""
+
+#: includes/Helpers.php:598 includes/Helpers.php:602
+msgid "Pro"
+msgstr ""
+
+#: includes/Settings.php:728
+msgid "Pro features"
+msgstr ""
+
+#: partials/admin/troubleshooting.php:11
+msgid "Processing asynchronous tests..."
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:583
+msgid "Product categories"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:585
+msgid "Product tags"
+msgstr ""
+
+#: includes/Settings.php:425 partials/admin/indexer-body.php:58
+msgid "Products"
+msgstr ""
+
+#: partials/search-form.php:40 partials/admin/search-preview.php:38
+#: partials/admin/search-preview.php:80
+msgid "Products search"
+msgstr ""
+
+#: includes/Settings.php:617
+msgid "Products search scope"
+msgstr ""
+
+#: partials/admin/features.php:20
+msgid ""
+"Professional and fast <b>help to embed</b> or <b>replacing</b> the search "
+"bar in your theme"
+msgstr ""
+
+#: includes/Settings.php:303 includes/Settings.php:329
+msgid "px"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:535
+msgid ""
+"Read more about indexer issues on <a target=\"_blank\" href=\"%s\">our "
+"documentation</a> and read the “Your server can’t send an HTTP request to "
+"itself” section."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:959
+msgid ""
+"Read more about this issue in <a href=\"%s\" target=\"_blank\">our "
+"documentation</a>."
+msgstr ""
+
+#: partials/admin/indexer-body.php:90
+msgid "Readable"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1106
+#: includes/Admin/Troubleshooting.php:1219
+#: includes/Admin/Troubleshooting.php:1253
+#: includes/Admin/Troubleshooting.php:1337
+#: includes/Admin/Troubleshooting.php:1375
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:871
+msgid "Rebuild index"
+msgstr ""
+
+#: partials/admin/troubleshooting.php:22
+msgid "Recheck the status"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:898
+msgid "Regenerate images"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:895
+msgid "Regenerate WooCommerce images"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:117
+msgid ""
+"Regeneration of images started. The process will continue in the background."
+msgstr ""
+
+#: partials/admin/stats/stats.php:24 partials/admin/stats/stats.php:134
+#: partials/admin/stats/stats.php:183
+msgid "Repetitions"
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:66
+msgid "Replace the search bars"
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:91
+msgid "Replace them"
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:89
+msgid "Replace your theme's default search bars."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:562
+msgid "Required PHP extension: %s"
+msgstr ""
+
+#: partials/admin/stats/stats.php:227
+msgid "reset your stats"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1863
+msgid "Response body"
+msgstr ""
+
+#: partials/admin/stats/stats.php:104
+msgid "returning results"
+msgstr ""
+
+#: includes/Settings.php:778
+msgid ""
+"Returns suggestions based on likely relevance, even though a search keyword "
+"may not exactly match. E.g if you type “ipho<b>m</b>e” you get the same "
+"results as for “iphone”. <a target=\"_blank\" href=\"%s\">Read more</a> "
+"about the fuzzy search feature."
+msgstr ""
+
+#: includes/Admin/Promo/FeedbackNotice.php:82
+msgid "Review %s"
+msgstr ""
+
+#: partials/admin/search-preview.php:125
+msgid "Sample brand <strong>name</strong>"
+msgstr ""
+
+#: partials/admin/search-preview.php:141
+msgid "Sample category <strong>name</strong>"
+msgstr ""
+
+#: partials/admin/search-preview.php:180
+msgid "Sample page <strong>name</strong>"
+msgstr ""
+
+#: partials/admin/search-preview.php:167
+msgid "Sample post <strong>name</strong>"
+msgstr ""
+
+#: partials/admin/search-preview.php:196
+msgid "Sample product <strong>name</strong>"
+msgstr ""
+
+#: partials/admin/search-preview.php:232
+msgid "Sample product name"
+msgstr ""
+
+#: partials/admin/search-preview.php:154
+msgid "Sample tag <strong>name</strong>"
+msgstr ""
+
+#: includes/Settings.php:768
+msgid "Schedule time"
+msgstr ""
+
+#: includes/Settings.php:741
+msgid "Scheduling indexing"
+msgstr ""
+
+#: includes/Settings.php:244 partials/search-form.php:58
+msgid "Search"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:94
+msgid "Search Analytics"
+msgstr ""
+
+#: widget.php:38 includes/EmbeddingViaMenu.php:187
+#: includes/EmbeddingViaMenu.php:248 includes/Settings.php:120
+#: includes/Settings.php:292 partials/admin/search-preview.php:22
+msgid "Search bar"
+msgstr ""
+
+#: includes/Abstracts/ThemeIntegration.php:97
+msgid "Search bars"
+msgstr ""
+
+#: partials/admin/features.php:26
+msgid "Search by variation product SKU"
+msgstr ""
+
+#: includes/Settings.php:128
+msgid "Search config"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:832
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:838
+msgid "Search engine status:"
+msgstr ""
+
+#: partials/admin/features.php:28
+msgid "Search for posts and pages"
+msgstr ""
+
+#: includes/Helpers.php:1195 includes/Settings.php:264
+msgid "Search for products..."
+msgstr ""
+
+#: widget.php:39 includes/EmbeddingViaMenu.php:188 includes/Settings.php:293
+msgid "Search icon"
+msgstr ""
+
+#: includes/EmbeddingViaMenu.php:86 includes/Settings.php:255
+#: includes/Settings.php:311
+msgid "Search icon color"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:212
+msgid "Search in %s"
+msgstr ""
+
+#: includes/Settings.php:644 partials/admin/features.php:23
+msgid "Search in attributes"
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:51
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr ""
+
+#: includes/Integrations/Brands.php:197
+msgid "Search in brands"
+msgstr ""
+
+#: partials/admin/features.php:27
+msgid "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+msgstr ""
+
+#: includes/Settings.php:651 partials/admin/features.php:24
+msgid "Search in categories"
+msgstr ""
+
+#: includes/Settings.php:665 includes/Settings.php:788
+#: partials/admin/features.php:22
+msgid "Search in custom fields"
+msgstr ""
+
+#: includes/Settings.php:623
+msgid "Search in description"
+msgstr ""
+
+#: includes/Settings.php:629
+msgid "Search in short description"
+msgstr ""
+
+#: includes/Settings.php:635
+msgid "Search in SKU"
+msgstr ""
+
+#: includes/Settings.php:658 partials/admin/features.php:25
+msgid "Search in tags"
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:203
+msgid "Search in vendors"
+msgstr ""
+
+#: includes/Settings.php:354
+msgid "Search input background"
+msgstr ""
+
+#: includes/Settings.php:368
+msgid "Search input border"
+msgstr ""
+
+#: includes/Settings.php:262
+msgid "Search input placeholder"
+msgstr ""
+
+#: includes/Settings.php:361
+msgid "Search input text"
+msgstr ""
+
+#: partials/admin/stats/stats.php:93
+msgid "search results page"
+msgstr ""
+
+#: partials/admin/indexer-body.php:68
+msgid "Searchable"
+msgstr ""
+
+#: partials/admin/stats/stats.php:103
+msgid "Searches"
+msgstr ""
+
+#: partials/admin/stats/stats.php:76
+msgid "Searches stats (last %d days)"
+msgstr ""
+
+#: includes/Settings.php:637
+msgid "searching also in variable products SKU"
+msgstr ""
+
+#: includes/Settings.php:638
+msgid ""
+"Searching in variable products SKU is available only in <a target=\"_blank\" "
+"href=\"%s\">the pro version</a>."
+msgstr ""
+
+#: partials/admin/features.php:31 includes/Admin/Promo/Upgrade.php:63
+msgid "See a comparison of all free and premium features!"
+msgstr ""
+
+#: includes/Helpers.php:1193 includes/Helpers.php:1194
+#: includes/Settings.php:470
+msgid "See all products..."
+msgstr ""
+
+#: includes/Settings.php:289
+msgid "See what each of these layouts looks like"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:581
+msgid "Select filter type"
+msgstr ""
+
+#: includes/Settings.php:792
+msgid "select the custom fields you want to add to the search scope"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2066
+msgid "Send the report"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2108
+msgid "Send this report automatically should any errors occur in the future."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2399
+msgid "Server environment"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1775
+#: includes/Admin/Troubleshooting.php:1862
+msgid ""
+"Server response with message <code>%s</code> and status code <code>%s</code>."
+msgstr ""
+
+#: partials/admin/settings.php:27
+#: includes/Integrations/Marketplace/Marketplace.php:196
+msgid "Settings"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:258
+msgid "Show %s"
+msgstr ""
+
+#: partials/admin/settings.php:32 partials/admin/settings.php:34
+msgid "Show advanced settings"
+msgstr ""
+
+#: includes/Integrations/Brands.php:219
+msgid "Show brands"
+msgstr ""
+
+#: includes/Settings.php:480
+msgid "Show categories"
+msgstr ""
+
+#: partials/admin/indexer-header.php:102
+#: partials/admin/indexer-header-demo.php:16
+msgid "Show details"
+msgstr ""
+
+#: includes/Settings.php:526
+msgid "Show Details panel"
+msgstr ""
+
+#: includes/Settings.php:488 includes/Settings.php:492
+#: includes/Integrations/Brands.php:229 includes/Integrations/Brands.php:233
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:224
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:228
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:269
+#: includes/Engines/TNTSearchMySQL/Indexer/Taxonomies.php:273
+msgid "show images"
+msgstr ""
+
+#: includes/Settings.php:513
+msgid "Show pages"
+msgstr ""
+
+#: includes/Settings.php:506
+msgid "Show posts"
+msgstr ""
+
+#: includes/Settings.php:381
+msgid "Show preloader"
+msgstr ""
+
+#: includes/Settings.php:437
+msgid "Show price"
+msgstr ""
+
+#: includes/Settings.php:443
+msgid "Show product description"
+msgstr ""
+
+#: includes/Settings.php:431
+msgid "Show product image"
+msgstr ""
+
+#: includes/Settings.php:450
+msgid "Show SKU"
+msgstr ""
+
+#: includes/Settings.php:233
+msgid "Show submit button"
+msgstr ""
+
+#: includes/Settings.php:498
+msgid "Show tags"
+msgstr ""
+
+#: partials/admin/stats/stats.php:153 partials/admin/stats/stats.php:202
+msgid "show top 100 phrases"
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:210
+msgid "Show vendors next to products"
+msgstr ""
+
+#: includes/Admin/SettingsAPI.php:838
+msgid "Showcase"
+msgstr ""
+
+#: partials/admin/stats/langs.php:11
+msgid "Shows stats only for the selected language."
+msgstr ""
+
+#: includes/Settings.php:803 includes/Settings.php:866
+msgid "Soft"
+msgstr ""
+
+#: includes/Settings.php:279
+msgctxt "Solaris is proper name."
+msgid "Solaris (default)"
+msgstr ""
+
+#: includes/Helpers.php:1188
+msgid "Sold by:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:626
+#: includes/Admin/Troubleshooting.php:676
+#: includes/Admin/Troubleshooting.php:727
+#: includes/Admin/Troubleshooting.php:765
+#: includes/Admin/Troubleshooting.php:830
+#: includes/Admin/Troubleshooting.php:1059
+#: includes/Admin/Troubleshooting.php:1224
+#: includes/Admin/Troubleshooting.php:1258
+#: includes/Admin/Troubleshooting.php:1343
+#: includes/Admin/Troubleshooting.php:1897
+#: includes/Admin/Troubleshooting.php:1944
+#: includes/Admin/Troubleshooting.php:2024
+msgid "Solution"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1780
+msgid "Solutions"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:523
+msgid "Solutions:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1973
+#, php-format
+msgid ""
+"Some NGINX configurations may block executing PHP files included directly in "
+"the plugin's directory. There is no one solution. It depends on your NGINX "
+"configuration. We recommend you contact your hosting provider and ask for "
+"the following file to be run: %s"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:434
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/Settings.php:734
+msgid "Speed up search!"
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:47
+msgid "Speed up search! (even 10× faster) - users love it!"
+msgstr ""
+
+#: partials/admin/indexer-body.php:72 partials/admin/indexer-body.php:95
+#: partials/admin/indexer-body.php:120
+msgid "Start"
+msgstr ""
+
+#: includes/Settings.php:116
+msgid "Starting"
+msgstr ""
+
+#: partials/admin/indexer-body.php:54
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:951
+#: includes/Admin/Troubleshooting.php:954
+msgid "Step %d"
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:423
+msgid "Still this phrase doesn't return any results. Learn how to fix it."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:868
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:877
+msgid "Stop process"
+msgstr ""
+
+#: includes/Settings.php:274
+msgid "Style"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:293
+msgid "Success!"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2023
+msgid "Sucuri Security firewall may block AJAX calls of the live search"
+msgstr ""
+
+#: includes/Settings.php:580
+msgid "Suggestion background"
+msgstr ""
+
+#: includes/Settings.php:587
+msgid "Suggestion selected"
+msgstr ""
+
+#: includes/Settings.php:574
+msgid "Suggestions colors"
+msgstr ""
+
+#: includes/Settings.php:684 includes/Settings.php:690
+#: partials/admin/features.php:29 includes/Admin/Promo/Upgrade.php:50
+msgid "Synonyms"
+msgstr ""
+
+#: includes/Settings.php:694
+msgid ""
+"Synonyms should be separated by a comma. Each new synonyms group is entered "
+"in a new line. You can use a phrase instead of a single word. <br /> <br />"
+"Sample list:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">sofa, "
+"couch, davenport, divan, settee<br />big, grand, great, large, outsize</span>"
+msgstr ""
+
+#: partials/admin/indexer-body.php:115
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/Settings.php:255 includes/Settings.php:594
+msgid "Text color"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1943
+msgid "The .htaccess file(s) may block AJAX calls of the live search"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:834
+msgid ""
+"The best speed and all pro features will be available after the index has "
+"been built."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2080
+msgid "the content of the report"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1447
+msgid ""
+"The default search endpoint has been blocked and you have decided to switch "
+"on the alternative endpoint to make the search work in emergency mode. What "
+"should you do next?"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/TNTSearch.php:598
+msgid ""
+"The deleting of objects in the search index should be performed at the "
+"earliest on the action \"init\" with priority 11."
+msgstr ""
+
+#: includes/Settings.php:527
+msgid ""
+"The Details panel is an additional container for extended information. The "
+"details change dynamically when the cursor hovers over one of the "
+"suggestions."
+msgstr ""
+
+#: partials/admin/stats/stats.php:11
+#, php-format
+msgid "The FiboSearch analyzer found <b>1 critical search phrase</b>."
+msgid_plural "The FiboSearch analyzer found <b>%d critical search phrases</b>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Promo/FeedbackNotice.php:76
+msgid ""
+"The FiboSearch team have spent countless hours developing it, and it would "
+"mean a lot to me if you %ssupport it with a quick review on WordPress.org.%s"
+msgstr ""
+
+#: partials/admin/indexer-header.php:43
+msgid "The following error caused the index to be canceled:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1378
+msgid "The index was built by the previous plugin version"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:519
+msgid ""
+"The Indexer uses the WordPress function <code>wp_remote_post()</code> to "
+"build the index in the background. Sometimes the server can block this kind "
+"of request and responses with HTTP 401 Unauthorized or 403 Forbidden errors."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1408
+msgid ""
+"The InnoDB engine within the MySQL server must be enabled for our plugin to "
+"work properly. Contact your hosting provider and ask for enabling InnoDB "
+"engine in your MySQL server."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1143
+msgid "The Jetpack Search module is incompatible with the %s plugin."
+msgstr ""
+
+#: partials/admin/stats/stats.php:230
+#, php-format
+msgctxt "The last placeholder is a button with text \"reset your stats\""
+msgid ""
+"The stats older than %d days are removed from your database on a daily basis."
+" Now you have %d records in the DB that weigh %.2fMB. You can %s now and "
+"start collecting them all over again."
+msgstr ""
+
+#: partials/admin/stats/stats.php:127
+msgid ""
+"The list of phrases with results is displayed to users as a drop down list "
+"with auto suggestions."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2088
+msgid "the logs"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The most popular WooCommerce product search. Gives your users a well-"
+"designed advanced AJAX search bar with live search suggestions."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1407
+msgid "The MySQL server has the InnoDB engine turned off"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Scheduler.php:286
+msgid "the next index rebuild: %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2103
+#, php-format
+msgid "The report will be sent via mail to %s."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1492
+msgid "The search analytics module significantly expands the database"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:814
+msgid "The search index could not be built."
+msgstr ""
+
+#: partials/admin/indexer-header-demo.php:11
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:820
+msgid "The search index does not exist yet. Build it now."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1110
+msgid "The search index structure isn't complete"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:808
+msgid ""
+"The search index was built successfully, but some non-critical errors "
+"occurred."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:806
+msgid "The search index was built successfully."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1290
+msgid ""
+"The search index was built, but some significant errors occurred during this "
+"process. There is a risk that some products may not be available during the "
+"search."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1777
+msgid ""
+"The search uses a dedicated URL to make queries. In your case, this URL is "
+"blocked for some reason. Visit it directly in your browser:"
+msgstr ""
+
+#: includes/Settings.php:321
+msgid "The search will open as an overlay on mobile"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1774
+msgid ""
+"The server returns an incorrect response for the search engine's AJAX calls"
+msgstr ""
+
+#: includes/Settings.php:691
+msgid ""
+"The synonyms feature allows your users to find more relevant results. If "
+"your products have alternative names and users often misspell them, consider "
+"adding synonyms. <a target=\"_blank\" href=\"%s\">Read more</a> about this "
+"feature."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/TNTSearch.php:615
+msgid ""
+"The updating of objects in the search index should be performed at the "
+"earliest on the action \"init\" with priority 11."
+msgstr ""
+
+#: partials/admin/how-to-use.php:15
+msgid "There are five easy ways to display the search bar in your theme"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2104
+#, php-format
+msgctxt ""
+"There are links. The first: \"the content of the report\" and second \"the "
+"logs\"."
+msgid "You can preview %s and %s that will be sent as an attachment."
+msgstr ""
+
+#: partials/admin/stats/stats.php:55
+msgid ""
+"There are several ways to solve these problems. Every phrase may require a "
+"different approach. See what methods you could use:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1606
+msgid ""
+"There is a problem with the visibility of products with “Out of stock“ status"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:828
+msgid ""
+"There is no correct template in the Elementor Theme Builder for the "
+"WooCommerce search results page."
+msgstr ""
+
+#: partials/admin/stats/stats.php:15
+msgid "These phrases don`t return any search results. It's time to fix it."
+msgstr ""
+
+#: partials/admin/stats/stats.php:13
+#, php-format
+msgid "These phrases have been typed by users over the last 1 day."
+msgid_plural "These phrases have been typed by users over the last %d days."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Troubleshooting.php:1781
+msgid ""
+"Think about what can block the execution of PHP scripts inside <code>wp-"
+"content</code> or <code>wp-content/plugins</code> directory. Maybe you use "
+"some security plugins or you have custom code that may block it."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:518
+msgid ""
+"This issue may affect the building of the search index. The indexer may be "
+"stuck at 0%."
+msgstr ""
+
+#: includes/Helpers.php:1084
+msgid ""
+"This option is <b>overridden</b> by the seamless integration with the %s "
+"theme. If you want to change the value of this option, disable the "
+"integration in <br /><b>WooCommerce -> FiboSearch -> Starting (tab)</b>."
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:465
+msgid ""
+"This phrase has been resolved! This row will disappear after refreshing the "
+"page."
+msgstr ""
+
+#: includes/Analytics/UserInterface.php:415
+msgid "This phrase returns 1 product."
+msgid_plural "This phrase returns %d products."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:788
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:794
+msgid "This process will continue in the background. You can leave this page!"
+msgstr ""
+
+#: partials/admin/indexer-body.php:81 partials/admin/indexer-body.php:104
+#: partials/admin/indexer-body.php:129
+msgid "Time"
+msgstr ""
+
+#: widget.php:31
+msgid "Title"
+msgstr ""
+
+#: includes/Settings.php:241
+msgid "To display the magnifier icon leave this field empty."
+msgstr ""
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:29
+msgid ""
+"To replace the search bar you have to enable the \"Predictive Search\" "
+"option in the Shopkeeper settings."
+msgstr ""
+
+#: includes/Settings.php:227
+msgid "To set 100% width leave blank"
+msgstr ""
+
+#: partials/admin/stats/stats.php:126
+msgid "Top searches - autocomplete"
+msgstr ""
+
+#: partials/admin/stats/stats.php:174
+msgid "Top searches - WooCommerce search results page"
+msgstr ""
+
+#: partials/admin/stats/stats.php:81 partials/admin/stats/stats.php:92
+msgid "Total searches"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1609
+msgid ""
+"Total “out of stock“ products calculated by SQL query on <code>%s</code> and "
+"<code>%s</code>: <b>%d</b>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1610
+msgid ""
+"Total “out of stock“ products calculated by SQL query on <code>%s</code>: <b>"
+"%d</b>"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2171
+msgid "TranslatePress"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:71 includes/Admin/Troubleshooting.php:90
+#: partials/admin/indexer-header.php:40
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:874
+msgid "Try to rebuild the index"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:957
+msgid ""
+"Uncheck the option <code>Disable PHP in Plugins</code>. Save settings. Right "
+"after that <b>check this option again</b> and save the settings one more "
+"time."
+msgstr ""
+
+#: partials/admin/features.php:16
+msgid ""
+"Update now and boost your sales. You will receive a <b>30-day satisfaction "
+"guarantee</b>.  A return on investment will come very quickly."
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:58
+msgid ""
+"Update now and increase your sales. You will receive a 30-day satisfaction "
+"guarantee.  A return on investment will come very quickly."
+msgstr ""
+
+#: includes/Admin/Promo/Upgrade.php:65
+msgid "Upgrade Now"
+msgstr ""
+
+#: partials/admin/features.php:33
+msgid "Upgrade Now!"
+msgstr ""
+
+#: includes/Settings.php:388
+msgid "Upload preloader image"
+msgstr ""
+
+#: partials/admin/how-to-use.php:19
+msgid "Using a shortcode - %s"
+msgstr ""
+
+#: partials/admin/how-to-use.php:21
+msgid "Using PHP - %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2264
+msgid "Valid search results test"
+msgstr ""
+
+#: includes/Helpers.php:1181
+msgid "Vendor"
+msgstr ""
+
+#: includes/Helpers.php:1185
+msgid "Vendors"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:793
+msgid "Wait... Indexing in progress"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:787
+msgid "Wait... Preparing indexing in progress"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:799
+msgid "Wait... The index build process is canceling"
+msgstr ""
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:35
+msgid "Warning!"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1495
+msgid "We have 3 solutions for this situation:"
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:839
+msgid "We have some good news!"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1945
+msgid ""
+"We recommend contacting your hosting provider and asking them to check <code>"
+"%s</code> file(s) on your server."
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:179
+msgid "We support this plugin."
+msgstr ""
+
+#: partials/admin/embedding-in-theme.php:23
+msgid ""
+"We support this theme so you can easily replace all default search bars."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1534
+msgid ""
+"We've detected that some plugin folders have a different name than we expect "
+"in order for our integration with them to work properly"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1607
+msgid ""
+"We've detected that some products with a status “Out of Stock“ may have "
+"something wrong with relationships in the database. It affects visibility of "
+"products in the search engine. This error is often the result of migrating "
+"from a different WordPress."
+msgstr ""
+
+#: includes/Settings.php:762
+msgid "weekly"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1776
+msgid "What's wrong?"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2070
+msgctxt ""
+"Whole phrase: If you do not want to receive such notifications, you can "
+"{DISMISS} them."
+msgid "dismiss"
+msgstr ""
+
+#: partials/admin/how-to-use.php:20
+msgid "Widgets Screen"
+msgstr ""
+
+#: includes/Settings.php:156
+msgid "with simple tricks"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2199
+msgid "WooCommerce Multilingual"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1183
+msgid "WooCommerce Multilingual plugin is enabled but not effective"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2179
+msgid "WordPress loading problem"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:579
+#: includes/Admin/Troubleshooting.php:2128
+msgid "WordPress version"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2204
+msgid "WPML with disabled translations for products"
+msgstr ""
+
+#: includes/Integrations/Marketplace/Marketplace.php:178
+msgid "You are using %s plugin version %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:829
+msgid ""
+"You are using Elementor and we noticed that the template used in the search "
+"results page titled <strong>%s</strong> does not include the <strong>Archive "
+"Products</strong> widget."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:401
+msgid "You are using one or more incompatible plugins"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1257
+msgid ""
+"You are using Polylang, but you have the product translations disabled, so "
+"for the search engine to function properly, you must disable its multi-"
+"language support feature."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:412
+#: includes/Admin/Troubleshooting.php:416
+msgid "You are using the %s plugin. The %s does not support this plugin."
+msgstr ""
+
+#: partials/admin/embedding-in-theme.php:22
+msgid "You are using the <b>%s</b> theme%s. Fantastic!"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1341
+msgid ""
+"You are using the multilingual plugin, but one or more of the language codes "
+"have the wrong format. This needs to be corrected or the index will not be "
+"able to build properly."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1184
+msgid ""
+"You are using the WPML Multilingual CMS and WooCommerce Multilingual plugins,"
+" but the latter requires action to be fully functional. Check <a href=\"%s\" "
+"target=\"_blank\">WooCommerce Multilingual status</a>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1179
+msgid ""
+"You are using the WPML Multilingual CMS plugin and to correctly search for "
+"products in multiple languages, you must also install the <a href=\"%s\" "
+"target=\"_blank\">WooCommerce Multilingual</a> plugin."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:442
+msgid "You are using TranslatePress with Free version of our plugin"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1223
+msgid ""
+"You are using WPML Multilingual CMS, but you have product translations "
+"disabled, so for the search engine to function properly, you must disable "
+"its multi-language support feature."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:900
+#, php-format
+msgid "You can do it by clicking %s or use an external plugin such as %s."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1611
+msgid "You can fix it by clicking on this button: %s"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1062
+msgid ""
+"You can run these actions manually via Advanced Cron Manager. Then the "
+"Indexer should run. If the index gets stuck again, run these actions "
+"manually one more time until the finished index."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1446
+msgid "You have activated the alternative search endpoint"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1494
+msgid "You have reached <b>%s records</b> in the <code>%s</code> table."
+msgstr ""
+
+#: includes/Settings.php:1191
+msgid ""
+"You have selected the <b>Appearance -> Style -> Pirx</b> option. Pirx style "
+"forces a submit button to be enabled. You can find this option a few rows "
+"below. That's why this option is blocked."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2025
+msgid ""
+"You need to log in to your <a href=\"https://login.sucuri.net\" "
+"target=\"_blank\">Sucuri panel</a>."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:1779
+msgid ""
+"You should see the <code>pong</code> word as a response. Probably you see "
+"something else."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:421
+#: includes/Admin/Troubleshooting.php:423
+msgid ""
+"You use the %s plugin, which may cause errors in the search results returned "
+"by our plugin."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:2100
+msgid ""
+"Your index has been <b>successfully built</b> and your <b>search engine "
+"works properly</b>. However, we’ve noticed that some PHP or MySQL errors "
+"occurred during previous index-building tasks."
+msgstr ""
+
+#: includes/Engines/TNTSearchMySQL/Indexer/Builder.php:833
+msgid ""
+"Your search engine does not work optimally because the index hasn't been "
+"built yet."
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:525
+msgid "Your server can't send an HTTP request to itself"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:628
+msgid "Your settings should look like the picture below:"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:466
+msgid "Your site can perform loopback requests"
+msgstr ""
+
+#: includes/Admin/Troubleshooting.php:515
+msgid "Your site could not complete a loopback request"
+msgstr ""

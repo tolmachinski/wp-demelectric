@@ -1699,7 +1699,7 @@
             "version": "1.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Sun%2C+08+Jan+2023+19%3A55%3A52+%2B0000&authorization=FSE+6392380%3AXIT3pa0GFZhh-SfO98NeXBl46aYX7ULIEkpvc497WBd_BBePzAwQpmCLeXBIR-qdqL-Ty5bHRAGo_TKixTM-aPseLsc8s84bGIZXNkIEPBfy0SGVQ4AVbUTlXqsxDYIPWMgpmRrpy17qvcaSlx8gTI5m0cjuFryTNoIlRc_Xk8MjZ7a1stio2lVAkB1spiTp"
+                "url": "https://api.freemius.com/v1/users/6392380/plugins/700/updates/download.zip?auth_date=Mon%2C+09+Jan+2023+08%3A15%3A14+%2B0000&authorization=FSE+6392380%3AvFbDaV4gK5kCRuzdV1UriBXsmiwngkLZ-khpBv5ztqPncHEe3P0PWE_SIoSzOIqEW6_2Dwoni9yTh0c8gbs64swl_asCKqwBw3-lHZfw4nRoNSf_wHmRd84ECh41u8ZTGKUDOkDRb0o2o4-Jq1sPWbIA9cNTpBmSipd0qciaH1PNxiL-k4p8884fni5A_zQk"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -4970,16 +4970,16 @@
     "packages-dev": [
         {
             "name": "deployer/deployer",
-            "version": "v7.0.2",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "99a57a9035cfe0eeae5dba5befe5411ac0f3ac72"
+                "reference": "b5e2151bed677f686340032164542081ba15dbf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/99a57a9035cfe0eeae5dba5befe5411ac0f3ac72",
-                "reference": "99a57a9035cfe0eeae5dba5befe5411ac0f3ac72",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/b5e2151bed677f686340032164542081ba15dbf0",
+                "reference": "b5e2151bed677f686340032164542081ba15dbf0",
                 "shasum": ""
             },
             "bin": [
@@ -5009,7 +5009,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-10T07:44:30+00:00"
+            "time": "2023-01-08T21:36:28+00:00"
         },
         {
             "name": "roave/security-advisories",

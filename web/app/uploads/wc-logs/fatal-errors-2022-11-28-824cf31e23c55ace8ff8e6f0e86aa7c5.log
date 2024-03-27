@@ -1,0 +1,22 @@
+2022-11-28T18:05:38+00:00 CRITICAL Uncaught Error: Class '\Yoast\WP\SEO\Models\Primary_Term' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.52/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/lib/model.php:111
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.52/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/repositories/primary-term-repository.php(20): Yoast\WP\Lib\Model::of_type('Primary_Term')
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.52/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/repositories/primary-term-repository.php(38): Yoast\WP\SEO\Repositories\Primary_Term_Repository->query()
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.52/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/builders/primary-term-builder.php(79): Yoast\WP\SEO\Repositories\Primary_Term_Repository->find_by_post_id_and_taxonomy in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.52/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/lib/model.php in Zeile 111
+
+2022-11-28T20:53:31+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Statistics_Service' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/admin/statistics/class-statistics-integration.php:34
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/wp/wp-includes/class-wp-hook.php(310): WPSEO_Statistic_Integration->clear_cache(32545)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/wp/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/wp/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/wp/wp-includes/post.php(3459): do_action('delete_post', 32545, Object(WP_Post))
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/app/ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.54/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/admin/statistics/class-statistics-integration.php in Zeile 34
+
+2022-11-28T21:01:32+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Statistics_Service' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/admin/statistics/class-statistics-integration.php:34
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/wp/wp-includes/class-wp-hook.php(310): WPSEO_Statistic_Integration->clear_cache(33976)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/wp/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/wp/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/wp/wp-includes/post.php(3459): do_action('delete_post', 33976, Object(WP_Post))
+#4 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/app/ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.55/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/admin/statistics/class-statistics-integration.php in Zeile 34
+

@@ -1,0 +1,7 @@
+2022-11-10T07:42:52+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Primary_Term' not found in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php:69
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php(51): Yoast\WP\SEO\Integrations\Primary_Category->get_primary_category(Object(WP_Post))
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/wp/wp-includes/class-wp-hook.php(307): Yoast\WP\SEO\Integrations\Primary_Category->post_link_category(Object(WP_Term), Array, Object(WP_Post))
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/wp/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Term), Array)
+#3 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/wp/ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.16/web/app/plugins/wordpress-seo-premium/vendor/yoast/wordpress-seo/src/integrations/primary-category.php on line 69
+

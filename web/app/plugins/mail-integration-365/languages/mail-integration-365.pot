@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-01 19:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: classes/mail_integration_365/admin.php:503
+msgid "Plugin is configured to send mail via Office 365"
+msgstr ""
+
+#: classes/mail_integration_365/admin.php:518
+msgid "User is not authorized to access this page."
+msgstr ""
+
+#: views/admin_settings.php:63
+msgid ""
+"To connect to your Office 365/personal Outlook account, you need to follow "
+"the steps in the following guide to get the three required credentials "
+"requested below: "
+msgstr ""
+
+#: views/admin_settings.php:75
+msgid ""
+"If you find this plugin useful and wish to aid it's development, any "
+"donations would be greatly received."
+msgstr ""
+
+#: views/admin_settings.php:79
+msgid "PayPal - The safer, easier way to pay online!"
+msgstr ""
+
+#: views/admin_settings.php:79
+msgid "Donate with PayPal button"
+msgstr ""

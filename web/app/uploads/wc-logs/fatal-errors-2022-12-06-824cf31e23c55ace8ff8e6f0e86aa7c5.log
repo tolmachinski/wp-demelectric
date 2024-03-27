@@ -1,0 +1,12 @@
+2022-12-06T16:43:04+00:00 CRITICAL Cannot redeclare frmreg_forms_autoloader() (previously declared in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration/formidable-registration.php:12) in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration-child/formidable-registration.php in Zeile 12
+
+2022-12-06T16:43:10+00:00 CRITICAL Cannot redeclare frmreg_forms_autoloader() (previously declared in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration/formidable-registration.php:12) in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration-child/formidable-registration.php in Zeile 12
+
+2022-12-06T16:43:11+00:00 CRITICAL Cannot redeclare frmreg_forms_autoloader() (previously declared in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration/formidable-registration.php:12) in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/formidable-registration-child/formidable-registration.php in Zeile 12
+
+2022-12-06T16:48:32+00:00 CRITICAL Uncaught InvalidArgumentException: No translation entry found for query: s:34:" trid = %d AND language_code = %s ";a:2:{i:0;s:4:"1028";i:1;s:2:"it";} in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/sitepress-multilingual-cms/classes/records/class-wpml-tm-icl-translations.php:193
+Stack trace:
+#0 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/sitepress-multilingual-cms/classes/records/class-wpml-tm-icl-translations.php(67): WPML_TM_ICL_Translations->select_translation_id(' trid = %d AND ...', Array)
+#1 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/sitepress-multilingual-cms/classes/records/class-wpml-tm-icl-translations.php(43): WPML_TM_ICL_Translations->build_from_trid(Array)
+#2 /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/sitepress-multilingual-cms/classes/records/class-wpml-tm-records.php(165): WPML_TM_ in /var/www/vhosts/h175360.web45.servicehoster.ch/dev.demelectric.ch/releases/1.0.74/web/app/plugins/sitepress-multilingual-cms/classes/records/class-wpml-tm-icl-translations.php in Zeile 193
+
